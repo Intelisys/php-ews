@@ -1,12 +1,12 @@
 {
-  "name": "php-ews/php-ews",
-  "description": "Library for communicating with Exchange Web Services.",
-  "homepage": "http://jamesarmes.com/php-ews/",
+  "name": "intelisys/php-ews",
+  "description": "Library for communicating with Exchange Web Services. Based on James Armes php ews package.",
+  "homepage": "https://github.com/Intelisys/php-ews",
   "license": "MIT",
   "authors": [
     {
-      "name": "James Armes",
-      "email": "jamesiarmes@gmail.com"
+      "name": "Will Scharff",
+      "email": "wscharff@intelisys.com"
     }
   ],
   "minimum-stability": "dev",
@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "jamesiarmes\\PhpEws\\": "src/"
+      "intelisys\\PhpEws\\": "src/"
     }
   },
   "extra": {
