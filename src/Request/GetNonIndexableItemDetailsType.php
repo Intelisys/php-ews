@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetNonIndexableItemDetailsType.
+ * Contains \Intelisys\PhpEws\Request\GetNonIndexableItemDetailsType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to retrieve non-indexable item details.
@@ -17,7 +17,7 @@ class GetNonIndexableItemDetailsType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayofLegacyDNsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayofLegacyDNsType
      */
     public $Mailboxes;
 
@@ -28,7 +28,7 @@ class GetNonIndexableItemDetailsType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SearchPageDirectionType
+     * @see \Intelisys\PhpEws\Enumeration\SearchPageDirectionType
      */
     public $PageDirection;
 

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Enumeration\DaysOfWeekType.
+ * Contains \Intelisys\PhpEws\Enumeration\DaysOfWeekType.
  */
 
-namespace jamesiarmes\PhpEws\Enumeration;
+namespace Intelisys\PhpEws\Enumeration;
 
-use \jamesiarmes\PhpEws\Enumeration;
+use \Intelisys\PhpEws\Enumeration;
 
 /**
  * Represents days of the week that are used in item recurrence patterns.

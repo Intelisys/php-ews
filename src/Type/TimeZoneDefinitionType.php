@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\TimeZoneDefinitionType.
+ * Contains \Intelisys\PhpEws\Type\TimeZoneDefinitionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Defines a timezone.
@@ -38,7 +38,7 @@ class TimeZoneDefinitionType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfPeriodsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfPeriodsType
      */
     public $Periods;
 
@@ -47,7 +47,7 @@ class TimeZoneDefinitionType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfTransitionsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfTransitionsType
      */
     public $Transitions;
 
@@ -56,7 +56,7 @@ class TimeZoneDefinitionType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfTransitionsGroupsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfTransitionsGroupsType
      */
     public $TransitionsGroups;
 }

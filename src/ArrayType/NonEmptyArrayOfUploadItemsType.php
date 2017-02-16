@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfUploadItemsType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfUploadItemsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of items to upload into a mailbox.
@@ -19,7 +19,7 @@ class NonEmptyArrayOfUploadItemsType extends ArrayType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\UploadItemType[]
+     * @var \Intelisys\PhpEws\Type\UploadItemType[]
      */
     public $Item = array();
 }

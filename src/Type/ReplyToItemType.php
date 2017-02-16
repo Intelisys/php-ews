@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ReplyToItemType.
+ * Contains \Intelisys\PhpEws\Type\ReplyToItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a reply to the sender of an item in the Exchange store.

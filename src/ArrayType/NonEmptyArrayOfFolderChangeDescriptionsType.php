@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfFolderChangeDescriptionsType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfFolderChangeDescriptionsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a set of elements that define append, set, and delete changes to
@@ -23,7 +23,7 @@ class NonEmptyArrayOfFolderChangeDescriptionsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\AppendToFolderFieldType[]
+     * @var \Intelisys\PhpEws\Type\AppendToFolderFieldType[]
      */
     public $AppendToFolderField = array();
 
@@ -33,7 +33,7 @@ class NonEmptyArrayOfFolderChangeDescriptionsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\DeleteFolderFieldType[]
+     * @var \Intelisys\PhpEws\Type\DeleteFolderFieldType[]
      */
     public $DeleteFolderField = array();
 
@@ -43,7 +43,7 @@ class NonEmptyArrayOfFolderChangeDescriptionsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SetFolderFieldType[]
+     * @var \Intelisys\PhpEws\Type\SetFolderFieldType[]
      */
     public $SetFolderField = array();
 }

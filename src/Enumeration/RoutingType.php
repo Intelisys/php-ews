@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Enumeration\RoutingType.
+ * Contains \Intelisys\PhpEws\Enumeration\RoutingType.
  */
 
-namespace jamesiarmes\PhpEws\Enumeration;
+namespace Intelisys\PhpEws\Enumeration;
 
-use \jamesiarmes\PhpEws\Enumeration;
+use \Intelisys\PhpEws\Enumeration;
 
 /**
  * Represents the routing protocol for a recipient.

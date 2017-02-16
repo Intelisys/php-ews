@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\FindMailboxStatisticsByKeywordsResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\FindMailboxStatisticsByKeywordsResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the response message for a FindMailboxStatisticsByKeywords
@@ -19,7 +19,7 @@ class FindMailboxStatisticsByKeywordsResponseMessageType extends
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\MailboxStatisticsSearchResultType
+     * @var \Intelisys\PhpEws\Type\MailboxStatisticsSearchResultType
      */
     public $MailboxStatisticsSearchResult;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetItemResponseType.
+ * Contains \Intelisys\PhpEws\Response\GetItemResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a GetItem request.

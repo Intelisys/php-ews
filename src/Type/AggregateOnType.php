@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AggregateOnType.
+ * Contains \Intelisys\PhpEws\Type\AggregateOnType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Represents the property that is used to determine the order of grouped items
@@ -27,7 +27,7 @@ class AggregateOnType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\AggregateType
+     * @see \Intelisys\PhpEws\Enumeration\AggregateType
      */
     public $Aggregate;
 
@@ -36,7 +36,7 @@ class AggregateOnType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PathToExtendedFieldType
+     * @var \Intelisys\PhpEws\Type\PathToExtendedFieldType
      */
     public $ExtendedFieldURI;
 
@@ -45,7 +45,7 @@ class AggregateOnType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PathToUnindexedFieldType
+     * @var \Intelisys\PhpEws\Type\PathToUnindexedFieldType
      */
     public $FieldURI;
 
@@ -54,7 +54,7 @@ class AggregateOnType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PathToIndexedFieldType
+     * @var \Intelisys\PhpEws\Type\PathToIndexedFieldType
      */
     public $IndexedFieldURI;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Enumeration\ContainmentComparisonType.
+ * Contains \Intelisys\PhpEws\Enumeration\ContainmentComparisonType.
  */
 
-namespace jamesiarmes\PhpEws\Enumeration;
+namespace Intelisys\PhpEws\Enumeration;
 
-use \jamesiarmes\PhpEws\Enumeration;
+use \Intelisys\PhpEws\Enumeration;
 
 /**
  * Determines whether a search ignores cases and spaces.

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfContextProperty.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfContextProperty.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines a set of context properties for an item.
@@ -19,7 +19,7 @@ class ArrayOfContextProperty extends ArrayType
      *
      * @since Exchange 2016
      *
-     * @var \jamesiarmes\PhpEws\Type\ContextPropertyType[]
+     * @var \Intelisys\PhpEws\Type\ContextPropertyType[]
      */
     public $ContextProperty = array();
 }

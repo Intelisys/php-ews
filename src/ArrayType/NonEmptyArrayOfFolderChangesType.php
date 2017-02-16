@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfFolderChangesType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfFolderChangesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a collection of changes for a folder.
@@ -19,7 +19,7 @@ class NonEmptyArrayOfFolderChangesType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderChangeType[]
+     * @var \Intelisys\PhpEws\Type\FolderChangeType[]
      */
     public $FolderChange = array();
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\EndDateRecurrenceRangeType.
+ * Contains \Intelisys\PhpEws\Type\EndDateRecurrenceRangeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes the start date and the end date of an item recurrence pattern.

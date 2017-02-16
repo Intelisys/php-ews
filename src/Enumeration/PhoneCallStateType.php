@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Enumeration\PhoneCallStateType.
+ * Contains \Intelisys\PhpEws\Enumeration\PhoneCallStateType.
  */
 
-namespace jamesiarmes\PhpEws\Enumeration;
+namespace Intelisys\PhpEws\Enumeration;
 
-use \jamesiarmes\PhpEws\Enumeration;
+use \Intelisys\PhpEws\Enumeration;
 
 /**
  * Defines the current state for a phone call.

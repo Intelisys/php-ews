@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ResolutionType.
+ * Contains \Intelisys\PhpEws\Type\ResolutionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a single resolved entity.
@@ -19,7 +19,7 @@ class ResolutionType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ContactItemType
+     * @var \Intelisys\PhpEws\Type\ContactItemType
      */
     public $Contact;
 
@@ -28,7 +28,7 @@ class ResolutionType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $Mailbox;
 }

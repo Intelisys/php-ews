@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ExcludesType.
+ * Contains \Intelisys\PhpEws\Type\ExcludesType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a bitwise mask of a specified property and a supplied value.
@@ -21,7 +21,7 @@ class ExcludesType extends SearchExpressionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ExcludesValueType
+     * @var \Intelisys\PhpEws\Type\ExcludesValueType
      */
     public $Bitmask;
 }

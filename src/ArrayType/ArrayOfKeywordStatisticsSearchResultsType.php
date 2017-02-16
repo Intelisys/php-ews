@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfKeywordStatisticsSearchResultsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfKeywordStatisticsSearchResultsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines a list of one or more KeywordStat elements.
@@ -19,7 +19,7 @@ class ArrayOfKeywordStatisticsSearchResultsType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\KeywordStatisticsSearchResultType[]
+     * @var \Intelisys\PhpEws\Type\KeywordStatisticsSearchResultType[]
      */
     public $KeywordStat = array();
 }

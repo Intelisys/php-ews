@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\UninstallAppResponseType.
+ * Contains \Intelisys\PhpEws\Response\UninstallAppResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to an UninstallApp request.

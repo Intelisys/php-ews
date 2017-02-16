@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetAppMarketplaceUrl.
+ * Contains \Intelisys\PhpEws\Request\GetAppMarketplaceUrl.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to retrieve the URL for the app marketplace.

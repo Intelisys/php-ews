@@ -6,21 +6,21 @@
  */
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\UpdateItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\UpdateItemType;
 
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfItemChangeDescriptionsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfItemChangeDescriptionsType;
 
-use \jamesiarmes\PhpEws\Enumeration\CalendarItemUpdateOperationType;
-use \jamesiarmes\PhpEws\Enumeration\ConflictResolutionType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
-use \jamesiarmes\PhpEws\Enumeration\UnindexedFieldURIType;
+use \Intelisys\PhpEws\Enumeration\CalendarItemUpdateOperationType;
+use \Intelisys\PhpEws\Enumeration\ConflictResolutionType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\UnindexedFieldURIType;
 
-use \jamesiarmes\PhpEws\Type\CalendarItemType;
-use \jamesiarmes\PhpEws\Type\ItemChangeType;
-use \jamesiarmes\PhpEws\Type\ItemIdType;
-use \jamesiarmes\PhpEws\Type\PathToUnindexedFieldType;
-use \jamesiarmes\PhpEws\Type\SetItemFieldType;
+use \Intelisys\PhpEws\Type\CalendarItemType;
+use \Intelisys\PhpEws\Type\ItemChangeType;
+use \Intelisys\PhpEws\Type\ItemIdType;
+use \Intelisys\PhpEws\Type\PathToUnindexedFieldType;
+use \Intelisys\PhpEws\Type\SetItemFieldType;
 
 // Replace with the events to be updated along with their new start and end
 // times.

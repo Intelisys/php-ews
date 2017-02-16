@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\RemoveDelegateResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\RemoveDelegateResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the status and result of a RemoveDelegate Operation request.

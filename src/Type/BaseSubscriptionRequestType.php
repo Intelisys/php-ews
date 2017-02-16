@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\BaseSubscriptionRequestType.
+ * Contains \Intelisys\PhpEws\Type\BaseSubscriptionRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Base class for subscription requests.
@@ -20,7 +20,7 @@ abstract class BaseSubscriptionRequestType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfNotificationEventTypesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfNotificationEventTypesType
      */
     public $EventTypes;
 
@@ -30,7 +30,7 @@ abstract class BaseSubscriptionRequestType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
      */
     public $FolderIds;
 

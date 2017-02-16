@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SyncFolderItemsCreateOrUpdateType.
+ * Contains \Intelisys\PhpEws\Type\SyncFolderItemsCreateOrUpdateType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Identifies a single item to create in the local client store.
@@ -19,7 +19,7 @@ class SyncFolderItemsCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\CalendarItemType
+     * @var \Intelisys\PhpEws\Type\CalendarItemType
      */
     public $CalendarItem;
 
@@ -28,7 +28,7 @@ class SyncFolderItemsCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ContactItemType
+     * @var \Intelisys\PhpEws\Type\ContactItemType
      */
     public $Contact;
 
@@ -37,7 +37,7 @@ class SyncFolderItemsCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\DistributionListType
+     * @var \Intelisys\PhpEws\Type\DistributionListType
      */
     public $DistributionList;
 
@@ -46,7 +46,7 @@ class SyncFolderItemsCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemType
+     * @var \Intelisys\PhpEws\Type\ItemType
      */
     public $Item;
 
@@ -55,7 +55,7 @@ class SyncFolderItemsCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingCancellationMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingCancellationMessageType
      */
     public $MeetingCancellation;
 
@@ -64,7 +64,7 @@ class SyncFolderItemsCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingMessageType
      */
     public $MeetingMessage;
 
@@ -73,7 +73,7 @@ class SyncFolderItemsCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingRequestMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingRequestMessageType
      */
     public $MeetingRequest;
 
@@ -82,7 +82,7 @@ class SyncFolderItemsCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingResponseMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingResponseMessageType
      */
     public $MeetingResponse;
 
@@ -91,7 +91,7 @@ class SyncFolderItemsCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MessageType
+     * @var \Intelisys\PhpEws\Type\MessageType
      */
     public $Message;
 
@@ -100,7 +100,7 @@ class SyncFolderItemsCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PostItemType
+     * @var \Intelisys\PhpEws\Type\PostItemType
      */
     public $PostItem;
 
@@ -109,7 +109,7 @@ class SyncFolderItemsCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TaskType
+     * @var \Intelisys\PhpEws\Type\TaskType
      */
     public $Task;
 }

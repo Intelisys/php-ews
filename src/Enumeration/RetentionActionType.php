@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Enumeration\RetentionActionType.
+ * Contains \Intelisys\PhpEws\Enumeration\RetentionActionType.
  */
 
-namespace jamesiarmes\PhpEws\Enumeration;
+namespace Intelisys\PhpEws\Enumeration;
 
-use \jamesiarmes\PhpEws\Enumeration;
+use \Intelisys\PhpEws\Enumeration;
 
 /**
  * Defines the action performed on items with the retention tag.

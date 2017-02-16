@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RelativeMonthlyRecurrencePatternType.
+ * Contains \Intelisys\PhpEws\Type\RelativeMonthlyRecurrencePatternType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes a relative monthly recurrence pattern.
@@ -20,7 +20,7 @@ class RelativeMonthlyRecurrencePatternType extends
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DayOfWeekIndexType
+     * @see \Intelisys\PhpEws\Enumeration\DayOfWeekIndexType
      */
     public $DayOfWeekIndex;
 
@@ -32,7 +32,7 @@ class RelativeMonthlyRecurrencePatternType extends
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DayOfWeekType
+     * @see \Intelisys\PhpEws\Enumeration\DayOfWeekType
      */
     public $DaysOfWeek;
 }

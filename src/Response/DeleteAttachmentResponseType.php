@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\DeleteAttachmentResponseType.
+ * Contains \Intelisys\PhpEws\Response\DeleteAttachmentResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a DeleteAttachment request.

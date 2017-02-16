@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\ResolveNamesResponseType.
+ * Contains \Intelisys\PhpEws\Response\ResolveNamesResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a ResolveNames request.

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\MarkAllItemsAsRead.
+ * Contains \Intelisys\PhpEws\Request\MarkAllItemsAsRead.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to mark all the items in a folder as read.
@@ -18,7 +18,7 @@ class MarkAllItemsAsRead extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
      */
     public $FolderIds;
 

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PhoneNumberDictionaryEntryType.
+ * Contains \Intelisys\PhpEws\Type\PhoneNumberDictionaryEntryType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a telephone number for a contact.
@@ -33,7 +33,7 @@ class PhoneNumberDictionaryEntryType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\PhoneNumberKeyType
+     * @see \Intelisys\PhpEws\Enumeration\PhoneNumberKeyType
      */
     public $Key;
 }

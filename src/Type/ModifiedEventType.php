@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ModifiedEventType.
+ * Contains \Intelisys\PhpEws\Type\ModifiedEventType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an event in which an item or folder is modified.

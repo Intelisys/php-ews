@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\FindItemResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\FindItemResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single FindItem operation request.
@@ -18,7 +18,7 @@ class FindItemResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FindItemParentType
+     * @var \Intelisys\PhpEws\Type\FindItemParentType
      */
     public $RootFolder;
 }

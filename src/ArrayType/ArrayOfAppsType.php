@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfAppsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfAppsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines information about all the XML manifest files for apps installed in a
@@ -21,7 +21,7 @@ class ArrayOfAppsType extends ArrayType
      *
      * @since Exchange 2013 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\AppType[]
+     * @var \Intelisys\PhpEws\Type\AppType[]
      */
     public $App = array();
 }

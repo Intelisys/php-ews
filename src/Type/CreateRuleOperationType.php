@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\CreateRuleOperationType.
+ * Contains \Intelisys\PhpEws\Type\CreateRuleOperationType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an operation to create a new Inbox rule.
@@ -17,7 +17,7 @@ class CreateRuleOperationType extends RuleOperationType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\RuleType
+     * @var \Intelisys\PhpEws\Type\RuleType
      */
     public $Rule;
 }

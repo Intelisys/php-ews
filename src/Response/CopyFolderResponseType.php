@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\CopyFolderResponseType.
+ * Contains \Intelisys\PhpEws\Response\CopyFolderResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a CopyFolder request.

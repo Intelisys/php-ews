@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\UpdateItemResponseType.
+ * Contains \Intelisys\PhpEws\Response\UpdateItemResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to an UpdateItem request.

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\ConvertIdType.
+ * Contains \Intelisys\PhpEws\Request\ConvertIdType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
-use \jamesiarmes\PhpEws\Request;
+use \Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to convert item and folder identifiers between supported
@@ -25,7 +25,7 @@ class ConvertIdType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\IdFormatType
+     * @see \Intelisys\PhpEws\Enumeration\IdFormatType
      */
     public $DestinationFormat;
 
@@ -34,7 +34,7 @@ class ConvertIdType extends BaseRequestType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAlternateIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAlternateIdsType
      */
     public $SourceIds;
 }

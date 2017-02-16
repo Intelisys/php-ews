@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetFolderType.
+ * Contains \Intelisys\PhpEws\Request\GetFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get a folder from a mailbox in the Exchange store.
@@ -18,7 +18,7 @@ class GetFolderType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
      */
     public $FolderIds;
 
@@ -28,7 +28,7 @@ class GetFolderType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderResponseShapeType
+     * @var \Intelisys\PhpEws\Type\FolderResponseShapeType
      */
     public $FolderShape;
 }

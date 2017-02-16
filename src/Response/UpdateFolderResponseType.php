@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\UpdateFolderResponseType.
+ * Contains \Intelisys\PhpEws\Response\UpdateFolderResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to an UpdateFolder request.

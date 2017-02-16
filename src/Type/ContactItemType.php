@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ContactItemType.
+ * Contains \Intelisys\PhpEws\Type\ContactItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a contact item in the Exchange store.
@@ -55,7 +55,7 @@ class ContactItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $Children;
 
@@ -65,7 +65,7 @@ class ContactItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $Companies;
 
@@ -85,7 +85,7 @@ class ContactItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\CompleteNameType
+     * @var \Intelisys\PhpEws\Type\CompleteNameType
      */
     public $CompleteName;
 
@@ -97,7 +97,7 @@ class ContactItemType extends ItemType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ContactSourceType
+     * @see \Intelisys\PhpEws\Enumeration\ContactSourceType
      */
     public $ContactSource;
 
@@ -125,7 +125,7 @@ class ContactItemType extends ItemType
      *
      * @since Exchange 2010 SP2
      *
-     * @var \jamesiarmes\PhpEws\Type\SingleRecipientType
+     * @var \Intelisys\PhpEws\Type\SingleRecipientType
      */
     public $DirectReports;
 
@@ -143,7 +143,7 @@ class ContactItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressDictionaryType
+     * @var \Intelisys\PhpEws\Type\EmailAddressDictionaryType
      */
     public $EmailAddresses;
 
@@ -163,7 +163,7 @@ class ContactItemType extends ItemType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\FileAsMappingType
+     * @see \Intelisys\PhpEws\Enumeration\FileAsMappingType
      */
     public $FileAsMapping;
 
@@ -201,7 +201,7 @@ class ContactItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ImAddressDictionaryType
+     * @var \Intelisys\PhpEws\Type\ImAddressDictionaryType
      */
     public $ImAddresses;
 
@@ -238,7 +238,7 @@ class ContactItemType extends ItemType
      *
      * @since Exchange 2010 SP2
      *
-     * @var \jamesiarmes\PhpEws\Type\SingleRecipientType
+     * @var \Intelisys\PhpEws\Type\SingleRecipientType
      */
     public $ManagerMailbox;
 
@@ -266,7 +266,7 @@ class ContactItemType extends ItemType
      *
      * @since Exchange 2010 SP2
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfBinaryType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfBinaryType
      */
     public $MSExchangeCertificate;
 
@@ -302,7 +302,7 @@ class ContactItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PhoneNumberDictionaryType
+     * @var \Intelisys\PhpEws\Type\PhoneNumberDictionaryType
      */
     public $PhoneNumbers;
 
@@ -349,7 +349,7 @@ class ContactItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PhysicalAddressDictionaryType
+     * @var \Intelisys\PhpEws\Type\PhysicalAddressDictionaryType
      */
     public $PhysicalAddresses;
 
@@ -360,7 +360,7 @@ class ContactItemType extends ItemType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\PhysicalAddressIndexType
+     * @see \Intelisys\PhpEws\Enumeration\PhysicalAddressIndexType
      */
     public $PostalAddressIndex;
 
@@ -396,7 +396,7 @@ class ContactItemType extends ItemType
      *
      * @since Exchange 2010 SP2
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfBinaryType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfBinaryType
      */
     public $UserSMIMECertificate;
 

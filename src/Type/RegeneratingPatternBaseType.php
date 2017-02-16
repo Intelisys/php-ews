@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RegeneratingPatternBaseType.
+ * Contains \Intelisys\PhpEws\Type\RegeneratingPatternBaseType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Base class for regenerating patterns.

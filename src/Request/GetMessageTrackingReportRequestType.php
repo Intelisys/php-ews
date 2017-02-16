@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetMessageTrackingReportRequestType.
+ * Contains \Intelisys\PhpEws\Request\GetMessageTrackingReportRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents the request for the GetMessageTrackingReport Operation to retrieve
@@ -22,7 +22,7 @@ class GetMessageTrackingReportRequestType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\Scope
+     * @see \Intelisys\PhpEws\Enumeration\Scope
      */
     public $Scope;
 
@@ -35,7 +35,7 @@ class GetMessageTrackingReportRequestType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MessageTrackingReportTemplateType
+     * @see \Intelisys\PhpEws\Enumeration\MessageTrackingReportTemplateType
      */
     public $ReportTemplate;
 
@@ -46,7 +46,7 @@ class GetMessageTrackingReportRequestType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $RecipientFilter;
 
@@ -90,7 +90,7 @@ class GetMessageTrackingReportRequestType extends BaseRequestType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfTrackingPropertiesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfTrackingPropertiesType
      */
     public $Properties;
 }

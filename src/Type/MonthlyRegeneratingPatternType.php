@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MonthlyRegeneratingPatternType.
+ * Contains \Intelisys\PhpEws\Type\MonthlyRegeneratingPatternType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes the frequency, in months, of which task is regenerated.

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ItemResponseShapeType.
+ * Contains \Intelisys\PhpEws\Type\ItemResponseShapeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a set of properties to return in a GetItem operation, FindItem
@@ -20,7 +20,7 @@ class ItemResponseShapeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType
      */
     public $AdditionalProperties;
 
@@ -32,7 +32,7 @@ class ItemResponseShapeType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DefaultShapeNamesType
+     * @see \Intelisys\PhpEws\Enumeration\DefaultShapeNamesType
      */
     public $BaseShape;
 
@@ -43,7 +43,7 @@ class ItemResponseShapeType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\BodyTypeResponseType
+     * @see \Intelisys\PhpEws\Enumeration\BodyTypeResponseType
      */
     public $BodyType;
 

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AddressListIdType.
+ * Contains \Intelisys\PhpEws\Type\AddressListIdType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines the identifier of an address list.

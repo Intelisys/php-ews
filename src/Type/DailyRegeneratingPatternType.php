@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\DailyRegeneratingPatternType.
+ * Contains \Intelisys\PhpEws\Type\DailyRegeneratingPatternType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes the frequency, in days, in which a task is regenerated.

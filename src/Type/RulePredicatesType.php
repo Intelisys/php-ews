@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RulePredicatesType.
+ * Contains \Intelisys\PhpEws\Type\RulePredicatesType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Identifies the conditions that, when fulfilled, will trigger the rule actions
@@ -21,7 +21,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $Categories;
 
@@ -31,7 +31,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $ContainsBodyStrings;
 
@@ -41,7 +41,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $ContainsHeaderStrings;
 
@@ -52,7 +52,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $ContainsRecipientStrings;
 
@@ -62,7 +62,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $ContainsSenderStrings;
 
@@ -72,7 +72,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $ContainsSubjectOrBodyStrings;
 
@@ -82,7 +82,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $ContainsSubjectStrings;
 
@@ -94,7 +94,7 @@ class RulePredicatesType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\FlaggedForActionType
+     * @see \Intelisys\PhpEws\Enumeration\FlaggedForActionType
      */
     public $FlaggedForAction;
 
@@ -104,7 +104,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfEmailAddressesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfEmailAddressesType
      */
     public $FromAddresses;
 
@@ -114,7 +114,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $FromConnectedAccounts;
 
@@ -136,7 +136,7 @@ class RulePredicatesType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ImportanceChoicesType
+     * @see \Intelisys\PhpEws\Enumeration\ImportanceChoicesType
      */
     public $Importance;
 
@@ -256,7 +256,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $ItemClasses;
 
@@ -266,7 +266,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $MessageClassifications;
 
@@ -289,7 +289,7 @@ class RulePredicatesType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SensitivityChoicesType
+     * @see \Intelisys\PhpEws\Enumeration\SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -321,7 +321,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfEmailAddressesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfEmailAddressesType
      */
     public $SentToAddresses;
 
@@ -353,7 +353,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\RulePredicateDateRangeType
+     * @var \Intelisys\PhpEws\Type\RulePredicateDateRangeType
      */
     public $WithinDateRange;
 
@@ -363,7 +363,7 @@ class RulePredicatesType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\RulePredicateSizeRangeType
+     * @var \Intelisys\PhpEws\Type\RulePredicateSizeRangeType
      */
     public $WithinSizeRange;
 }

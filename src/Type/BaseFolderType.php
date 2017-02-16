@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\BaseFolderType.
+ * Contains \Intelisys\PhpEws\Type\BaseFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Base class for folder types.
@@ -43,7 +43,7 @@ abstract class BaseFolderType extends Type
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\EffectiveRightsType
+     * @var \Intelisys\PhpEws\Type\EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -52,7 +52,7 @@ abstract class BaseFolderType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ExtendedPropertyType
+     * @var \Intelisys\PhpEws\Type\ExtendedPropertyType
      */
     public $ExtendedProperty;
 
@@ -70,7 +70,7 @@ abstract class BaseFolderType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderIdType
+     * @var \Intelisys\PhpEws\Type\FolderIdType
      */
     public $FolderId;
 
@@ -79,7 +79,7 @@ abstract class BaseFolderType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ManagedFolderInformationType
+     * @var \Intelisys\PhpEws\Type\ManagedFolderInformationType
      */
     public $ManagedFolderInformation;
 
@@ -88,7 +88,7 @@ abstract class BaseFolderType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderIdType
+     * @var \Intelisys\PhpEws\Type\FolderIdType
      */
     public $ParentFolderId;
 

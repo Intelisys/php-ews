@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FindFolderParentType.
+ * Contains \Intelisys\PhpEws\Type\FindFolderParentType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the results of a search of a single root folder during a
@@ -32,7 +32,7 @@ class FindFolderParentType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfFoldersType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfFoldersType
      */
     public $Folders;
 

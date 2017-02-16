@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetUserPhotoType.
+ * Contains \Intelisys\PhpEws\Request\GetUserPhotoType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines the request to get a user’s photo.
@@ -28,7 +28,7 @@ class GetUserPhotoType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\UserPhotoSizeType
+     * @see \Intelisys\PhpEws\Enumeration\UserPhotoSizeType
      */
     public $SizeRequested;
 
@@ -39,7 +39,7 @@ class GetUserPhotoType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\UserPhotoTypeType
+     * @see \Intelisys\PhpEws\Enumeration\UserPhotoTypeType
      */
     public $TypeRequested;
 }

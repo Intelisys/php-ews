@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\UninstallAppType.
+ * Contains \Intelisys\PhpEws\Request\UninstallAppType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to uninstall an app by its identifier.

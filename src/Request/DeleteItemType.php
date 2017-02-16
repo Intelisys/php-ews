@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\DeleteItemType.
+ * Contains \Intelisys\PhpEws\Request\DeleteItemType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to delete an item from a mailbox in the Exchange store.
@@ -24,7 +24,7 @@ class DeleteItemType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\AffectedTaskOccurrencesType
+     * @see \Intelisys\PhpEws\Enumeration\AffectedTaskOccurrencesType
      */
     public $AffectedTaskOccurrences;
 
@@ -37,7 +37,7 @@ class DeleteItemType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DisposalType
+     * @see \Intelisys\PhpEws\Enumeration\DisposalType
      */
     public $DeleteType;
 
@@ -49,7 +49,7 @@ class DeleteItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
      */
     public $ItemIds;
 
@@ -64,7 +64,7 @@ class DeleteItemType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\CalendarItemCreateOrDeleteOperationType
+     * @see \Intelisys\PhpEws\Enumeration\CalendarItemCreateOrDeleteOperationType
      */
     public $SendMeetingCancellations;
 

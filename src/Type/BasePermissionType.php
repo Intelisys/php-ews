@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\BasePermissionType.
+ * Contains \Intelisys\PhpEws\Type\BasePermissionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Base class for permission types.
@@ -39,7 +39,7 @@ abstract class BasePermissionType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\PermissionActionType
+     * @see \Intelisys\PhpEws\Enumeration\PermissionActionType
      */
     public $DeleteItems;
 
@@ -50,7 +50,7 @@ abstract class BasePermissionType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\PermissionActionType
+     * @see \Intelisys\PhpEws\Enumeration\PermissionActionType
      */
     public $EditItems;
 
@@ -86,7 +86,7 @@ abstract class BasePermissionType extends Type
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\UserIdType
+     * @var \Intelisys\PhpEws\Type\UserIdType
      */
     public $UserId;
 }

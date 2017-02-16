@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfGroupedItemsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfGroupedItemsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a collection of groups that are found with the search and
@@ -21,7 +21,7 @@ class ArrayOfGroupedItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\GroupedItemsType[]
+     * @var \Intelisys\PhpEws\Type\GroupedItemsType[]
      */
     public $GroupedItems = array();
 }

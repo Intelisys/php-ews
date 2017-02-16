@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SuggestionsResponseType.
+ * Contains \Intelisys\PhpEws\Type\SuggestionsResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents response status information and suggestion data for requested
@@ -20,7 +20,7 @@ class SuggestionsResponseType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Response\ResponseMessageType
+     * @var \Intelisys\PhpEws\Response\ResponseMessageType
      */
     public $ResponseMessage;
 
@@ -29,7 +29,7 @@ class SuggestionsResponseType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfSuggestionDayResult
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfSuggestionDayResult
      */
     public $SuggestionDayResultArray;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RelativeYearlyRecurrencePatternType.
+ * Contains \Intelisys\PhpEws\Type\RelativeYearlyRecurrencePatternType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes a relative yearly recurrence pattern.
@@ -20,7 +20,7 @@ class RelativeYearlyRecurrencePatternType extends RecurrencePatternBaseType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DayOfWeekIndexType
+     * @see \Intelisys\PhpEws\Enumeration\DayOfWeekIndexType
      */
     public $DayOfWeekIndex;
 
@@ -31,7 +31,7 @@ class RelativeYearlyRecurrencePatternType extends RecurrencePatternBaseType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DayOfWeekType
+     * @see \Intelisys\PhpEws\Enumeration\DayOfWeekType
      */
     public $DaysOfWeek;
 
@@ -42,7 +42,7 @@ class RelativeYearlyRecurrencePatternType extends RecurrencePatternBaseType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MonthNamesType
+     * @see \Intelisys\PhpEws\Enumeration\MonthNamesType
      */
     public $Month;
 }

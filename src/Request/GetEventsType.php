@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetEventsType.
+ * Contains \Intelisys\PhpEws\Request\GetEventsType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents the operation used by pull clients to request notifications from

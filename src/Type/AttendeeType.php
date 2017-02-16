@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AttendeeType.
+ * Contains \Intelisys\PhpEws\Type\AttendeeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents attendees and resources for a meeting.
@@ -30,7 +30,7 @@ class AttendeeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $Mailbox;
 
@@ -43,7 +43,7 @@ class AttendeeType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ResponseTypeType
+     * @see \Intelisys\PhpEws\Enumeration\ResponseTypeType
      */
     public $ResponseType;
 }

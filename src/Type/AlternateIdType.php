@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AlternateIdType.
+ * Contains \Intelisys\PhpEws\Type\AlternateIdType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes an identifier to convert in a request and the results of a

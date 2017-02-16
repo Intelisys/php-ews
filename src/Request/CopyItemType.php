@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\CopyItemType.
+ * Contains \Intelisys\PhpEws\Request\CopyItemType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to copy an item in a mailbox in the Exchange store.

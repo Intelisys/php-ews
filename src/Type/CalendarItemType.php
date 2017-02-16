@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\CalendarItemType.
+ * Contains \Intelisys\PhpEws\Type\CalendarItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an Exchange calendar item.
@@ -27,7 +27,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
      */
     public $AdjacentMeetings;
 
@@ -69,7 +69,7 @@ class CalendarItemType extends ItemType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\AppointmentState
+     * @see \Intelisys\PhpEws\Enumeration\AppointmentState
      */
     public $AppointmentState;
 
@@ -80,7 +80,7 @@ class CalendarItemType extends ItemType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\CalendarItemTypeType
+     * @see \Intelisys\PhpEws\Enumeration\CalendarItemTypeType
      */
     public $CalendarItemType;
 
@@ -92,7 +92,7 @@ class CalendarItemType extends ItemType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ConferenceType
+     * @see \Intelisys\PhpEws\Enumeration\ConferenceType
      */
     public $ConferenceType;
 
@@ -110,7 +110,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
      */
     public $ConflictingMeetings;
 
@@ -133,7 +133,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfDeletedOccurrencesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfDeletedOccurrencesType
      */
     public $DeletedOccurrences;
 
@@ -164,7 +164,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\TimeZoneDefinitionType
+     * @var \Intelisys\PhpEws\Type\TimeZoneDefinitionType
      */
     public $EndTimeZone;
 
@@ -175,7 +175,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TimeZoneDefinitionType
+     * @var \Intelisys\PhpEws\Type\TimeZoneDefinitionType
      */
     public $FirstOccurrence;
 
@@ -243,7 +243,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\OccurrenceInfoType
+     * @var \Intelisys\PhpEws\Type\OccurrenceInfoType
      */
     public $LastOccurrence;
 
@@ -254,7 +254,7 @@ class CalendarItemType extends ItemType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\LegacyFreeBusyType
+     * @see \Intelisys\PhpEws\Enumeration\LegacyFreeBusyType
      */
     public $LegacyFreeBusyStatus;
 
@@ -281,7 +281,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TimeZoneType
+     * @var \Intelisys\PhpEws\Type\TimeZoneType
      */
     public $MeetingTimeZone;
 
@@ -303,7 +303,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfOccurrenceInfoType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfOccurrenceInfoType
      */
     public $ModifiedOccurrences;
 
@@ -314,7 +314,7 @@ class CalendarItemType extends ItemType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ResponseTypeType
+     * @see \Intelisys\PhpEws\Enumeration\ResponseTypeType
      */
     public $MyResponseType;
 
@@ -332,7 +332,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
      */
     public $OptionalAttendees;
 
@@ -341,7 +341,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SingleRecipientType
+     * @var \Intelisys\PhpEws\Type\SingleRecipientType
      */
     public $Organizer;
 
@@ -363,7 +363,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\RecurrenceType
+     * @var \Intelisys\PhpEws\Type\RecurrenceType
      */
     public $Recurrence;
 
@@ -383,7 +383,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
      */
     public $RequiredAttendees;
 
@@ -392,7 +392,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
      */
     public $Resources;
 
@@ -414,7 +414,7 @@ class CalendarItemType extends ItemType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\TimeZoneDefinitionType
+     * @var \Intelisys\PhpEws\Type\TimeZoneDefinitionType
      */
     public $StartTimeZone;
 

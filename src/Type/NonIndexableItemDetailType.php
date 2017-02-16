@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\NonIndexableItemDetailType.
+ * Contains \Intelisys\PhpEws\Type\NonIndexableItemDetailType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines detail information about an item that cannot be indexed.
@@ -20,7 +20,7 @@ class NonIndexableItemDetailType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ItemId;
 

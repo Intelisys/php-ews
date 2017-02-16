@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\DistinguishedGroupByType.
+ * Contains \Intelisys\PhpEws\Type\DistinguishedGroupByType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents standard groupings for FindItem queries.
@@ -20,7 +20,7 @@ class DistinguishedGroupByType extends BaseGroupByType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\StandardGroupByType
+     * @see \Intelisys\PhpEws\Enumeration\StandardGroupByType
      */
     public $StandardGroupBy;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\SetHoldOnMailboxesResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\SetHoldOnMailboxesResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a SetHoldOnMailboxes request.
@@ -17,7 +17,7 @@ class SetHoldOnMailboxesResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\MailboxHoldResultType
+     * @var \Intelisys\PhpEws\Type\MailboxHoldResultType
      */
     public $MailboxHoldResult;
 }

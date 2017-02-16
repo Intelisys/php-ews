@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\CreateManagedFolderRequestType.
+ * Contains \Intelisys\PhpEws\Request\CreateManagedFolderRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to add managed custom folders to a mailbox.
@@ -17,7 +17,7 @@ class CreateManagedFolderRequestType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfFolderNamesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfFolderNamesType
      */
     public $FolderNames;
 
@@ -26,7 +26,7 @@ class CreateManagedFolderRequestType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $Mailbox;
 }

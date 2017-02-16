@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayofLegacyDNsType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayofLegacyDNsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines an array of mailboxes identified by legacy distinguished name.

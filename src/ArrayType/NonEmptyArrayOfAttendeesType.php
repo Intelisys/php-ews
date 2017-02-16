@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents attendees who are not required to attend a meeting.
@@ -19,7 +19,7 @@ class NonEmptyArrayOfAttendeesType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\AttendeeType[]
+     * @var \Intelisys\PhpEws\Type\AttendeeType[]
      */
     public $Attendee = array();
 }

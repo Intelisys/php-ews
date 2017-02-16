@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SearchMailboxesResultType.
+ * Contains \Intelisys\PhpEws\Type\SearchMailboxesResultType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines the result of a SearchMailboxes request.
@@ -19,7 +19,7 @@ class SearchMailboxesResultType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfMailboxQueriesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfMailboxQueriesType
      */
     public $SearchQueries;
 
@@ -30,7 +30,7 @@ class SearchMailboxesResultType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SearchResultType
+     * @see \Intelisys\PhpEws\Enumeration\SearchResultType
      */
     public $ResultType;
 
@@ -75,7 +75,7 @@ class SearchMailboxesResultType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfKeywordStatisticsSearchResultsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfKeywordStatisticsSearchResultsType
      */
     public $KeywordStats;
 
@@ -84,7 +84,7 @@ class SearchMailboxesResultType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfSearchPreviewItemsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfSearchPreviewItemsType
      */
     public $Items;
 

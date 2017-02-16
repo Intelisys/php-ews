@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfNotificationEventTypesType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfNotificationEventTypesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a collection of event notification types that are used to create a
@@ -23,7 +23,7 @@ class NonEmptyArrayOfNotificationEventTypesType extends ArrayType
      *
      * @var string[]
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\NotificationEventTypeType[]
+     * @see \Intelisys\PhpEws\Enumeration\NotificationEventTypeType[]
      */
     public $EventType = array();
 }

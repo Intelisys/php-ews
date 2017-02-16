@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ClientAccessTokenRequestType.
+ * Contains \Intelisys\PhpEws\Type\ClientAccessTokenRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines a single token request.
@@ -39,7 +39,7 @@ class ClientAccessTokenRequestType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ClientAccessTokenTypeType
+     * @see \Intelisys\PhpEws\Enumeration\ClientAccessTokenTypeType
      */
     public $TokenType;
 }

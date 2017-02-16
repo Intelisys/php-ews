@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetPasswordExpirationDateType.
+ * Contains \Intelisys\PhpEws\Request\GetPasswordExpirationDateType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get the password expiration date for an email account.

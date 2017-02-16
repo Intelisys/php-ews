@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\RemoveDistributionGroupFromImListResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\RemoveDistributionGroupFromImListResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a RemoveDistributionGroupFromImList request.

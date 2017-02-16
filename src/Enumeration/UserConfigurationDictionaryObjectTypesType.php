@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Enumeration\UserConfigurationDictionaryObjectTypesType.
+ * Contains \Intelisys\PhpEws\Enumeration\UserConfigurationDictionaryObjectTypesType.
  */
 
-namespace jamesiarmes\PhpEws\Enumeration;
+namespace Intelisys\PhpEws\Enumeration;
 
-use \jamesiarmes\PhpEws\Enumeration;
+use \Intelisys\PhpEws\Enumeration;
 
 /**
  * Defines a dictionary object's type.

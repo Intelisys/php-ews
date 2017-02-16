@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfNonIndexableItemDetailsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfNonIndexableItemDetailsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines an array of item details for non-indexable items.
@@ -19,7 +19,7 @@ class ArrayOfNonIndexableItemDetailsType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\NonIndexableItemDetailType[]
+     * @var \Intelisys\PhpEws\Type\NonIndexableItemDetailType[]
      */
     public $NonIndexableItemDetail = array();
 }

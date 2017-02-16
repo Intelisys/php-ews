@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetAppManifestsType.
+ * Contains \Intelisys\PhpEws\Request\GetAppManifestsType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Base element for a request to return the manifest for apps.
@@ -17,7 +17,7 @@ class GetAppManifestsType extends BaseRequestType
      *
      * @since Exchange 2016
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfPrivateCatalogAddInsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfPrivateCatalogAddInsType
      *
      * @todo Update once documentation exists.
      */

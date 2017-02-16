@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PersonaResponseShapeType.
+ * Contains \Intelisys\PhpEws\Type\PersonaResponseShapeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines a set of properties for a persona.
@@ -19,7 +19,7 @@ class PersonaResponseShapeType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType
      */
     public $AdditionalProperties;
 
@@ -30,7 +30,7 @@ class PersonaResponseShapeType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DefaultShapeNamesType
+     * @see \Intelisys\PhpEws\Enumeration\DefaultShapeNamesType
      */
     public $BaseShape;
 }

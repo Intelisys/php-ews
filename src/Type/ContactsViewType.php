@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ContactsViewType.
+ * Contains \Intelisys\PhpEws\Type\ContactsViewType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Defines a search for contact items based on alphabetical display names.

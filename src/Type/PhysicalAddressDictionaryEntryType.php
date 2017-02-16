@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PhysicalAddressDictionaryEntryType.
+ * Contains \Intelisys\PhpEws\Type\PhysicalAddressDictionaryEntryType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Describes a single physical address for a contact item.
@@ -42,7 +42,7 @@ class PhysicalAddressDictionaryEntryType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\PhysicalAddressKeyType
+     * @see \Intelisys\PhpEws\Enumeration\PhysicalAddressKeyType
      */
     public $Key;
 

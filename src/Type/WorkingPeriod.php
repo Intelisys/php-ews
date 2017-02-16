@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\WorkingPeriod.
+ * Contains \Intelisys\PhpEws\Type\WorkingPeriod.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the work week days and hours of the mailbox user.
@@ -21,7 +21,7 @@ class WorkingPeriod extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DaysOfWeekType
+     * @see \Intelisys\PhpEws\Enumeration\DaysOfWeekType
      */
     public $DayOfWeek;
 

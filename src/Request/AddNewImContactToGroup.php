@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\AddNewImContactToGroup.
+ * Contains \Intelisys\PhpEws\Request\AddNewImContactToGroup.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to add a new instant messaging contact to an instant
@@ -28,7 +28,7 @@ class AddNewImContactToGroup extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $GroupId;
 

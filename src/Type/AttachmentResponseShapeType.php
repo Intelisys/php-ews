@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AttachmentResponseShapeType.
+ * Contains \Intelisys\PhpEws\Type\AttachmentResponseShapeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents additional properties to return in a response to a GetAttachment
@@ -22,7 +22,7 @@ class AttachmentResponseShapeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType
      */
     public $AdditionalProperties;
 
@@ -35,7 +35,7 @@ class AttachmentResponseShapeType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\BodyTypeResponseType
+     * @see \Intelisys\PhpEws\Enumeration\BodyTypeResponseType
      */
     public $BodyType;
 

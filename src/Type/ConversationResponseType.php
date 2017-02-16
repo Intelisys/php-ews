@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ConversationResponseType.
+ * Contains \Intelisys\PhpEws\Type\ConversationResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines a single conversation.
@@ -28,7 +28,7 @@ class ConversationResponseType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ConversationId;
 
@@ -37,7 +37,7 @@ class ConversationResponseType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfConversationNodesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfConversationNodesType
      */
     public $ConversationNodes;
 

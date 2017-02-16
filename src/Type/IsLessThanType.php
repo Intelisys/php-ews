@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\IsLessThanType.
+ * Contains \Intelisys\PhpEws\Type\IsLessThanType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a search expression that compares a property with either a

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MembersListType.
+ * Contains \Intelisys\PhpEws\Type\MembersListType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the list of members for a distribution list.
@@ -22,7 +22,7 @@ class MembersListType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\MemberType[]
+     * @var \Intelisys\PhpEws\Type\MemberType[]
      */
     public $Member = array();
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SuggestionDayResult.
+ * Contains \Intelisys\PhpEws\Type\SuggestionDayResult.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a single day that contains suggested meeting times.
@@ -33,7 +33,7 @@ class SuggestionDayResult extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SuggestionQuality
+     * @see \Intelisys\PhpEws\Enumeration\SuggestionQuality
      */
     public $DayQuality;
 
@@ -42,7 +42,7 @@ class SuggestionDayResult extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfSuggestion
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfSuggestion
      */
     public $SuggestionArray;
 }

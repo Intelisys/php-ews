@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ReferenceItemResponseType.
+ * Contains \Intelisys\PhpEws\Type\ReferenceItemResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Base class for responding to items with a reference.

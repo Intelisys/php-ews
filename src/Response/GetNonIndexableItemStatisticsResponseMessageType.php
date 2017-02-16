@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetNonIndexableItemStatisticsResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetNonIndexableItemStatisticsResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a GetNonIndexableItemStatistics request.
@@ -17,7 +17,7 @@ class GetNonIndexableItemStatisticsResponseMessageType extends ResponseMessageTy
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfNonIndexableItemStatisticsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfNonIndexableItemStatisticsType
      */
     public $NonIndexableItemStatistics;
 }

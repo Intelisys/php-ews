@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetRoomListsResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetRoomListsResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the response from a GetRoomLists Operation request.
@@ -18,7 +18,7 @@ class GetRoomListsResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfEmailAddressesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfEmailAddressesType
      */
     public $RoomLists;
 }

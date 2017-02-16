@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfRealItemsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfRealItemsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of items.
@@ -19,7 +19,7 @@ class ArrayOfRealItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\CalendarItemType[]
+     * @var \Intelisys\PhpEws\Type\CalendarItemType[]
      */
     public $CalendarItem = array();
 
@@ -28,7 +28,7 @@ class ArrayOfRealItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ContactItemType[]
+     * @var \Intelisys\PhpEws\Type\ContactItemType[]
      */
     public $Contact = array();
 
@@ -37,7 +37,7 @@ class ArrayOfRealItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\DistributionListType[]
+     * @var \Intelisys\PhpEws\Type\DistributionListType[]
      */
     public $DistributionList = array();
 
@@ -46,7 +46,7 @@ class ArrayOfRealItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemType[]
+     * @var \Intelisys\PhpEws\Type\ItemType[]
      */
     public $Item = array();
 
@@ -55,7 +55,7 @@ class ArrayOfRealItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingCancellationMessageType[]
+     * @var \Intelisys\PhpEws\Type\MeetingCancellationMessageType[]
      */
     public $MeetingCancellation = array();
 
@@ -64,7 +64,7 @@ class ArrayOfRealItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingMessageType[]
+     * @var \Intelisys\PhpEws\Type\MeetingMessageType[]
      */
     public $MeetingMessage = array();
 
@@ -73,7 +73,7 @@ class ArrayOfRealItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingRequestMessageType[]
+     * @var \Intelisys\PhpEws\Type\MeetingRequestMessageType[]
      */
     public $MeetingRequest = array();
 
@@ -82,7 +82,7 @@ class ArrayOfRealItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingResponseMessageType[]
+     * @var \Intelisys\PhpEws\Type\MeetingResponseMessageType[]
      */
     public $MeetingResponse = array();
 
@@ -91,7 +91,7 @@ class ArrayOfRealItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MessageType[]
+     * @var \Intelisys\PhpEws\Type\MessageType[]
      */
     public $Message = array();
 
@@ -100,7 +100,7 @@ class ArrayOfRealItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PostItemType[]
+     * @var \Intelisys\PhpEws\Type\PostItemType[]
      */
     public $PostItem = array();
 
@@ -109,7 +109,7 @@ class ArrayOfRealItemsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TaskType[]
+     * @var \Intelisys\PhpEws\Type\TaskType[]
      */
     public $Task = array();
 }

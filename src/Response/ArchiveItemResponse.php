@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\ArchiveItemResponse.
+ * Contains \Intelisys\PhpEws\Response\ArchiveItemResponse.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to an ArchiveItem request.

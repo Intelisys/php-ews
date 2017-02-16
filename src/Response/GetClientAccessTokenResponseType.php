@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetClientAccessTokenResponseType.
+ * Contains \Intelisys\PhpEws\Response\GetClientAccessTokenResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a GetClientAccessToken operation request.

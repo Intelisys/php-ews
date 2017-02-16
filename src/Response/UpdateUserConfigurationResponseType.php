@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\UpdateUserConfigurationResponseType.
+ * Contains \Intelisys\PhpEws\Response\UpdateUserConfigurationResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a single UpdateUserConfiguration request.

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfItemChangeDescriptionsType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfItemChangeDescriptionsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a set of elements that define append, set, and delete changes to
@@ -21,7 +21,7 @@ class NonEmptyArrayOfItemChangeDescriptionsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\AppendToItemFieldType[]
+     * @var \Intelisys\PhpEws\Type\AppendToItemFieldType[]
      */
     public $AppendToItemField = array();
 
@@ -31,7 +31,7 @@ class NonEmptyArrayOfItemChangeDescriptionsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\DeleteItemFieldType[]
+     * @var \Intelisys\PhpEws\Type\DeleteItemFieldType[]
      */
     public $DeleteItemField = array();
 
@@ -41,7 +41,7 @@ class NonEmptyArrayOfItemChangeDescriptionsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SetItemFieldType[]
+     * @var \Intelisys\PhpEws\Type\SetItemFieldType[]
      */
     public $SetItemField = array();
 }

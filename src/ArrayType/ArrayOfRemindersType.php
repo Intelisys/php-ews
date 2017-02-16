@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfRemindersType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfRemindersType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents the reminders returned in the response to a GetReminders request.
@@ -19,7 +19,7 @@ class ArrayOfRemindersType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ReminderType[]
+     * @var \Intelisys\PhpEws\Type\ReminderType[]
      */
     public $Reminder = array();
 }

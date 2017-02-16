@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfFoldersType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfFoldersType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of folders that are used in folder operations.
@@ -19,7 +19,7 @@ class NonEmptyArrayOfFoldersType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\CalendarFolderType[]
+     * @var \Intelisys\PhpEws\Type\CalendarFolderType[]
      */
     public $CalendarFolder = array();
 
@@ -28,7 +28,7 @@ class NonEmptyArrayOfFoldersType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ContactsFolderType[]
+     * @var \Intelisys\PhpEws\Type\ContactsFolderType[]
      */
     public $ContactsFolder = array();
 
@@ -37,7 +37,7 @@ class NonEmptyArrayOfFoldersType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderType[]
+     * @var \Intelisys\PhpEws\Type\FolderType[]
      */
     public $Folder = array();
 
@@ -46,7 +46,7 @@ class NonEmptyArrayOfFoldersType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SearchFolderType[]
+     * @var \Intelisys\PhpEws\Type\SearchFolderType[]
      */
     public $SearchFolder = array();
 
@@ -55,7 +55,7 @@ class NonEmptyArrayOfFoldersType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TasksFolderType[]
+     * @var \Intelisys\PhpEws\Type\TasksFolderType[]
      */
     public $TasksFolder = array();
 }

@@ -1,16 +1,16 @@
 <?php
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\FindItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\FindItemType;
 
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType;
 
-use \jamesiarmes\PhpEws\Enumeration\DistinguishedFolderIdNameType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\DistinguishedFolderIdNameType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
 
-use \jamesiarmes\PhpEws\Type\ContactsViewType;
-use \jamesiarmes\PhpEws\Type\DistinguishedFolderIdType;
+use \Intelisys\PhpEws\Type\ContactsViewType;
+use \Intelisys\PhpEws\Type\DistinguishedFolderIdType;
 
 // Set connection information.
 $host = '';

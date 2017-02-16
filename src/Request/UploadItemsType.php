@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\UploadItemsType.
+ * Contains \Intelisys\PhpEws\Request\UploadItemsType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents a request to upload items into a mailbox.
@@ -17,7 +17,7 @@ class UploadItemsType extends BaseRequestType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfUploadItemsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfUploadItemsType
      */
     public $Items;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfServiceConfigurationType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfServiceConfigurationType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents service configurations.
@@ -21,7 +21,7 @@ class ArrayOfServiceConfigurationType extends ArrayType
      *
      * @var string[]
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ServiceConfigurationType[]
+     * @see \Intelisys\PhpEws\Enumeration\ServiceConfigurationType[]
      */
     public $ConfigurationName = array();
 }

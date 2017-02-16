@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\AddNewTelUriContactToGroupResponse.
+ * Contains \Intelisys\PhpEws\Response\AddNewTelUriContactToGroupResponse.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the result data for a AddNewTelUriContactToGroup request.
@@ -18,7 +18,7 @@ class AddNewTelUriContactToGroupResponse extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\PersonaType
+     * @var \Intelisys\PhpEws\Type\PersonaType
      */
     public $Persona;
 }

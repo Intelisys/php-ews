@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\IntervalRecurrencePatternBaseType.
+ * Contains \Intelisys\PhpEws\Type\IntervalRecurrencePatternBaseType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Base class for recurrence patterns with an interval.

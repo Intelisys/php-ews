@@ -1,24 +1,24 @@
 <?php
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\UpdateItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\UpdateItemType;
 
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfItemChangeDescriptionsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfItemChangeDescriptionsType;
 
-use \jamesiarmes\PhpEws\Enumeration\ConflictResolutionType;
-use \jamesiarmes\PhpEws\Enumeration\EmailAddressKeyType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\ConflictResolutionType;
+use \Intelisys\PhpEws\Enumeration\EmailAddressKeyType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
 
-use \jamesiarmes\PhpEws\Type\ContactItemType;
-use \jamesiarmes\PhpEws\Type\DeleteItemFieldType;
-use \jamesiarmes\PhpEws\Type\EmailAddressDictionaryEntryType;
-use \jamesiarmes\PhpEws\Type\EmailAddressDictionaryType;
-use \jamesiarmes\PhpEws\Type\ItemChangeType;
-use \jamesiarmes\PhpEws\Type\ItemIdType;
-use \jamesiarmes\PhpEws\Type\PathToIndexedFieldType;
-use \jamesiarmes\PhpEws\Type\PathToUnindexedFieldType;
-use \jamesiarmes\PhpEws\Type\SetItemFieldType;
+use \Intelisys\PhpEws\Type\ContactItemType;
+use \Intelisys\PhpEws\Type\DeleteItemFieldType;
+use \Intelisys\PhpEws\Type\EmailAddressDictionaryEntryType;
+use \Intelisys\PhpEws\Type\EmailAddressDictionaryType;
+use \Intelisys\PhpEws\Type\ItemChangeType;
+use \Intelisys\PhpEws\Type\ItemIdType;
+use \Intelisys\PhpEws\Type\PathToIndexedFieldType;
+use \Intelisys\PhpEws\Type\PathToUnindexedFieldType;
+use \Intelisys\PhpEws\Type\SetItemFieldType;
 
 $contact_updates = array(
     array(

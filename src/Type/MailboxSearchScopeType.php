@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MailboxSearchScopeType.
+ * Contains \Intelisys\PhpEws\Type\MailboxSearchScopeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines a mailbox and a search scope for a discovery search.
@@ -19,7 +19,7 @@ class MailboxSearchScopeType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfExtendedAttributesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfExtendedAttributesType
      */
     public $ExtendedAttributes;
 
@@ -39,7 +39,7 @@ class MailboxSearchScopeType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MailboxSearchLocationType
+     * @see \Intelisys\PhpEws\Enumeration\MailboxSearchLocationType
      */
     public $SearchScope;
 }

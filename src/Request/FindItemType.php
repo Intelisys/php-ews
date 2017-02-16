@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\FindItemType.
+ * Contains \Intelisys\PhpEws\Request\FindItemType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to find items in a mailbox.
@@ -19,7 +19,7 @@ class FindItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\CalendarViewType
+     * @var \Intelisys\PhpEws\Type\CalendarViewType
      */
     public $CalendarView;
 
@@ -30,7 +30,7 @@ class FindItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ContactsViewType
+     * @var \Intelisys\PhpEws\Type\ContactsViewType
      */
     public $ContactsView;
 
@@ -41,7 +41,7 @@ class FindItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\DistinguishedGroupByType
+     * @var \Intelisys\PhpEws\Type\DistinguishedGroupByType
      */
     public $DistinguishedGroupBy;
 
@@ -56,7 +56,7 @@ class FindItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FractionalPageViewType
+     * @var \Intelisys\PhpEws\Type\FractionalPageViewType
      */
     public $FractionalPageItemView;
 
@@ -67,7 +67,7 @@ class FindItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\GroupByType
+     * @var \Intelisys\PhpEws\Type\GroupByType
      */
     public $GroupBy;
 
@@ -78,7 +78,7 @@ class FindItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\IndexedPageViewType
+     * @var \Intelisys\PhpEws\Type\IndexedPageViewType
      */
     public $IndexedPageItemView;
 
@@ -88,7 +88,7 @@ class FindItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemResponseShapeType
+     * @var \Intelisys\PhpEws\Type\ItemResponseShapeType
      */
     public $ItemShape;
 
@@ -97,7 +97,7 @@ class FindItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
      */
     public $ParentFolderIds;
 
@@ -106,7 +106,7 @@ class FindItemType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\QueryStringType
+     * @var \Intelisys\PhpEws\Type\QueryStringType
      */
     public $QueryString;
 
@@ -118,7 +118,7 @@ class FindItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\RestrictionType
+     * @var \Intelisys\PhpEws\Type\RestrictionType
      */
     public $Restriction;
 
@@ -129,7 +129,7 @@ class FindItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfFieldOrdersType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfFieldOrdersType
      */
     public $SortOrder;
 
@@ -143,7 +143,7 @@ class FindItemType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ItemQueryTraversalType
+     * @see \Intelisys\PhpEws\Enumeration\ItemQueryTraversalType
      */
     public $Traversal;
 }

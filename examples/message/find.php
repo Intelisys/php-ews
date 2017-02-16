@@ -1,25 +1,25 @@
 <?php
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\FindItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\FindItemType;
 
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType;
 
-use \jamesiarmes\PhpEws\Enumeration\DefaultShapeNamesType;
-use \jamesiarmes\PhpEws\Enumeration\DistinguishedFolderIdNameType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
-use \jamesiarmes\PhpEws\Enumeration\UnindexedFieldURIType;
+use \Intelisys\PhpEws\Enumeration\DefaultShapeNamesType;
+use \Intelisys\PhpEws\Enumeration\DistinguishedFolderIdNameType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\UnindexedFieldURIType;
 
-use \jamesiarmes\PhpEws\Type\AndType;
-use \jamesiarmes\PhpEws\Type\ConstantValueType;
-use \jamesiarmes\PhpEws\Type\DistinguishedFolderIdType;
-use \jamesiarmes\PhpEws\Type\FieldURIOrConstantType;
-use \jamesiarmes\PhpEws\Type\IsGreaterThanOrEqualToType;
-use \jamesiarmes\PhpEws\Type\IsLessThanOrEqualToType;
-use \jamesiarmes\PhpEws\Type\ItemResponseShapeType;
-use \jamesiarmes\PhpEws\Type\PathToUnindexedFieldType;
-use \jamesiarmes\PhpEws\Type\RestrictionType;
+use \Intelisys\PhpEws\Type\AndType;
+use \Intelisys\PhpEws\Type\ConstantValueType;
+use \Intelisys\PhpEws\Type\DistinguishedFolderIdType;
+use \Intelisys\PhpEws\Type\FieldURIOrConstantType;
+use \Intelisys\PhpEws\Type\IsGreaterThanOrEqualToType;
+use \Intelisys\PhpEws\Type\IsLessThanOrEqualToType;
+use \Intelisys\PhpEws\Type\ItemResponseShapeType;
+use \Intelisys\PhpEws\Type\PathToUnindexedFieldType;
+use \Intelisys\PhpEws\Type\RestrictionType;
 
 // Replace with the date range you want to search in. As is, this will find all
 // messages within the current calendar year.

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\DeleteUserConfigurationType.
+ * Contains \Intelisys\PhpEws\Request\DeleteUserConfigurationType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents a request to delete a user configuration object.
@@ -17,7 +17,7 @@ class DeleteUserConfigurationType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\UserConfigurationNameType
+     * @var \Intelisys\PhpEws\Type\UserConfigurationNameType
      */
     public $UserConfigurationName;
 }

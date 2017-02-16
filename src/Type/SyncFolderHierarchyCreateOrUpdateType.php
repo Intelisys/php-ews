@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SyncFolderHierarchyCreateOrUpdateType.
+ * Contains \Intelisys\PhpEws\Type\SyncFolderHierarchyCreateOrUpdateType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Identifies a single folder to create in the local client store.
@@ -19,7 +19,7 @@ class SyncFolderHierarchyCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\CalendarFolderType
+     * @var \Intelisys\PhpEws\Type\CalendarFolderType
      */
     public $CalendarFolder;
 
@@ -28,7 +28,7 @@ class SyncFolderHierarchyCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ContactsFolderType
+     * @var \Intelisys\PhpEws\Type\ContactsFolderType
      */
     public $ContactsFolder;
 
@@ -37,7 +37,7 @@ class SyncFolderHierarchyCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderType
+     * @var \Intelisys\PhpEws\Type\FolderType
      */
     public $Folder;
 
@@ -46,7 +46,7 @@ class SyncFolderHierarchyCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SearchFolderType
+     * @var \Intelisys\PhpEws\Type\SearchFolderType
      */
     public $SearchFolder;
 
@@ -55,7 +55,7 @@ class SyncFolderHierarchyCreateOrUpdateType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TasksFolderType
+     * @var \Intelisys\PhpEws\Type\TasksFolderType
      */
     public $TasksFolder;
 }

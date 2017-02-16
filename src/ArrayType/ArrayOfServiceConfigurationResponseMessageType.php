@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfServiceConfigurationResponseMessageType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfServiceConfigurationResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of service configuration response messages.
@@ -21,7 +21,7 @@ class ArrayOfServiceConfigurationResponseMessageType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Response\ServiceConfigurationResponseMessageType[]
+     * @var \Intelisys\PhpEws\Response\ServiceConfigurationResponseMessageType[]
      */
     public $ServiceConfigurationResponseMessageType = array();
 }

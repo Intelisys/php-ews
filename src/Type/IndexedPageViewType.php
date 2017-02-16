@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\IndexedPageViewType.
+ * Contains \Intelisys\PhpEws\Type\IndexedPageViewType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes how paged conversation or item information is returned for a
@@ -26,7 +26,7 @@ class IndexedPageViewType extends BasePagingType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\IndexBasePointType
+     * @see \Intelisys\PhpEws\Enumeration\IndexBasePointType
      */
     public $BasePoint;
 

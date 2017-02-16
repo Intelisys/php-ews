@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\DeleteItemFieldType.
+ * Contains \Intelisys\PhpEws\Type\DeleteItemFieldType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an operation to delete a given property from an item during an

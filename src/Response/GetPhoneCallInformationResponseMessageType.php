@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetPhoneCallInformationResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetPhoneCallInformationResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a single GetPhoneCallInformation request.
@@ -17,7 +17,7 @@ class GetPhoneCallInformationResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\PhoneCallInformationType
+     * @var \Intelisys\PhpEws\Type\PhoneCallInformationType
      */
     public $PhoneCallInformation;
 }

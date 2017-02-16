@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetServiceConfigurationResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetServiceConfigurationResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a GetServiceConfiguration request.
@@ -17,7 +17,7 @@ class GetServiceConfigurationResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfServiceConfigurationResponseMessageType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfServiceConfigurationResponseMessageType
      */
     public $ResponseMessages;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SerializableTimeZoneTime.
+ * Contains \Intelisys\PhpEws\Type\SerializableTimeZoneTime.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents an offset from the time relative to Coordinated Universal Time
@@ -39,7 +39,7 @@ class SerializableTimeZoneTime extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DayOfWeekType
+     * @see \Intelisys\PhpEws\Enumeration\DayOfWeekType
      */
     public $DayOfWeek;
 

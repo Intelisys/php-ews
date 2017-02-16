@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RecurringMasterItemIdRanges.
+ * Contains \Intelisys\PhpEws\Type\RecurringMasterItemIdRanges.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines an occurrence range.
@@ -19,7 +19,7 @@ class RecurringMasterItemIdRanges extends ItemIdType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfOccurrenceRangesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfOccurrenceRangesType
      */
     public $Ranges;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ProtectionRuleConditionType.
+ * Contains \Intelisys\PhpEws\Type\ProtectionRuleConditionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Identifies a condition that must be satisfied for the action part of a rule
@@ -33,7 +33,7 @@ class ProtectionRuleConditionType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\ProtectionRuleAndType
+     * @var \Intelisys\PhpEws\Type\ProtectionRuleAndType
      */
     public $And;
 
@@ -44,7 +44,7 @@ class ProtectionRuleConditionType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\ProtectionRuleRecipientIsType
+     * @var \Intelisys\PhpEws\Type\ProtectionRuleRecipientIsType
      */
     public $RecipientIs;
 
@@ -54,7 +54,7 @@ class ProtectionRuleConditionType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\ProtectionRuleSenderDepartmentsType
+     * @var \Intelisys\PhpEws\Type\ProtectionRuleSenderDepartmentsType
      */
     public $SenderDepartments;
 

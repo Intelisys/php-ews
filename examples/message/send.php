@@ -7,17 +7,17 @@
 
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\SendItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\SendItemType;
 
-use \jamesiarmes\PhpEws\Enumeration\DistinguishedFolderIdNameType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\DistinguishedFolderIdNameType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
 
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType;
 
-use \jamesiarmes\PhpEws\Type\DistinguishedFolderIdType;
-use \jamesiarmes\PhpEws\Type\ItemIdType;
-use \jamesiarmes\PhpEws\Type\TargetFolderIdType;
+use \Intelisys\PhpEws\Type\DistinguishedFolderIdType;
+use \Intelisys\PhpEws\Type\ItemIdType;
+use \Intelisys\PhpEws\Type\TargetFolderIdType;
 
 // Replace with the id and change key of the message to be sent.
 $message_id = 'AAMkADk0N2E4OTQxLWRlOTYtNGUxZC05NzE1LTU4ZmI5NGVkZTZmYQBGAAAAAADeofKHfJ96S5ndHNLg9VfeBwAr1MfeoTJdQ7jgaw/bSgljAAAAAAEPAAAr1MfeoTJdQ7jgaw/bSgljAABueQnrAAA=';

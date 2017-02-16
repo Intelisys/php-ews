@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ProtectionRulesServiceConfiguration.
+ * Contains \Intelisys\PhpEws\Type\ProtectionRulesServiceConfiguration.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents service configuration information for the protection rules
@@ -20,7 +20,7 @@ class ProtectionRulesServiceConfiguration extends ServiceConfiguration
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\SmtpDomainList
+     * @var \Intelisys\PhpEws\Type\SmtpDomainList
      */
     public $InternalDomains;
 
@@ -44,7 +44,7 @@ class ProtectionRulesServiceConfiguration extends ServiceConfiguration
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfProtectionRulesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfProtectionRulesType
      */
     public $Rules;
 }

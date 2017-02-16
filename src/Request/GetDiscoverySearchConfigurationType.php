@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetDiscoverySearchConfigurationType.
+ * Contains \Intelisys\PhpEws\Request\GetDiscoverySearchConfigurationType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to retrieve the eDiscovery search configuration.

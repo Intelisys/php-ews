@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RulePredicateSizeRangeType.
+ * Contains \Intelisys\PhpEws\Type\RulePredicateSizeRangeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Specifies the minimum and maximum sizes that incoming messages must be in

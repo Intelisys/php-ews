@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetPasswordExpirationDateResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetPasswordExpirationDateResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a GetPasswordExpirationDate operation operation

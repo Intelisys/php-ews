@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfCalendarPermissionsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfCalendarPermissionsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of calendar permissions for a folder.
@@ -19,7 +19,7 @@ class ArrayOfCalendarPermissionsType extends ArrayType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\CalendarPermissionType[]
+     * @var \Intelisys\PhpEws\Type\CalendarPermissionType[]
      */
     public $CalendarPermission = array();
 }

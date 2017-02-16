@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\SyncFolderHierarchyResponseType.
+ * Contains \Intelisys\PhpEws\Response\SyncFolderHierarchyResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a SyncFolderHierarchy request.

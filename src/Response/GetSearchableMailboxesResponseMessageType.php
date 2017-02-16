@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetSearchableMailboxesResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetSearchableMailboxesResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Contains the response to a GetSearchableMailboxes request.
@@ -17,7 +17,7 @@ class GetSearchableMailboxesResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfFailedSearchMailboxesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfFailedSearchMailboxesType
      */
     public $FailedMailboxes;
 
@@ -26,7 +26,7 @@ class GetSearchableMailboxesResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfSearchableMailboxesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfSearchableMailboxesType
      */
     public $SearchableMailboxes;
 }

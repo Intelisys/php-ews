@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\CreateUserConfigurationType.
+ * Contains \Intelisys\PhpEws\Request\CreateUserConfigurationType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents a request to create a user configuration object.
@@ -17,7 +17,7 @@ class CreateUserConfigurationType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\UserConfigurationType
+     * @var \Intelisys\PhpEws\Type\UserConfigurationType
      */
     public $UserConfiguration;
 }

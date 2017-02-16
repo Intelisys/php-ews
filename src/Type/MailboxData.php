@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MailboxData.
+ * Contains \Intelisys\PhpEws\Type\MailboxData.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents an individual mailbox user and options for the type of data to be
@@ -24,7 +24,7 @@ class MailboxData extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MeetingAttendeeType
+     * @see \Intelisys\PhpEws\Enumeration\MeetingAttendeeType
      */
     public $AttendeeType;
 
@@ -33,7 +33,7 @@ class MailboxData extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $Email;
 

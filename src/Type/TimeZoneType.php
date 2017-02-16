@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\TimeZoneType.
+ * Contains \Intelisys\PhpEws\Type\TimeZoneType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a time zone.
@@ -29,7 +29,7 @@ class TimeZoneType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TimeChangeType
+     * @var \Intelisys\PhpEws\Type\TimeChangeType
      */
     public $Daylight;
 
@@ -39,7 +39,7 @@ class TimeZoneType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TimeChangeType
+     * @var \Intelisys\PhpEws\Type\TimeChangeType
      */
     public $Standard;
 

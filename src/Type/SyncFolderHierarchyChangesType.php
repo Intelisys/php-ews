@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SyncFolderHierarchyChangesType.
+ * Contains \Intelisys\PhpEws\Type\SyncFolderHierarchyChangesType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a sequenced array of change types that represent the type of
@@ -21,7 +21,7 @@ class SyncFolderHierarchyChangesType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SyncFolderHierarchyCreateOrUpdateType
+     * @var \Intelisys\PhpEws\Type\SyncFolderHierarchyCreateOrUpdateType
      */
     public $Create;
 
@@ -30,7 +30,7 @@ class SyncFolderHierarchyChangesType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SyncFolderHierarchyDeleteType
+     * @var \Intelisys\PhpEws\Type\SyncFolderHierarchyDeleteType
      */
     public $Delete;
 
@@ -39,7 +39,7 @@ class SyncFolderHierarchyChangesType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SyncFolderHierarchyCreateOrUpdateType
+     * @var \Intelisys\PhpEws\Type\SyncFolderHierarchyCreateOrUpdateType
      */
     public $Update;
 }

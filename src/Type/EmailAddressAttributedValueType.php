@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\EmailAddressAttributedValueType.
+ * Contains \Intelisys\PhpEws\Type\EmailAddressAttributedValueType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines an instance of an array of email addresses and their associated
@@ -20,7 +20,7 @@ class EmailAddressAttributedValueType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfValueAttributionsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfValueAttributionsType
      */
     public $Attributions;
 
@@ -29,7 +29,7 @@ class EmailAddressAttributedValueType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $Value;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\BodyType.
+ * Contains \Intelisys\PhpEws\Type\BodyType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Specifies the body of an item.
@@ -19,7 +19,7 @@ class BodyType extends StringType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\BodyTypeType
+     * @see \Intelisys\PhpEws\Enumeration\BodyTypeType
      */
     public $BodyType;
 

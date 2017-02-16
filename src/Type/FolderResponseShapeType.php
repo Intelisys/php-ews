@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FolderResponseShapeType.
+ * Contains \Intelisys\PhpEws\Type\FolderResponseShapeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Defines the folder properties to include in a GetFolder, FindFolder, or
@@ -22,7 +22,7 @@ class FolderResponseShapeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType
      */
     public $AdditionalProperties;
 
@@ -33,7 +33,7 @@ class FolderResponseShapeType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DefaultShapeNamesType
+     * @see \Intelisys\PhpEws\Enumeration\DefaultShapeNamesType
      */
     public $BaseShape;
 }

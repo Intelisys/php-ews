@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfMailboxQueriesType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfMailboxQueriesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines a list of mailboxes and associated queries for discovery search.
@@ -19,7 +19,7 @@ class NonEmptyArrayOfMailboxQueriesType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\MailboxQueryType[]
+     * @var \Intelisys\PhpEws\Type\MailboxQueryType[]
      */
     public $MailboxQuery = array();
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\UpdateUserConfigurationType.
+ * Contains \Intelisys\PhpEws\Request\UpdateUserConfigurationType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents a request to update a user configuration object.
@@ -17,7 +17,7 @@ class UpdateUserConfigurationType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\UserConfigurationType
+     * @var \Intelisys\PhpEws\Type\UserConfigurationType
      */
     public $UserConfiguration;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Enumeration\CalendarItemCreateOrDeleteOperationType.
+ * Contains \Intelisys\PhpEws\Enumeration\CalendarItemCreateOrDeleteOperationType.
  */
 
-namespace jamesiarmes\PhpEws\Enumeration;
+namespace Intelisys\PhpEws\Enumeration;
 
-use \jamesiarmes\PhpEws\Enumeration;
+use \Intelisys\PhpEws\Enumeration;
 
 /**
  * Describes how meeting requests are handled after they are created.

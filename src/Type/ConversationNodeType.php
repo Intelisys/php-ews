@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ConversationNodeType.
+ * Contains \Intelisys\PhpEws\Type\ConversationNodeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines a node in a conversation.
@@ -28,7 +28,7 @@ class ConversationNodeType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
      */
     public $Items;
 

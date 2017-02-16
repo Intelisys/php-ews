@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request.
+ * Contains \Intelisys\PhpEws\Request.
  */
 
-namespace jamesiarmes\PhpEws;
+namespace Intelisys\PhpEws;
 
 /**
  * Base class for Exchange Web Service requests.

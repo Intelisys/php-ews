@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Enumeration\CalendarPermissionReadAccessType.
+ * Contains \Intelisys\PhpEws\Enumeration\CalendarPermissionReadAccessType.
  */
 
-namespace jamesiarmes\PhpEws\Enumeration;
+namespace Intelisys\PhpEws\Enumeration;
 
 /**
  * Indicates whether a user has permission to read items within a Calendar

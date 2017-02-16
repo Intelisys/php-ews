@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\FindPeopleResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\FindPeopleResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a FindPeople request.
@@ -35,7 +35,7 @@ class FindPeopleResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfPeopleType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfPeopleType
      */
     public $People;
 

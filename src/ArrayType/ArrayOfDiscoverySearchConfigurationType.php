@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfDiscoverySearchConfigurationType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfDiscoverySearchConfigurationType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines an array of DiscoverySearchConfiguration elements.
@@ -19,7 +19,7 @@ class ArrayOfDiscoverySearchConfigurationType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\DiscoverySearchConfigurationType[]
+     * @var \Intelisys\PhpEws\Type\DiscoverySearchConfigurationType[]
      */
     public $DiscoverySearchConfiguration = array();
 }

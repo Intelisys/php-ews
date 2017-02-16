@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PathToIndexedFieldType.
+ * Contains \Intelisys\PhpEws\Type\PathToIndexedFieldType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Identifies individual members of a dictionary.
@@ -30,7 +30,7 @@ class PathToIndexedFieldType extends BasePathToElementType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DictionaryURIType
+     * @see \Intelisys\PhpEws\Enumeration\DictionaryURIType
      */
     public $FieldURI;
 }

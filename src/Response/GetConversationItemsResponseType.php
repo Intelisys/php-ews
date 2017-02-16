@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetConversationItemsResponseType.
+ * Contains \Intelisys\PhpEws\Response\GetConversationItemsResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a GetConversationItems request.

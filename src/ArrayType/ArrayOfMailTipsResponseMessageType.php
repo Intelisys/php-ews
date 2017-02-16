@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfMailTipsResponseMessageType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfMailTipsResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a list of mail tips response messages.
@@ -19,7 +19,7 @@ class ArrayOfMailTipsResponseMessageType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Response\MailTipsResponseMessageType[]
+     * @var \Intelisys\PhpEws\Response\MailTipsResponseMessageType[]
      */
     public $MailTipsResponseMessageType = array();
 }

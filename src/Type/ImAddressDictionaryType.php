@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ImAddressDictionaryType.
+ * Contains \Intelisys\PhpEws\Type\ImAddressDictionaryType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a collection of instant messaging addresses for a contact.
@@ -19,7 +19,7 @@ class ImAddressDictionaryType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ImAddressDictionaryEntryType
+     * @var \Intelisys\PhpEws\Type\ImAddressDictionaryEntryType
      */
     public $Entry;
 }

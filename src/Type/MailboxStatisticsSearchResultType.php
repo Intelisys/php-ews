@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MailboxStatisticsSearchResultType.
+ * Contains \Intelisys\PhpEws\Type\MailboxStatisticsSearchResultType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the results of a keyword search.
@@ -19,7 +19,7 @@ class MailboxStatisticsSearchResultType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\KeywordStatisticsSearchResultType
+     * @var \Intelisys\PhpEws\Type\KeywordStatisticsSearchResultType
      */
     public $KeywordStatisticsSearchResult;
 
@@ -28,7 +28,7 @@ class MailboxStatisticsSearchResultType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\UserMailboxType
+     * @var \Intelisys\PhpEws\Type\UserMailboxType
      */
     public $UserMailbox;
 }

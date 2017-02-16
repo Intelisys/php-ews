@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FieldURIOrConstantType.
+ * Contains \Intelisys\PhpEws\Type\FieldURIOrConstantType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents either a property or a constant value to be used when comparing
@@ -18,7 +18,7 @@ class FieldURIOrConstantType extends SearchExpressionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ConstantValueType
+     * @var \Intelisys\PhpEws\Type\ConstantValueType
      */
     public $Constant;
 }

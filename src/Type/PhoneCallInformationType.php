@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PhoneCallInformationType.
+ * Contains \Intelisys\PhpEws\Type\PhoneCallInformationType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the state information for a phone call.
@@ -23,7 +23,7 @@ class PhoneCallInformationType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ConnectionFailureCauseType
+     * @see \Intelisys\PhpEws\Enumeration\ConnectionFailureCauseType
      */
     public $ConnectionFailureCause;
 
@@ -36,7 +36,7 @@ class PhoneCallInformationType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\PhoneCallStateType
+     * @see \Intelisys\PhpEws\Enumeration\PhoneCallStateType
      */
     public $PhoneCallState;
 

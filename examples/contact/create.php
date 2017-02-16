@@ -1,26 +1,26 @@
 <?php
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\CreateItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\CreateItemType;
 
-use \jamesiarmes\PhpEws\Enumeration\BodyTypeType;
-use \jamesiarmes\PhpEws\Enumeration\EmailAddressKeyType;
-use \jamesiarmes\PhpEws\Enumeration\FileAsMappingType;
-use \jamesiarmes\PhpEws\Enumeration\MapiPropertyTypeType;
-use \jamesiarmes\PhpEws\Enumeration\PhoneNumberKeyType;
-use \jamesiarmes\PhpEws\Enumeration\PhysicalAddressKeyType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\BodyTypeType;
+use \Intelisys\PhpEws\Enumeration\EmailAddressKeyType;
+use \Intelisys\PhpEws\Enumeration\FileAsMappingType;
+use \Intelisys\PhpEws\Enumeration\MapiPropertyTypeType;
+use \Intelisys\PhpEws\Enumeration\PhoneNumberKeyType;
+use \Intelisys\PhpEws\Enumeration\PhysicalAddressKeyType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
 
-use \jamesiarmes\PhpEws\Type\BodyType;
-use \jamesiarmes\PhpEws\Type\ContactItemType;
-use \jamesiarmes\PhpEws\Type\EmailAddressDictionaryEntryType;
-use \jamesiarmes\PhpEws\Type\EmailAddressDictionaryType;
-use \jamesiarmes\PhpEws\Type\ExtendedPropertyType;
-use \jamesiarmes\PhpEws\Type\PathToExtendedFieldType;
-use \jamesiarmes\PhpEws\Type\PhoneNumberDictionaryEntryType;
-use \jamesiarmes\PhpEws\Type\PhysicalAddressDictionaryEntryType;
-use \jamesiarmes\PhpEws\Type\PhoneNumberDictionaryType;
+use \Intelisys\PhpEws\Type\BodyType;
+use \Intelisys\PhpEws\Type\ContactItemType;
+use \Intelisys\PhpEws\Type\EmailAddressDictionaryEntryType;
+use \Intelisys\PhpEws\Type\EmailAddressDictionaryType;
+use \Intelisys\PhpEws\Type\ExtendedPropertyType;
+use \Intelisys\PhpEws\Type\PathToExtendedFieldType;
+use \Intelisys\PhpEws\Type\PhoneNumberDictionaryEntryType;
+use \Intelisys\PhpEws\Type\PhysicalAddressDictionaryEntryType;
+use \Intelisys\PhpEws\Type\PhoneNumberDictionaryType;
 
 // Set connection information.
 $host = '';

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\SetHoldOnMailboxesType.
+ * Contains \Intelisys\PhpEws\Request\SetHoldOnMailboxesType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to set a mailbox hold policy on mailboxes.
@@ -19,7 +19,7 @@ class SetHoldOnMailboxesType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\HoldActionType
+     * @see \Intelisys\PhpEws\Enumeration\HoldActionType
      */
     public $ActionType;
 
@@ -83,7 +83,7 @@ class SetHoldOnMailboxesType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $Mailboxes;
 

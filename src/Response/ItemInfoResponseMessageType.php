@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\ItemInfoResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\ItemInfoResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single item operation request.
@@ -17,7 +17,7 @@ class ItemInfoResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfRealItemsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfRealItemsType
      */
     public $Items;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\SetImGroupResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\SetImGroupResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a SetImGroup request.

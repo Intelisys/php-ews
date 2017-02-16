@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\OccurrenceItemIdType.
+ * Contains \Intelisys\PhpEws\Type\OccurrenceItemIdType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Identifies a single occurrence of a recurring item.

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\DistinguishedFolderIdType.
+ * Contains \Intelisys\PhpEws\Type\DistinguishedFolderIdType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Identifies folders that can be referenced by name.
@@ -34,7 +34,7 @@ class DistinguishedFolderIdType extends BaseFolderIdType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DistinguishedFolderIdNameType
+     * @see \Intelisys\PhpEws\Enumeration\DistinguishedFolderIdNameType
      */
     public $Id;
 
@@ -45,7 +45,7 @@ class DistinguishedFolderIdType extends BaseFolderIdType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $Mailbox;
 }

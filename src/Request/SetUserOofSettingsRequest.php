@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\SetUserOofSettingsRequest.
+ * Contains \Intelisys\PhpEws\Request\SetUserOofSettingsRequest.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines the arguments used to set a mailbox user's Out of Office (OOF)
@@ -19,7 +19,7 @@ class SetUserOofSettingsRequest extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $Mailbox;
 
@@ -28,7 +28,7 @@ class SetUserOofSettingsRequest extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\UserOofSettings
+     * @var \Intelisys\PhpEws\Type\UserOofSettings
      */
     public $UserOofSettings;
 }

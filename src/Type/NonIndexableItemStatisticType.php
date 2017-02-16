@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\NonIndexableItemStatisticType.
+ * Contains \Intelisys\PhpEws\Type\NonIndexableItemStatisticType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines a single statistic for an item that could not be indexed.

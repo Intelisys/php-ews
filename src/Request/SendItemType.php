@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\SendItemType.
+ * Contains \Intelisys\PhpEws\Request\SendItemType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to send an item in the Exchange store.
@@ -19,7 +19,7 @@ class SendItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
      */
     public $ItemIds;
 
@@ -46,7 +46,7 @@ class SendItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TargetFolderIdType
+     * @var \Intelisys\PhpEws\Type\TargetFolderIdType
      */
     public $SavedItemFolderId;
 }

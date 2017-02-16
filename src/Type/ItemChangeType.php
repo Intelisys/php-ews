@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ItemChangeType.
+ * Contains \Intelisys\PhpEws\Type\ItemChangeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents an item identifier and the updates to apply to the item.
@@ -23,7 +23,7 @@ class ItemChangeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ItemId;
 
@@ -35,7 +35,7 @@ class ItemChangeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\OccurrenceItemIdType
+     * @var \Intelisys\PhpEws\Type\OccurrenceItemIdType
      */
     public $OccurrenceItemId;
 
@@ -48,7 +48,7 @@ class ItemChangeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\RecurringMasterItemIdType
+     * @var \Intelisys\PhpEws\Type\RecurringMasterItemIdType
      */
     public $RecurringMasterItemId;
 
@@ -60,7 +60,7 @@ class ItemChangeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfItemChangeDescriptionsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfItemChangeDescriptionsType
      */
     public $Updates;
 }

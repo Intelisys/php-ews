@@ -5,7 +5,7 @@
  */
 require_once '../../vendor/autoload.php';
 
-use jamesiarmes\PhpEws\Autodiscover;
+use Intelisys\PhpEws\Autodiscover;
 
 // Replace these with the appropriate values.
 $email = '';

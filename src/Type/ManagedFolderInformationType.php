@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ManagedFolderInformationType.
+ * Contains \Intelisys\PhpEws\Type\ManagedFolderInformationType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Compound property for Managed Folder related information for Managed Folders.

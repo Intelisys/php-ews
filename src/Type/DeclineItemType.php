@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\DeclineItemType.
+ * Contains \Intelisys\PhpEws\Type\DeclineItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a Decline reply to a meeting request.

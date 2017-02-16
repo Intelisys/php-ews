@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\AddDelegateType.
+ * Contains \Intelisys\PhpEws\Request\AddDelegateType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to add delegates to a mailbox.
@@ -17,7 +17,7 @@ class AddDelegateType extends BaseDelegateType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfDelegateUserType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfDelegateUserType
      */
     public $DelegateUsers;
 
@@ -29,7 +29,7 @@ class AddDelegateType extends BaseDelegateType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DeliverMeetingRequestsType
+     * @see \Intelisys\PhpEws\Enumeration\DeliverMeetingRequestsType
      */
     public $DeliverMeetingRequests;
 }

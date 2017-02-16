@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\EmptyFolderType.
+ * Contains \Intelisys\PhpEws\Request\EmptyFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to empty a folder in a mailbox in the Exchange store.
@@ -34,7 +34,7 @@ class EmptyFolderType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DisposalType
+     * @see \Intelisys\PhpEws\Enumeration\DisposalType
      */
     public $DeleteType;
 
@@ -43,7 +43,7 @@ class EmptyFolderType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
      */
     public $FolderIds;
 }

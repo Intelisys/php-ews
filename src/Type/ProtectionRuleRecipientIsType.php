@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ProtectionRuleRecipientIsType.
+ * Contains \Intelisys\PhpEws\Type\ProtectionRuleRecipientIsType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Specifies that any recipient of the e-mail message matches any of the

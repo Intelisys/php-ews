@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ProtectionRuleSenderDepartmentsType.
+ * Contains \Intelisys\PhpEws\Type\ProtectionRuleSenderDepartmentsType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Specifies that the department of the sender matches any of the specified

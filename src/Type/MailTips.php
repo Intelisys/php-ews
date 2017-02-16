@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MailTips.
+ * Contains \Intelisys\PhpEws\Type\MailTips.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents values for various types of mail tips.
@@ -84,7 +84,7 @@ class MailTips extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\OutOfOfficeMailTip
+     * @var \Intelisys\PhpEws\Type\OutOfOfficeMailTip
      */
     public $OutOfOffice;
 
@@ -96,7 +96,7 @@ class MailTips extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MailTipTypes
+     * @see \Intelisys\PhpEws\Enumeration\MailTipTypes
      */
     public $PendingMailTips;
 
@@ -105,7 +105,7 @@ class MailTips extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $RecipientAddress;
 

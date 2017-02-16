@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfRuleOperationErrorsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfRuleOperationErrorsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of rule validation errors on each rule field that has an
@@ -20,7 +20,7 @@ class ArrayOfRuleOperationErrorsType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\RuleOperationErrorType[]
+     * @var \Intelisys\PhpEws\Type\RuleOperationErrorType[]
      */
     public $RuleOperationError = array();
 }

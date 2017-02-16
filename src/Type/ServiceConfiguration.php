@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ServiceConfiguration.
+ * Contains \Intelisys\PhpEws\Type\ServiceConfiguration.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * This "base class" is available for ErrorCode / ErrorMessage elements if those

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\SubscribeResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\SubscribeResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single Subscribe Operation request.

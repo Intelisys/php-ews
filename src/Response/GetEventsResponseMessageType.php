@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetEventsResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetEventsResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single GetEvents operation request.
@@ -18,7 +18,7 @@ class GetEventsResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\NotificationType
+     * @var \Intelisys\PhpEws\Type\NotificationType
      */
     public $Notification;
 }

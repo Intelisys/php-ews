@@ -1,6 +1,6 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ClassMap.
+ * Contains \Intelisys\PhpEws\ClassMap.
  *
  * This class is generated using the build-classmap.php script. To make changes
  * to this file should be made there or in the ClassMap.mustache template.
@@ -8,7 +8,7 @@
  * Last updated on: 2016-12-28 00:57:24 UTC
  */
 
-namespace jamesiarmes\PhpEws;
+namespace Intelisys\PhpEws;
 
 /**
  * Mapping of complex types to class implementations.

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MeetingRequestMessageType.
+ * Contains \Intelisys\PhpEws\Type\MeetingRequestMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a meeting cancellation in the Exchange store.
@@ -27,7 +27,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
      */
     public $AdjacentMeetings;
 
@@ -77,7 +77,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\CalendarItemTypeType
+     * @see \Intelisys\PhpEws\Enumeration\CalendarItemTypeType
      */
     public $CalendarItemType;
 
@@ -88,7 +88,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ConferenceType
+     * @see \Intelisys\PhpEws\Enumeration\ConferenceType
      */
     public $ConferenceType;
 
@@ -106,7 +106,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
      */
     public $ConflictingMeetings;
 
@@ -117,7 +117,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfDeletedOccurrencesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfDeletedOccurrencesType
      */
     public $DeletedOccurrences;
 
@@ -148,7 +148,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\TimeZoneDefinitionType
+     * @var \Intelisys\PhpEws\Type\TimeZoneDefinitionType
      */
     public $EndTimeZone;
 
@@ -159,7 +159,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\OccurrenceInfoType
+     * @var \Intelisys\PhpEws\Type\OccurrenceInfoType
      */
     public $FirstOccurrence;
 
@@ -171,7 +171,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\LegacyFreeBusyType
+     * @see \Intelisys\PhpEws\Enumeration\LegacyFreeBusyType
      */
     public $IntendedFreeBusyStatus;
 
@@ -230,7 +230,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\OccurrenceInfoType
+     * @var \Intelisys\PhpEws\Type\OccurrenceInfoType
      */
     public $LastOccurrence;
 
@@ -241,7 +241,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\LegacyFreeBusyType
+     * @see \Intelisys\PhpEws\Enumeration\LegacyFreeBusyType
      */
     public $LegacyFreeBusyStatus;
 
@@ -261,7 +261,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MeetingRequestTypeType
+     * @see \Intelisys\PhpEws\Enumeration\MeetingRequestTypeType
      */
     public $MeetingRequestType;
 
@@ -279,7 +279,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TimeZoneType
+     * @var \Intelisys\PhpEws\Type\TimeZoneType
      */
     public $MeetingTimeZone;
 
@@ -301,7 +301,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfOccurrenceInfoType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfOccurrenceInfoType
      */
     public $ModifiedOccurrences;
 
@@ -312,7 +312,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ResponseTypeType
+     * @see \Intelisys\PhpEws\Enumeration\ResponseTypeType
      */
     public $MyResponseType;
 
@@ -330,7 +330,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
      */
     public $OptionalAttendees;
 
@@ -339,7 +339,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SingleRecipientType
+     * @var \Intelisys\PhpEws\Type\SingleRecipientType
      */
     public $Organizer;
 
@@ -359,7 +359,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\RecurrenceType
+     * @var \Intelisys\PhpEws\Type\RecurrenceType
      */
     public $Recurrence;
 
@@ -368,7 +368,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
      */
     public $RequiredAttendees;
 
@@ -377,7 +377,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType
      */
     public $Resources;
 
@@ -399,7 +399,7 @@ class MeetingRequestMessageType extends MeetingMessageType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\TimeZoneDefinitionType
+     * @var \Intelisys\PhpEws\Type\TimeZoneDefinitionType
      */
     public $StartTimeZone;
 

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetAppMarketplaceUrlResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetAppMarketplaceUrlResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a GetAppMarketplaceUrl request.

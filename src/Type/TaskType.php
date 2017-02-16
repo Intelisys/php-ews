@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\TaskType.
+ * Contains \Intelisys\PhpEws\Type\TaskType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a task in the Exchange store.
@@ -56,7 +56,7 @@ class TaskType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $Companies;
 
@@ -76,7 +76,7 @@ class TaskType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $Contacts;
 
@@ -89,7 +89,7 @@ class TaskType extends ItemType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\TaskDelegateStateType
+     * @see \Intelisys\PhpEws\Enumeration\TaskDelegateStateType
      */
     public $DelegationState;
 
@@ -195,7 +195,7 @@ class TaskType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\RecurrenceType
+     * @var \Intelisys\PhpEws\Type\RecurrenceType
      */
     public $Recurrence;
 
@@ -217,7 +217,7 @@ class TaskType extends ItemType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\TaskStatusType
+     * @see \Intelisys\PhpEws\Enumeration\TaskStatusType
      */
     public $Status;
 

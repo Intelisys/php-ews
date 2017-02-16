@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\WeeklyRegeneratingPatternType.
+ * Contains \Intelisys\PhpEws\Type\WeeklyRegeneratingPatternType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes the frequency, in weeks, in which a task is regenerated.

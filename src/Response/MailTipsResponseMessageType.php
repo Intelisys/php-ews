@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\MailTipsResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\MailTipsResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents mail tips settings.
@@ -17,7 +17,7 @@ class MailTipsResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\MailTips
+     * @var \Intelisys\PhpEws\Type\MailTips
      */
     public $MailTips;
 }

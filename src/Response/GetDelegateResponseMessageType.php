@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetDelegateResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetDelegateResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a GetDelegate operation request.
@@ -20,7 +20,7 @@ class GetDelegateResponseMessageType extends BaseDelegateResponseMessageType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DeliverMeetingRequestsType
+     * @see \Intelisys\PhpEws\Enumeration\DeliverMeetingRequestsType
      */
     public $DeliverMeetingRequests;
 }

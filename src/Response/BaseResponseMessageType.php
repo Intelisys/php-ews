@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\BaseResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\BaseResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
-use \jamesiarmes\PhpEws\Response;
+use \Intelisys\PhpEws\Response;
 
 /**
  * Base class for responses.
@@ -19,7 +19,7 @@ class BaseResponseMessageType extends Response
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfResponseMessagesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfResponseMessagesType
      */
     public $ResponseMessages;
 }

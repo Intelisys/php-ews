@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\CalendarEvent.
+ * Contains \Intelisys\PhpEws\Type\CalendarEvent.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a unique calendar item occurrence.
@@ -49,7 +49,7 @@ class CalendarEvent extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\LegacyFreeBusyType
+     * @see \Intelisys\PhpEws\Enumeration\LegacyFreeBusyType
      */
     public $BusyType;
 
@@ -60,7 +60,7 @@ class CalendarEvent extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\CalendarEventDetails
+     * @var \Intelisys\PhpEws\Type\CalendarEventDetails
      */
     public $CalendarEventDetails;
 }

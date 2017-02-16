@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\FindMessageTrackingReportResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\FindMessageTrackingReportResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single FindMessageTrackingReport
@@ -19,7 +19,7 @@ class FindMessageTrackingReportResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $Diagnostics;
 
@@ -29,7 +29,7 @@ class FindMessageTrackingReportResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfArraysOfTrackingPropertiesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfArraysOfTrackingPropertiesType
      */
     public $Errors;
 
@@ -47,7 +47,7 @@ class FindMessageTrackingReportResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfFindMessageTrackingSearchResultType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfFindMessageTrackingSearchResultType
      */
     public $MessageTrackingSearchResults;
 
@@ -56,7 +56,7 @@ class FindMessageTrackingReportResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfTrackingPropertiesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfTrackingPropertiesType
      */
     public $Properties;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\EnumerationConnectionFailureCauseType.
+ * Contains \Intelisys\PhpEws\EnumerationConnectionFailureCauseType.
  */
 
-namespace jamesiarmes\PhpEws\Enumeration;
+namespace Intelisys\PhpEws\Enumeration;
 
-use \jamesiarmes\PhpEws\Enumeration;
+use \Intelisys\PhpEws\Enumeration;
 
 /**
  * Specifies the reason for a disconnection from a telephone call.

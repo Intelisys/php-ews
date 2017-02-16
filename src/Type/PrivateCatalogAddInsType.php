@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PrivateCatalogAddInsType.
+ * Contains \Intelisys\PhpEws\Type\PrivateCatalogAddInsType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Undocumented.
@@ -34,7 +34,7 @@ class PrivateCatalogAddInsType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\AddInStateType
+     * @see \Intelisys\PhpEws\Enumeration\AddInStateType
      *
      * @todo Update once documentation exists.
      */

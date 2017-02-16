@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfFreeBusyResponse.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfFreeBusyResponse.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents the requested users' availability information and the response
@@ -21,7 +21,7 @@ class ArrayOfFreeBusyResponse extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FreeBusyResponseType[]
+     * @var \Intelisys\PhpEws\Type\FreeBusyResponseType[]
      */
     public $FreeBusyResponse = array();
 }

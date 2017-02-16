@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetServerTimeZonesResponseType.
+ * Contains \Intelisys\PhpEws\Response\GetServerTimeZonesResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a GetServerTimeZones operation request.

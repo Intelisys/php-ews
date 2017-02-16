@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AcceptSharingInvitationType.
+ * Contains \Intelisys\PhpEws\Type\AcceptSharingInvitationType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Used to accept an invitation that allows access to another user’s calendar or

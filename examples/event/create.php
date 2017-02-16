@@ -1,21 +1,21 @@
 <?php
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\CreateItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\CreateItemType;
 
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType;
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAttendeesType;
 
-use \jamesiarmes\PhpEws\Enumeration\BodyTypeType;
-use \jamesiarmes\PhpEws\Enumeration\CalendarItemCreateOrDeleteOperationType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
-use \jamesiarmes\PhpEws\Enumeration\RoutingType;
+use \Intelisys\PhpEws\Enumeration\BodyTypeType;
+use \Intelisys\PhpEws\Enumeration\CalendarItemCreateOrDeleteOperationType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\RoutingType;
 
-use \jamesiarmes\PhpEws\Type\AttendeeType;
-use \jamesiarmes\PhpEws\Type\BodyType;
-use \jamesiarmes\PhpEws\Type\CalendarItemType;
-use \jamesiarmes\PhpEws\Type\EmailAddressType;
+use \Intelisys\PhpEws\Type\AttendeeType;
+use \Intelisys\PhpEws\Type\BodyType;
+use \Intelisys\PhpEws\Type\CalendarItemType;
+use \Intelisys\PhpEws\Type\EmailAddressType;
 
 // Replace this with your desired start/end times and guests.
 $start = new DateTime('tomorrow 4:00pm');

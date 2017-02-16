@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetUserPhotoResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetUserPhotoResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a GetUserPhoto request.

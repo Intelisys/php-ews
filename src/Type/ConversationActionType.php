@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ConversationActionType.
+ * Contains \Intelisys\PhpEws\Type\ConversationActionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a single action to be applied to a single conversation.
@@ -24,7 +24,7 @@ class ConversationActionType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ConversationActionTypeType
+     * @see \Intelisys\PhpEws\Enumeration\ConversationActionTypeType
      */
     public $Action;
 
@@ -34,7 +34,7 @@ class ConversationActionType extends Type
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $Categories;
 
@@ -46,7 +46,7 @@ class ConversationActionType extends Type
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\TargetFolderIdType
+     * @var \Intelisys\PhpEws\Type\TargetFolderIdType
      */
     public $ContextFolderId;
 
@@ -58,7 +58,7 @@ class ConversationActionType extends Type
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ConversationId;
 
@@ -83,7 +83,7 @@ class ConversationActionType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DisposalType
+     * @see \Intelisys\PhpEws\Enumeration\DisposalType
      */
     public $DeleteType;
 
@@ -92,7 +92,7 @@ class ConversationActionType extends Type
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\TargetFolderIdType
+     * @var \Intelisys\PhpEws\Type\TargetFolderIdType
      */
     public $DestinationFolderId;
 

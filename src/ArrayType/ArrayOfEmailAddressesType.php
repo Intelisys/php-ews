@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfEmailAddressesType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfEmailAddressesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Specifies an array of all email addresses of an associated persona.
@@ -19,7 +19,7 @@ class ArrayOfEmailAddressesType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType[]
+     * @var \Intelisys\PhpEws\Type\EmailAddressType[]
      */
     public $Address = array();
 }

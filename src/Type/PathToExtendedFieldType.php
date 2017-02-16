@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PathToExtendedFieldType.
+ * Contains \Intelisys\PhpEws\Type\PathToExtendedFieldType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an extended property.
@@ -32,7 +32,7 @@ class PathToExtendedFieldType extends BasePathToElementType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DistinguishedPropertySetType
+     * @see \Intelisys\PhpEws\Enumeration\DistinguishedPropertySetType
      */
     public $DistinguishedPropertySetId;
 
@@ -128,7 +128,7 @@ class PathToExtendedFieldType extends BasePathToElementType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MapiPropertyTypeType
+     * @see \Intelisys\PhpEws\Enumeration\MapiPropertyTypeType
      */
     public $PropertyType;
 }

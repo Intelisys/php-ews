@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\SearchMailboxesResponseType.
+ * Contains \Intelisys\PhpEws\Response\SearchMailboxesResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a SearchMailboxes request.

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\NoEndRecurrenceRangeType.
+ * Contains \Intelisys\PhpEws\Type\NoEndRecurrenceRangeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes the start date of an item recurrence pattern that does not have a

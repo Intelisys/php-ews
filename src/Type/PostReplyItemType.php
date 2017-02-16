@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PostReplyItemType.
+ * Contains \Intelisys\PhpEws\Type\PostReplyItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a reply to a post item.
@@ -17,7 +17,7 @@ class PostReplyItemType extends PostReplyItemBaseType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\BodyType
+     * @var \Intelisys\PhpEws\Type\BodyType
      */
     public $NewBodyContent;
 }

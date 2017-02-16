@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType.
+ * Contains \Intelisys\PhpEws\ArrayType.
  */
 
-namespace jamesiarmes\PhpEws;
+namespace Intelisys\PhpEws;
 
 /**
  * Base class for Exchange Web Service requests.

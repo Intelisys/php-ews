@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PreviewItemResponseShapeType.
+ * Contains \Intelisys\PhpEws\Type\PreviewItemResponseShapeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines the requested property set to be returned in a discovery search.
@@ -19,7 +19,7 @@ class PreviewItemResponseShapeType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType
      */
     public $AdditionalProperties;
 
@@ -31,7 +31,7 @@ class PreviewItemResponseShapeType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\PreviewItemBaseShapeType
+     * @see \Intelisys\PhpEws\Enumeration\PreviewItemBaseShapeType
      */
     public $BaseShape;
 }

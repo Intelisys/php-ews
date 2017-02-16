@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PostReplyItemBaseType.
+ * Contains \Intelisys\PhpEws\Type\PostReplyItemBaseType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Base class for posting item replies.

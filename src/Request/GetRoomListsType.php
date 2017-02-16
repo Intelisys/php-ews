@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetRoomListsType.
+ * Contains \Intelisys\PhpEws\Request\GetRoomListsType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents a request for a list of email addresses that represent a list of

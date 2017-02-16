@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetDiscoverySearchConfigurationResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetDiscoverySearchConfigurationResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a GetDiscoverySearchConfiguration request.
@@ -17,7 +17,7 @@ class GetDiscoverySearchConfigurationResponseMessageType extends ResponseMessage
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfDiscoverySearchConfigurationType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfDiscoverySearchConfigurationType
      */
     public $DiscoverySearchConfigurations;
 }

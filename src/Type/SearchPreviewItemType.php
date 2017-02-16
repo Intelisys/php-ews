@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SearchPreviewItemType.
+ * Contains \Intelisys\PhpEws\Type\SearchPreviewItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines an item preview for a discovery search.
@@ -20,7 +20,7 @@ class SearchPreviewItemType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfRecipientsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfRecipientsType
      */
     public $BccRecipients;
 
@@ -30,7 +30,7 @@ class SearchPreviewItemType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfRecipientsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfRecipientsType
      */
     public $CcRecipients;
 
@@ -50,7 +50,7 @@ class SearchPreviewItemType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfExtendedPropertyType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfExtendedPropertyType
      */
     public $ExtendedProperties;
 
@@ -68,7 +68,7 @@ class SearchPreviewItemType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $Id;
 
@@ -80,7 +80,7 @@ class SearchPreviewItemType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ImportanceChoicesType
+     * @see \Intelisys\PhpEws\Enumeration\ImportanceChoicesType
      */
     public $Importance;
 
@@ -91,7 +91,7 @@ class SearchPreviewItemType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ItemClassType
+     * @see \Intelisys\PhpEws\Enumeration\ItemClassType
      */
     public $ItemClass;
 
@@ -101,7 +101,7 @@ class SearchPreviewItemType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\PreviewItemMailboxType
+     * @var \Intelisys\PhpEws\Type\PreviewItemMailboxType
      */
     public $Mailbox;
 
@@ -119,7 +119,7 @@ class SearchPreviewItemType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ParentId;
 
@@ -206,7 +206,7 @@ class SearchPreviewItemType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfSmtpAddressType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfSmtpAddressType
      */
     public $ToRecipients;
 

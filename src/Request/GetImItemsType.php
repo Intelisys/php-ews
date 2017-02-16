@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetImItemsType.
+ * Contains \Intelisys\PhpEws\Request\GetImItemsType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get information about the specified instant messaging
@@ -18,7 +18,7 @@ class GetImItemsType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
      */
     public $ContactIds;
 
@@ -27,7 +27,7 @@ class GetImItemsType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
      */
     public $GroupIds;
 
@@ -37,7 +37,7 @@ class GetImItemsType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfExtendedFieldURIs
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfExtendedFieldURIs
      */
     public $ExtendedProperties;
 }

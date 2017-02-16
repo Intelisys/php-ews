@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\CreateAttachmentType.
+ * Contains \Intelisys\PhpEws\Request\CreateAttachmentType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to create an attachment to an item in the Exchange store.
@@ -17,7 +17,7 @@ class CreateAttachmentType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfAttachmentsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -46,7 +46,7 @@ class CreateAttachmentType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ParentItemId;
 }

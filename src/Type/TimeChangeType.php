@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\TimeChangeType.
+ * Contains \Intelisys\PhpEws\Type\TimeChangeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the date and time when a time change occurs.
@@ -44,7 +44,7 @@ class TimeChangeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\RelativeYearlyRecurrencePatternType
+     * @var \Intelisys\PhpEws\Type\RelativeYearlyRecurrencePatternType
      */
     public $RelativeYearlyRecurrence;
 

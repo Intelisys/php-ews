@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfProtectionRulesType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfProtectionRulesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of protection rules.
@@ -23,7 +23,7 @@ class ArrayOfProtectionRulesType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\ProtectionRuleType[]
+     * @var \Intelisys\PhpEws\Type\ProtectionRuleType[]
      */
     public $Rule = array();
 }

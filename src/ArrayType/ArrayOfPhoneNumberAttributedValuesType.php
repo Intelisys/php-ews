@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfPhoneNumberAttributedValuesType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfPhoneNumberAttributedValuesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of phone numbers and the identifiers of their source
@@ -21,7 +21,7 @@ class ArrayOfPhoneNumberAttributedValuesType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\PhoneNumberAttributedValueType[]
+     * @var \Intelisys\PhpEws\Type\PhoneNumberAttributedValueType[]
      */
     public $PhoneNumberAttributedValue = array();
 }

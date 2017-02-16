@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\TasksFolderType.
+ * Contains \Intelisys\PhpEws\Type\TasksFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a Tasks folder that is contained in a mailbox.

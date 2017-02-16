@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\RemoveContactFromImListType.
+ * Contains \Intelisys\PhpEws\Request\RemoveContactFromImListType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to remove an instant messaging contact from all instant
@@ -18,7 +18,7 @@ class RemoveContactFromImListType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ContactId;
 }

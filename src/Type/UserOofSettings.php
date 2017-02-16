@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\UserOofSettings.
+ * Contains \Intelisys\PhpEws\Type\UserOofSettings.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Defines the Out of Office (OOF) settings.
@@ -23,7 +23,7 @@ class UserOofSettings extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\Duration
+     * @var \Intelisys\PhpEws\Type\Duration
      */
     public $Duration;
 
@@ -34,7 +34,7 @@ class UserOofSettings extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ExternalAudience
+     * @see \Intelisys\PhpEws\Enumeration\ExternalAudience
      */
     public $ExternalAudience;
 
@@ -44,7 +44,7 @@ class UserOofSettings extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ReplyBody
+     * @var \Intelisys\PhpEws\Type\ReplyBody
      */
     public $ExternalReply;
 
@@ -54,7 +54,7 @@ class UserOofSettings extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ReplyBody
+     * @var \Intelisys\PhpEws\Type\ReplyBody
      */
     public $InternalReply;
 
@@ -65,7 +65,7 @@ class UserOofSettings extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\OofState
+     * @see \Intelisys\PhpEws\Enumeration\OofState
      */
     public $OofState;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FolderChangeDescriptionType.
+ * Contains \Intelisys\PhpEws\Type\FolderChangeDescriptionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Base class for changes to individual folder properties.

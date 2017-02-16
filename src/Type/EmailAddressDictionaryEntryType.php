@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\EmailAddressDictionaryEntryType.
+ * Contains \Intelisys\PhpEws\Type\EmailAddressDictionaryEntryType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a single e-mail address for a contact.
@@ -33,7 +33,7 @@ class EmailAddressDictionaryEntryType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\EmailAddressKeyType
+     * @see \Intelisys\PhpEws\Enumeration\EmailAddressKeyType
      */
     public $Key;
 
@@ -46,7 +46,7 @@ class EmailAddressDictionaryEntryType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MailboxTypeType
+     * @see \Intelisys\PhpEws\Enumeration\MailboxTypeType
      */
     public $MailboxType;
 
@@ -70,7 +70,7 @@ class EmailAddressDictionaryEntryType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\RoutingType
+     * @see \Intelisys\PhpEws\Enumeration\RoutingType
      */
     public $RoutingType;
 }

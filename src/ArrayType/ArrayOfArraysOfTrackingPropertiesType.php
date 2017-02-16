@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfArraysOfTrackingPropertiesType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfArraysOfTrackingPropertiesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a property bag to store errors that are returned through the Web
@@ -20,7 +20,7 @@ class ArrayOfArraysOfTrackingPropertiesType extends ArrayType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfTrackingPropertiesType[]
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfTrackingPropertiesType[]
      */
     public $Properties = array();
 }

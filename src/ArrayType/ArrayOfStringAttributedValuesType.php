@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfStringAttributedValuesType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfStringAttributedValuesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of names and the identifiers of their source attributions
@@ -21,7 +21,7 @@ class ArrayOfStringAttributedValuesType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\StringAttributedValueType[]
+     * @var \Intelisys\PhpEws\Type\StringAttributedValueType[]
      */
     public $StringAttributedValue = array();
 }

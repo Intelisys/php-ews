@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfInternetHeadersType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfInternetHeadersType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a collection of some of the Internet message headers that are
@@ -21,7 +21,7 @@ class NonEmptyArrayOfInternetHeadersType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\InternetHeaderType[]
+     * @var \Intelisys\PhpEws\Type\InternetHeaderType[]
      */
     public $InternetMessageHeader = array();
 }

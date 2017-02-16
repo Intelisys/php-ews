@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfItemIdsType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfItemIdsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of item ids.
@@ -20,7 +20,7 @@ class NonEmptyArrayOfItemIdsType extends ArrayType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType[]
+     * @var \Intelisys\PhpEws\Type\ItemIdType[]
      */
     public $ItemId = array();
 }

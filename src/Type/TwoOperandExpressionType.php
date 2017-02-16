@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\TwoOperandExpressionType.
+ * Contains \Intelisys\PhpEws\Type\TwoOperandExpressionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Base class for search expressions with two operands.
@@ -18,7 +18,7 @@ abstract class TwoOperandExpressionType extends SearchExpressionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FieldURIOrConstantType
+     * @var \Intelisys\PhpEws\Type\FieldURIOrConstantType
      */
     public $FieldURIOrConstant;
 }

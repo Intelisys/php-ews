@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\MarkAsJunkResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\MarkAsJunkResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response message for a MarkAsJunk request.
@@ -17,7 +17,7 @@ class MarkAsJunkResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $MovedItemId;
 }

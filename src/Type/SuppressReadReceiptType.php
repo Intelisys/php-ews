@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SuppressReadReceiptType.
+ * Contains \Intelisys\PhpEws\Type\SuppressReadReceiptType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Used to suppress read receipts.

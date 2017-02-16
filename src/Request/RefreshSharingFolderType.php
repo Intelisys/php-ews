@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\RefreshSharingFolderType.
+ * Contains \Intelisys\PhpEws\Request\RefreshSharingFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to refresh the specified local folder.
@@ -17,7 +17,7 @@ class RefreshSharingFolderType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderIdType
+     * @var \Intelisys\PhpEws\Type\FolderIdType
      */
     public $SharingFolderId;
 }

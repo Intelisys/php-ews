@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfSuggestion.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfSuggestion.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of meeting suggestions.
@@ -19,7 +19,7 @@ class ArrayOfSuggestion extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\Suggestion[]
+     * @var \Intelisys\PhpEws\Type\Suggestion[]
      */
     public $Suggestion = array();
 }

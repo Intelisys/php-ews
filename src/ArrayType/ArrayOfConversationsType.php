@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfConversationsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfConversationsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of conversations.
@@ -19,7 +19,7 @@ class ArrayOfConversationsType extends ArrayType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\ConversationType[]
+     * @var \Intelisys\PhpEws\Type\ConversationType[]
      */
     public $Conversation = array();
 }

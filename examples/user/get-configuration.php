@@ -4,15 +4,15 @@
  */
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\GetUserConfigurationType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\GetUserConfigurationType;
 
-use \jamesiarmes\PhpEws\Enumeration\DistinguishedFolderIdNameType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
-use \jamesiarmes\PhpEws\Enumeration\UserConfigurationPropertyType;
+use \Intelisys\PhpEws\Enumeration\DistinguishedFolderIdNameType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\UserConfigurationPropertyType;
 
-use \jamesiarmes\PhpEws\Type\DistinguishedFolderIdType;
-use \jamesiarmes\PhpEws\Type\UserConfigurationNameType;
+use \Intelisys\PhpEws\Type\DistinguishedFolderIdType;
+use \Intelisys\PhpEws\Type\UserConfigurationNameType;
 
 // Set connection information.
 $host = '';

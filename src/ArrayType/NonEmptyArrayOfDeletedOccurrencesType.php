@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfDeletedOccurrencesType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfDeletedOccurrencesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of deleted occurrences of a recurring calendar item.
@@ -19,7 +19,7 @@ class NonEmptyArrayOfDeletedOccurrencesType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\DeletedOccurrenceInfoType[]
+     * @var \Intelisys\PhpEws\Type\DeletedOccurrenceInfoType[]
      */
     public $DeletedOccurrence = array();
 }

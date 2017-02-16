@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\AddImContactToGroupResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\AddImContactToGroupResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to an AddImContactToGroup request.

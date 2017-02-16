@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\TimeZoneContextType.
+ * Contains \Intelisys\PhpEws\Type\TimeZoneContextType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Defines the time zone definition that is to be used as the default when
@@ -21,7 +21,7 @@ class TimeZoneContextType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\TimeZoneDefinitionType
+     * @var \Intelisys\PhpEws\Type\TimeZoneDefinitionType
      */
     public $TimeZoneDefinition;
 }

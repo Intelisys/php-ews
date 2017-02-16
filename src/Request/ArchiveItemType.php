@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\ArchiveItemType.
+ * Contains \Intelisys\PhpEws\Request\ArchiveItemType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines the source folder Id and an array of item Ids for the associated
@@ -18,7 +18,7 @@ class ArchiveItemType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\TargetFolderIdType
+     * @var \Intelisys\PhpEws\Type\TargetFolderIdType
      */
     public $ArchiveSourceFolderId;
 
@@ -27,7 +27,7 @@ class ArchiveItemType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
      */
     public $ItemIds;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfRoomsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfRoomsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents one or more meeting rooms.
@@ -20,7 +20,7 @@ class ArrayOfRoomsType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\RoomType[]
+     * @var \Intelisys\PhpEws\Type\RoomType[]
      */
     public $Room = array();
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\GroupAttendeeConflictData.
+ * Contains \Intelisys\PhpEws\Type\GroupAttendeeConflictData.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents aggregate conflict information about the number of users who are

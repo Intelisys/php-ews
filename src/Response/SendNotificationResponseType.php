@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\SendNotificationResponseType.
+ * Contains \Intelisys\PhpEws\Response\SendNotificationResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the push notifications that are sent by the computer that is

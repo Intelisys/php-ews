@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\RemoveDistributionGroupFromImListType.
+ * Contains \Intelisys\PhpEws\Request\RemoveDistributionGroupFromImListType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents a request to remove a specific instant messaging distribution list
@@ -18,7 +18,7 @@ class RemoveDistributionGroupFromImListType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $GroupId;
 }

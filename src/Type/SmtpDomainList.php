@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SmtpDomainList.
+ * Contains \Intelisys\PhpEws\Type\SmtpDomainList.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Identifies a list of internal SMTP domains of the organization.
@@ -19,7 +19,7 @@ class SmtpDomainList extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\SmtpDomain
+     * @var \Intelisys\PhpEws\Type\SmtpDomain
      */
     public $Domain;
 }

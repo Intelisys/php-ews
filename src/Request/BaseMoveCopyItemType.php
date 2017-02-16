@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\BaseMoveCopyItemType.
+ * Contains \Intelisys\PhpEws\Request\BaseMoveCopyItemType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Base class for item copy and move operations.
@@ -18,7 +18,7 @@ class BaseMoveCopyItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
      */
     public $ItemIds;
 
@@ -37,7 +37,7 @@ class BaseMoveCopyItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TargetFolderIdType
+     * @var \Intelisys\PhpEws\Type\TargetFolderIdType
      */
     public $ToFolderId;
 }

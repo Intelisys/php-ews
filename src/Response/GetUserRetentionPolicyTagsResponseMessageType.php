@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetUserRetentionPolicyTagsResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetUserRetentionPolicyTagsResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a GetRetentionPolicyTags request.
@@ -17,7 +17,7 @@ class GetUserRetentionPolicyTagsResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfRetentionPolicyTagsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfRetentionPolicyTagsType
      */
     public $RetentionPolicyTags;
 }

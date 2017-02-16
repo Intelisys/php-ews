@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FailedSearchMailboxType.
+ * Contains \Intelisys\PhpEws\Type\FailedSearchMailboxType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Specifies the error message for a mailbox that failed on search.

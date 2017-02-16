@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAttachmentsType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAttachmentsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
 /**
  * Contains the items or files that are attached to an item in the Exchange

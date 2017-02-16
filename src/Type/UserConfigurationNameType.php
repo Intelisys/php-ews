@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\UserConfigurationNameType.
+ * Contains \Intelisys\PhpEws\Type\UserConfigurationNameType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents the name of a user configuration object. The user configuration

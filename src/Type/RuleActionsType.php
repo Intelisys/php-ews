@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RuleActionsType.
+ * Contains \Intelisys\PhpEws\Type\RuleActionsType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the set of actions that are available to be taken on a message
@@ -20,7 +20,7 @@ class RuleActionsType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $AssignCategories;
 
@@ -29,7 +29,7 @@ class RuleActionsType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\TargetFolderIdType
+     * @var \Intelisys\PhpEws\Type\TargetFolderIdType
      */
     public $CopyToFolder;
 
@@ -48,7 +48,7 @@ class RuleActionsType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfEmailAddressesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfEmailAddressesType
      */
     public $ForwardAsAttachmentToRecipients;
 
@@ -57,7 +57,7 @@ class RuleActionsType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfEmailAddressesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfEmailAddressesType
      */
     public $ForwardToRecipients;
 
@@ -68,7 +68,7 @@ class RuleActionsType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ImportanceChoicesType
+     * @see \Intelisys\PhpEws\Enumeration\ImportanceChoicesType
      */
     public $MarkImportance;
 
@@ -86,7 +86,7 @@ class RuleActionsType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\TargetFolderIdType
+     * @var \Intelisys\PhpEws\Type\TargetFolderIdType
      */
     public $MoveToFolder;
 
@@ -105,7 +105,7 @@ class RuleActionsType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfEmailAddressesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfEmailAddressesType
      */
     public $RedirectToRecipients;
 
@@ -115,7 +115,7 @@ class RuleActionsType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfEmailAddressesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfEmailAddressesType
      */
     public $SendSMSAlertToRecipients;
 
@@ -125,7 +125,7 @@ class RuleActionsType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ServerReplyWithMessage;
 

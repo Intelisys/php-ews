@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\UpdateDelegateType.
+ * Contains \Intelisys\PhpEws\Request\UpdateDelegateType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to update delegates in a mailbox.
@@ -18,7 +18,7 @@ class UpdateDelegateType extends BaseDelegateType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfDelegateUserType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfDelegateUserType
      */
     public $DelegateUsers;
 
@@ -30,7 +30,7 @@ class UpdateDelegateType extends BaseDelegateType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DeliverMeetingRequestsType
+     * @see \Intelisys\PhpEws\Enumeration\DeliverMeetingRequestsType
      */
     public $DeliverMeetingRequests;
 }

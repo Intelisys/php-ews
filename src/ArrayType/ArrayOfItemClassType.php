@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfItemClassType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfItemClassType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a list of item classes.
@@ -21,7 +21,7 @@ class ArrayOfItemClassType extends ArrayType
      *
      * @var string[]
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ItemClassType[]
+     * @see \Intelisys\PhpEws\Enumeration\ItemClassType[]
      */
     public $ItemClass = array();
 }

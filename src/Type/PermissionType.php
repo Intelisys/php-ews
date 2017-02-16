@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PermissionType.
+ * Contains \Intelisys\PhpEws\Type\PermissionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Defines the access that a user has to a folder.
@@ -19,7 +19,7 @@ class PermissionType extends BasePermissionType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\PermissionLevelType
+     * @see \Intelisys\PhpEws\Enumeration\PermissionLevelType
      */
     public $PermissionLevel;
 
@@ -30,7 +30,7 @@ class PermissionType extends BasePermissionType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\PermissionReadAccessType
+     * @see \Intelisys\PhpEws\Enumeration\PermissionReadAccessType
      */
     public $ReadItems;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\ApplyConversationActionResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\ApplyConversationActionResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and results of an ApplyConversationAction operation

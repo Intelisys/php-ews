@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfRequestAttachmentIdsType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfRequestAttachmentIdsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of attachment identifiers.
@@ -19,7 +19,7 @@ class NonEmptyArrayOfRequestAttachmentIdsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\RequestAttachmentIdType[]
+     * @var \Intelisys\PhpEws\Type\RequestAttachmentIdType[]
      */
     public $AttachmentId = array();
 }

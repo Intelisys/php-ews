@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RecurringDayTransitionType.
+ * Contains \Intelisys\PhpEws\Type\RecurringDayTransitionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a time zone transition that occurs on the same day each year.
@@ -19,7 +19,7 @@ class RecurringDayTransitionType extends RecurringTimeTransitionType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DayOfWeekType
+     * @see \Intelisys\PhpEws\Enumeration\DayOfWeekType
      */
     public $DayOfWeek;
 
@@ -31,7 +31,7 @@ class RecurringDayTransitionType extends RecurringTimeTransitionType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\Occurrence
+     * @see \Intelisys\PhpEws\Enumeration\Occurrence
      */
     public $Occurrence;
 }

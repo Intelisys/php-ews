@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\DeleteFolderFieldType.
+ * Contains \Intelisys\PhpEws\Type\DeleteFolderFieldType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an operation to delete a given property from a folder during an

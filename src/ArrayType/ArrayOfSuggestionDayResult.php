@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfSuggestionDayResult.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfSuggestionDayResult.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of meeting suggestions organized by date.
@@ -19,7 +19,7 @@ class ArrayOfSuggestionDayResult extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SuggestionDayResult[]
+     * @var \Intelisys\PhpEws\Type\SuggestionDayResult[]
      */
     public $SuggestionDayResult = array();
 }

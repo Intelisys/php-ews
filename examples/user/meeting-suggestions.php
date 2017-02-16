@@ -10,18 +10,18 @@
  */
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\GetUserAvailabilityRequestType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\GetUserAvailabilityRequestType;
 
-use \jamesiarmes\PhpEws\ArrayType\ArrayOfMailboxData;
+use \Intelisys\PhpEws\ArrayType\ArrayOfMailboxData;
 
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
-use \jamesiarmes\PhpEws\Enumeration\SuggestionQuality;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\SuggestionQuality;
 
-use \jamesiarmes\PhpEws\Type\Duration;
-use \jamesiarmes\PhpEws\Type\EmailAddressType;
-use \jamesiarmes\PhpEws\Type\MailboxData;
-use \jamesiarmes\PhpEws\Type\SuggestionsViewOptionsType;
+use \Intelisys\PhpEws\Type\Duration;
+use \Intelisys\PhpEws\Type\EmailAddressType;
+use \Intelisys\PhpEws\Type\MailboxData;
+use \Intelisys\PhpEws\Type\SuggestionsViewOptionsType;
 
 // Replace with the email of the user, the date range you wish to get
 // suggestions for, and the length of the meeting to get suggestions for.

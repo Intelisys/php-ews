@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\UpdateItemType.
+ * Contains \Intelisys\PhpEws\Request\UpdateItemType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to update an item in a mailbox.
@@ -21,7 +21,7 @@ class UpdateItemType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ConflictResolutionType
+     * @see \Intelisys\PhpEws\Enumeration\ConflictResolutionType
      */
     public $ConflictResolution;
 
@@ -31,7 +31,7 @@ class UpdateItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfItemChangesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfItemChangesType
      */
     public $ItemChanges;
 
@@ -46,7 +46,7 @@ class UpdateItemType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MessageDispositionType
+     * @see \Intelisys\PhpEws\Enumeration\MessageDispositionType
      */
     public $MessageDisposition;
 
@@ -56,7 +56,7 @@ class UpdateItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TargetFolderIdType
+     * @var \Intelisys\PhpEws\Type\TargetFolderIdType
      */
     public $SavedItemFolderId;
 
@@ -71,7 +71,7 @@ class UpdateItemType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\CalendarItemUpdateOperationType
+     * @see \Intelisys\PhpEws\Enumeration\CalendarItemUpdateOperationType
      */
     public $SendMeetingInvitationsOrCancellations;
 

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\YearlyRegeneratingPatternType.
+ * Contains \Intelisys\PhpEws\Type\YearlyRegeneratingPatternType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes the frequency, in years, in which a task is regenerated.

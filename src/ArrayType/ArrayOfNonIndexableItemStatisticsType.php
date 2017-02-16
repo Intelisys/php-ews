@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfNonIndexableItemStatisticsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfNonIndexableItemStatisticsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines an array of statistics for items that could not be indexed.
@@ -19,7 +19,7 @@ class ArrayOfNonIndexableItemStatisticsType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\NonIndexableItemStatisticType[]
+     * @var \Intelisys\PhpEws\Type\NonIndexableItemStatisticType[]
      */
     public $NonIndexableItemStatistic = array();
 }

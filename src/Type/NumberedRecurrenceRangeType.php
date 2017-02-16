@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\NumberedRecurrenceRangeType.
+ * Contains \Intelisys\PhpEws\Type\NumberedRecurrenceRangeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes the start date and the number of occurrences of a recurring item.

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\FindFolderResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\FindFolderResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single FindFolder operation request.
@@ -18,7 +18,7 @@ class FindFolderResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FindFolderParentType
+     * @var \Intelisys\PhpEws\Type\FindFolderParentType
      */
     public $RootFolder;
 }

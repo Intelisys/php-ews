@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RequestServerVersion.
+ * Contains \Intelisys\PhpEws\Type\RequestServerVersion.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Defines the Microsoft Exchange Server version of a request.
@@ -21,7 +21,7 @@ class RequestServerVersion extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ExchangeVersionType
+     * @see \Intelisys\PhpEws\Enumeration\ExchangeVersionType
      */
     public $Version;
 }

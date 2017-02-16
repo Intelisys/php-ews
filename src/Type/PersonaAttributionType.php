@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PersonaAttributionType.
+ * Contains \Intelisys\PhpEws\Type\PersonaAttributionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines an instance in an array of attributes for a Persona.
@@ -29,7 +29,7 @@ class PersonaAttributionType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderIdType
+     * @var \Intelisys\PhpEws\Type\FolderIdType
      */
     public $FolderId;
 
@@ -79,7 +79,7 @@ class PersonaAttributionType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $SourceId;
 }

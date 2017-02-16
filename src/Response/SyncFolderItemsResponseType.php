@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\SyncFolderItemsResponseType.
+ * Contains \Intelisys\PhpEws\Response\SyncFolderItemsResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a SyncFolderItems request.

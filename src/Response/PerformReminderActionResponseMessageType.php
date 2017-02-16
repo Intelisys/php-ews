@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\PerformReminderActionResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\PerformReminderActionResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a PerformReminderAction request.
@@ -17,7 +17,7 @@ class PerformReminderActionResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfItemIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfItemIdsType
      */
     public $UpdatedItemIds;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfDelegateUserResponseMessageType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfDelegateUserResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use jamesiarmes\PhpEws\ArrayType;
+use Intelisys\PhpEws\ArrayType;
 
 /**
  * Contains the response messages for an Exchange Web Services delegate
@@ -20,7 +20,7 @@ class ArrayOfDelegateUserResponseMessageType extends ArrayType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Response\DelegateUserResponseMessageType[]
+     * @var \Intelisys\PhpEws\Response\DelegateUserResponseMessageType[]
      */
     public $DelegateUserResponseMessageType = array();
 }

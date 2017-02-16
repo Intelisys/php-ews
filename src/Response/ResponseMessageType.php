@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\ResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\ResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
-use \jamesiarmes\PhpEws\Response;
+use \Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a request.
@@ -52,7 +52,7 @@ class ResponseMessageType extends Response
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ResponseClassType
+     * @see \Intelisys\PhpEws\Enumeration\ResponseClassType
      */
     public $ResponseClass;
 
@@ -64,7 +64,7 @@ class ResponseMessageType extends Response
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ResponseCodeType
+     * @see \Intelisys\PhpEws\Enumeration\ResponseCodeType
      */
     public $ResponseCode;
 }

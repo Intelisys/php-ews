@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\WorkingHours.
+ * Contains \Intelisys\PhpEws\Type\WorkingHours.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the time zone settings and working hours for the requested mailbox
@@ -25,7 +25,7 @@ class WorkingHours extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SerializableTimeZone
+     * @var \Intelisys\PhpEws\Type\SerializableTimeZone
      */
     public $TimeZone;
 
@@ -36,7 +36,7 @@ class WorkingHours extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfWorkingPeriod
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfWorkingPeriod
      */
     public $WorkingPeriodArray;
 }

@@ -8,19 +8,19 @@
  */
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\UpdateUserConfigurationType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\UpdateUserConfigurationType;
 
-use \jamesiarmes\PhpEws\Enumeration\DistinguishedFolderIdNameType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
-use \jamesiarmes\PhpEws\Enumeration\UserConfigurationDictionaryObjectTypesType;
+use \Intelisys\PhpEws\Enumeration\DistinguishedFolderIdNameType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\UserConfigurationDictionaryObjectTypesType;
 
-use \jamesiarmes\PhpEws\Type\DistinguishedFolderIdType;
-use \jamesiarmes\PhpEws\Type\UserConfigurationDictionaryEntryType;
-use \jamesiarmes\PhpEws\Type\UserConfigurationDictionaryObjectType;
-use \jamesiarmes\PhpEws\Type\UserConfigurationDictionaryType;
-use \jamesiarmes\PhpEws\Type\UserConfigurationNameType;
-use \jamesiarmes\PhpEws\Type\UserConfigurationType;
+use \Intelisys\PhpEws\Type\DistinguishedFolderIdType;
+use \Intelisys\PhpEws\Type\UserConfigurationDictionaryEntryType;
+use \Intelisys\PhpEws\Type\UserConfigurationDictionaryObjectType;
+use \Intelisys\PhpEws\Type\UserConfigurationDictionaryType;
+use \Intelisys\PhpEws\Type\UserConfigurationNameType;
+use \Intelisys\PhpEws\Type\UserConfigurationType;
 
 // Update these values with those you would like to set. Although an options
 // type may be boolean, the value should still be a string 'true' or 'false'.

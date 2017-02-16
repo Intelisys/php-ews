@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AttachmentType.
+ * Contains \Intelisys\PhpEws\Type\AttachmentType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Represents an Exchange attachment.
@@ -19,7 +19,7 @@ class AttachmentType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\AttachmentIdType
+     * @var \Intelisys\PhpEws\Type\AttachmentIdType
      */
     public $AttachmentId;
 

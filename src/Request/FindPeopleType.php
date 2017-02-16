@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\FindPeopleType.
+ * Contains \Intelisys\PhpEws\Request\FindPeopleType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a set of data used in a FindPeople request.
@@ -17,7 +17,7 @@ class FindPeopleType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\RestrictionType
+     * @var \Intelisys\PhpEws\Type\RestrictionType
      */
     public $AggregationRestriction;
 
@@ -26,7 +26,7 @@ class FindPeopleType extends BaseRequestType
      *
      * @since Exchange 2016
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfContextProperty
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfContextProperty
      */
     public $Context;
 
@@ -35,7 +35,7 @@ class FindPeopleType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\IndexedPageViewType
+     * @var \Intelisys\PhpEws\Type\IndexedPageViewType
      */
     public $IndexedPageItemView;
 
@@ -44,7 +44,7 @@ class FindPeopleType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\TargetFolderIdType
+     * @var \Intelisys\PhpEws\Type\TargetFolderIdType
      */
     public $ParentFolderId;
 
@@ -53,7 +53,7 @@ class FindPeopleType extends BaseRequestType
      *
 	 * @since Exchange 2013
 	 *
-	 * @var \jamesiarmes\PhpEws\Type\PersonaResponseShapeType
+	 * @var \Intelisys\PhpEws\Type\PersonaResponseShapeType
 	 */
 	public $PersonaShape;
 
@@ -62,7 +62,7 @@ class FindPeopleType extends BaseRequestType
      *
      * @since Exchange 2016
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfPeopleQuerySource
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfPeopleQuerySource
      */
     public $QuerySources;
 
@@ -71,7 +71,7 @@ class FindPeopleType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\QueryStringType
+     * @var \Intelisys\PhpEws\Type\QueryStringType
      */
     public $QueryString;
 
@@ -80,7 +80,7 @@ class FindPeopleType extends BaseRequestType
 	 *
 	 * @since Exchange 2013
 	 *
-	 * @var \jamesiarmes\PhpEws\Type\RestrictionType
+	 * @var \Intelisys\PhpEws\Type\RestrictionType
 	 */
 	public $Restriction;
 
@@ -98,7 +98,7 @@ class FindPeopleType extends BaseRequestType
 	 *
 	 * @since Exchange 2013
 	 *
-	 * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfFieldOrdersType
+	 * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfFieldOrdersType
 	 */
 	public $SortOrder;
 

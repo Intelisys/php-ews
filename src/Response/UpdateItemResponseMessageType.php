@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\UpdateItemResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\UpdateItemResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single UpdateItem request.
@@ -17,7 +17,7 @@ class UpdateItemResponseMessageType extends ItemInfoResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ConflictResultsType
+     * @var \Intelisys\PhpEws\Type\ConflictResultsType
      */
     public $ConflictResults;
 }

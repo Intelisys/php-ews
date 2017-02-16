@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\DeleteFolderType.
+ * Contains \Intelisys\PhpEws\Request\DeleteFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to delete folders from a mailbox in the Exchange store.
@@ -19,7 +19,7 @@ class DeleteFolderType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DisposalType
+     * @see \Intelisys\PhpEws\Enumeration\DisposalType
      */
     public $DeleteType;
 
@@ -29,7 +29,7 @@ class DeleteFolderType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
      */
     public $FolderIds;
 }

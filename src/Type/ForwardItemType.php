@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ForwardItemType.
+ * Contains \Intelisys\PhpEws\Type\ForwardItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an Exchange store item to forward to recipients.

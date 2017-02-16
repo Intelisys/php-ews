@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SuggestionsViewOptionsType.
+ * Contains \Intelisys\PhpEws\Type\SuggestionsViewOptionsType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Defines  the options for obtaining meeting suggestion information.
@@ -32,7 +32,7 @@ class SuggestionsViewOptionsType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\Duration
+     * @var \Intelisys\PhpEws\Type\Duration
      */
     public $DetailedSuggestionsWindow;
 
@@ -94,7 +94,7 @@ class SuggestionsViewOptionsType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SuggestionQuality
+     * @see \Intelisys\PhpEws\Enumeration\SuggestionQuality
      */
     public $MinimumSuggestionQuality;
 }

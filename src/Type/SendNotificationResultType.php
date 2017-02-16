@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SendNotificationResultType.
+ * Contains \Intelisys\PhpEws\Type\SendNotificationResultType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Defines the response of a client application to a push notification.
@@ -21,7 +21,7 @@ class SendNotificationResultType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SubscriptionStatusType
+     * @see \Intelisys\PhpEws\Enumeration\SubscriptionStatusType
      */
     public $SubscriptionStatus;
 }

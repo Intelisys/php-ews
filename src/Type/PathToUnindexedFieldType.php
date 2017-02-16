@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PathToUnindexedFieldType.
+ * Contains \Intelisys\PhpEws\Type\PathToUnindexedFieldType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Identifies frequently referenced properties by URI.
@@ -19,7 +19,7 @@ class PathToUnindexedFieldType extends BasePathToElementType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\UnindexedFieldURIType
+     * @see \Intelisys\PhpEws\Enumeration\UnindexedFieldURIType
      */
     public $FieldURI;
 }

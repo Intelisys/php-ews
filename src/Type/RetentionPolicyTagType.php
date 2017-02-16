@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RetentionPolicyTagType.
+ * Contains \Intelisys\PhpEws\Type\RetentionPolicyTagType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines the retention policy for a mailbox item.
@@ -66,7 +66,7 @@ class RetentionPolicyTagType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\RetentionActionType
+     * @see \Intelisys\PhpEws\Enumeration\RetentionActionType
      */
     public $RetentionAction;
 
@@ -95,7 +95,7 @@ class RetentionPolicyTagType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ElcFolderType
+     * @see \Intelisys\PhpEws\Enumeration\ElcFolderType
      */
     public $Type;
 }

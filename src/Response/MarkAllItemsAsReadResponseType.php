@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\MarkAllItemsAsReadResponseType.
+ * Contains \Intelisys\PhpEws\Response\MarkAllItemsAsReadResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a MarkAllItemsAsRead request.

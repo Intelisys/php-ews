@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\OpenAsAdminOrSystemServiceType.
+ * Contains \Intelisys\PhpEws\Type\OpenAsAdminOrSystemServiceType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * For internal use only. Not used by clients.

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FindItemParentType.
+ * Contains \Intelisys\PhpEws\Type\FindItemParentType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the results of a search of a single root folder during a FindItem
@@ -33,7 +33,7 @@ class FindItemParentType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfGroupedItemsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfGroupedItemsType
      */
     public $Groups;
 
@@ -63,7 +63,7 @@ class FindItemParentType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfRealItemsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfRealItemsType
      */
     public $Items;
 

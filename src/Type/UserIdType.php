@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\UserIdType.
+ * Contains \Intelisys\PhpEws\Type\UserIdType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Identifies a delegate user or a user who has folder access permissions.
@@ -31,7 +31,7 @@ class UserIdType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DistinguishedUserType
+     * @see \Intelisys\PhpEws\Enumeration\DistinguishedUserType
      */
     public $DistinguishedUser;
 

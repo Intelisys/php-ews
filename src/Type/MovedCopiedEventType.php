@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MovedCopiedEventType.
+ * Contains \Intelisys\PhpEws\Type\MovedCopiedEventType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an event in which an item or folder is copied.
@@ -18,7 +18,7 @@ class MovedCopiedEventType extends BaseObjectChangedEventType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderIdType
+     * @var \Intelisys\PhpEws\Type\FolderIdType
      */
     public $OldFolderId;
 
@@ -27,7 +27,7 @@ class MovedCopiedEventType extends BaseObjectChangedEventType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $OldItemId;
 
@@ -37,7 +37,7 @@ class MovedCopiedEventType extends BaseObjectChangedEventType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderIdType
+     * @var \Intelisys\PhpEws\Type\FolderIdType
      */
     public $OldParentFolderId;
 }

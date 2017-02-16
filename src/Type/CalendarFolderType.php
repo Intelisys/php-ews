@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\CalendarFolderType.
+ * Contains \Intelisys\PhpEws\Type\CalendarFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a folder that primarily contains calendar items.
@@ -17,7 +17,7 @@ class CalendarFolderType extends BaseFolderType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\CalendarPermissionSetType
+     * @var \Intelisys\PhpEws\Type\CalendarPermissionSetType
      */
     public $PermissionSet;
 
@@ -29,7 +29,7 @@ class CalendarFolderType extends BaseFolderType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\CalendarPermissionReadAccessType
+     * @see \Intelisys\PhpEws\Enumeration\CalendarPermissionReadAccessType
      */
     public $SharingEffectiveRights;
 }

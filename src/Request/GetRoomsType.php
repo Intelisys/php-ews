@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetRoomsType.
+ * Contains \Intelisys\PhpEws\Request\GetRoomsType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents a request to get a list of rooms within a particular room list.
@@ -17,7 +17,7 @@ class GetRoomsType extends BaseRequestType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $RoomList;
 }

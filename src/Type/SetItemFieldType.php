@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SetItemFieldType.
+ * Contains \Intelisys\PhpEws\Type\SetItemFieldType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an update to a single property of an item in an UpdateItem
@@ -18,7 +18,7 @@ class SetItemFieldType extends ItemChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\CalendarItemType
+     * @var \Intelisys\PhpEws\Type\CalendarItemType
      */
     public $CalendarItem;
 
@@ -27,7 +27,7 @@ class SetItemFieldType extends ItemChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ContactItemType
+     * @var \Intelisys\PhpEws\Type\ContactItemType
      */
     public $Contact;
 
@@ -36,7 +36,7 @@ class SetItemFieldType extends ItemChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\DistributionListType
+     * @var \Intelisys\PhpEws\Type\DistributionListType
      */
     public $DistributionList;
 
@@ -45,7 +45,7 @@ class SetItemFieldType extends ItemChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemType
+     * @var \Intelisys\PhpEws\Type\ItemType
      */
     public $Item;
 
@@ -54,7 +54,7 @@ class SetItemFieldType extends ItemChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingCancellationMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingCancellationMessageType
      */
     public $MeetingCancellation;
 
@@ -63,7 +63,7 @@ class SetItemFieldType extends ItemChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingMessageType
      */
     public $MeetingMessage;
 
@@ -72,7 +72,7 @@ class SetItemFieldType extends ItemChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingRequestMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingRequestMessageType
      */
     public $MeetingRequest;
 
@@ -81,7 +81,7 @@ class SetItemFieldType extends ItemChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingResponseMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingResponseMessageType
      */
     public $MeetingResponse;
 
@@ -90,7 +90,7 @@ class SetItemFieldType extends ItemChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MessageType
+     * @var \Intelisys\PhpEws\Type\MessageType
      */
     public $Message;
 
@@ -99,7 +99,7 @@ class SetItemFieldType extends ItemChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PostItemType
+     * @var \Intelisys\PhpEws\Type\PostItemType
      */
     public $PostItem;
 
@@ -108,7 +108,7 @@ class SetItemFieldType extends ItemChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TaskType
+     * @var \Intelisys\PhpEws\Type\TaskType
      */
     public $Task;
 }

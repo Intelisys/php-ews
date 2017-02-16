@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\CreateAttachmentResponseType.
+ * Contains \Intelisys\PhpEws\Response\CreateAttachmentResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a CreateAttachment request.

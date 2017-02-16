@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\DeletedOccurrenceInfoType.
+ * Contains \Intelisys\PhpEws\Type\DeletedOccurrenceInfoType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a deleted occurrence of a recurring calendar item.

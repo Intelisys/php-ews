@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\BaseGroupByType.
+ * Contains \Intelisys\PhpEws\Type\BaseGroupByType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Base class for item ordering.
@@ -22,7 +22,7 @@ abstract class BaseGroupByType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SortDirectionType
+     * @see \Intelisys\PhpEws\Enumeration\SortDirectionType
      */
     public $Order;
 }

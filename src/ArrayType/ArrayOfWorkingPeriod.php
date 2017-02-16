@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfWorkingPeriod.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfWorkingPeriod.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents working period information for the mailbox user.
@@ -19,7 +19,7 @@ class ArrayOfWorkingPeriod extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\WorkingPeriod[]
+     * @var \Intelisys\PhpEws\Type\WorkingPeriod[]
      */
     public $WorkingPeriod = array();
 }

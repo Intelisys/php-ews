@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\UpdateInboxRulesRequestType.
+ * Contains \Intelisys\PhpEws\Request\UpdateInboxRulesRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to update the Inbox rules in a mailbox in the server store.
@@ -27,7 +27,7 @@ class UpdateInboxRulesRequestType extends BaseRequestType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfRuleOperationsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfRuleOperationsType
      */
     public $Operations;
 

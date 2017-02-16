@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SeekToConditionPageViewType.
+ * Contains \Intelisys\PhpEws\Type\SeekToConditionPageViewType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Defines the condition that is used to identify the end of a search, the
@@ -28,7 +28,7 @@ class SeekToConditionPageViewType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\IndexBasePointType
+     * @see \Intelisys\PhpEws\Enumeration\IndexBasePointType
      */
     public $BasePoint;
 
@@ -47,7 +47,7 @@ class SeekToConditionPageViewType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\RestrictionType
+     * @var \Intelisys\PhpEws\Type\RestrictionType
      */
     public $Condition;
 }

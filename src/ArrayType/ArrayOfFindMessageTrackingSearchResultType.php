@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfFindMessageTrackingSearchResultType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfFindMessageTrackingSearchResultType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a list of records that match the search criteria.
@@ -20,7 +20,7 @@ class ArrayOfFindMessageTrackingSearchResultType extends ArrayType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\FindMessageTrackingSearchResultType[]
+     * @var \Intelisys\PhpEws\Type\FindMessageTrackingSearchResultType[]
      */
     public $MessageTrackingSearchResult = array();
 }

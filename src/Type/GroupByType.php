@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\GroupByType.
+ * Contains \Intelisys\PhpEws\Type\GroupByType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Defines an arbitrary grouping for FindItem queries.
@@ -18,7 +18,7 @@ class GroupByType extends BaseGroupByType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\AggregateOnType
+     * @var \Intelisys\PhpEws\Type\AggregateOnType
      */
     public $AggregateOn;
 
@@ -27,7 +27,7 @@ class GroupByType extends BaseGroupByType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PathToExtendedFieldType
+     * @var \Intelisys\PhpEws\Type\PathToExtendedFieldType
      */
     public $ExtendedFieldURI;
 
@@ -36,7 +36,7 @@ class GroupByType extends BaseGroupByType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PathToUnindexedFieldType
+     * @var \Intelisys\PhpEws\Type\PathToUnindexedFieldType
      */
     public $FieldURI;
 
@@ -45,7 +45,7 @@ class GroupByType extends BaseGroupByType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PathToIndexedFieldType
+     * @var \Intelisys\PhpEws\Type\PathToIndexedFieldType
      */
     public $IndexedFieldURI;
 }

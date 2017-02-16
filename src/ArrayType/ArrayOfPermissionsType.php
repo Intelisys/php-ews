@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfPermissionsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfPermissionsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Contains the collection of permissions for a folder.
@@ -19,7 +19,7 @@ class ArrayOfPermissionsType extends ArrayType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\PermissionType[]
+     * @var \Intelisys\PhpEws\Type\PermissionType[]
      */
     public $Permission = array();
 }

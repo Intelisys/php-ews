@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\BodyContentAttributedValueType.
+ * Contains \Intelisys\PhpEws\Type\BodyContentAttributedValueType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines the body content of an item.
@@ -21,7 +21,7 @@ class BodyContentAttributedValueType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfPersonaAttributionsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfPersonaAttributionsType
      */
     public $Attributions;
 
@@ -32,7 +32,7 @@ class BodyContentAttributedValueType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\BodyTypeResponseType
+     * @see \Intelisys\PhpEws\Enumeration\BodyTypeResponseType
      */
     public $Value;
 }

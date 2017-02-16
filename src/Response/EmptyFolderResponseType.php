@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\EmptyFolderResponseType.
+ * Contains \Intelisys\PhpEws\Response\EmptyFolderResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to an EmptyFolder Operation request.

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\ExportItemsResponseType.
+ * Contains \Intelisys\PhpEws\Response\ExportItemsResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents a response to a single ExportItems request.

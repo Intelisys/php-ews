@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\BodyContentType.
+ * Contains \Intelisys\PhpEws\Type\BodyContentType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines the value of a BodyContentAttributedValue element.
@@ -21,7 +21,7 @@ class BodyContentType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\BodyTypeResponseType
+     * @see \Intelisys\PhpEws\Enumeration\BodyTypeResponseType
      */
     public $BodyType;
 

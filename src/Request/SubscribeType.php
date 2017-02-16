@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\SubscribeType.
+ * Contains \Intelisys\PhpEws\Request\SubscribeType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines the properties used to create subscriptions.
@@ -17,7 +17,7 @@ class SubscribeType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PullSubscriptionRequestType
+     * @var \Intelisys\PhpEws\Type\PullSubscriptionRequestType
      */
     public $PullSubscriptionRequest;
 
@@ -26,7 +26,7 @@ class SubscribeType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PushSubscriptionRequestType
+     * @var \Intelisys\PhpEws\Type\PushSubscriptionRequestType
      */
     public $PushSubscriptionRequest;
 
@@ -35,7 +35,7 @@ class SubscribeType extends BaseRequestType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\StreamingSubscriptionRequest
+     * @var \Intelisys\PhpEws\Type\StreamingSubscriptionRequest
      */
     public $StreamingSubscriptionRequest;
 }

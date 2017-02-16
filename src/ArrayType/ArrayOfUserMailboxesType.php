@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfUserMailboxesType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfUserMailboxesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of mailboxes.
@@ -19,7 +19,7 @@ class ArrayOfUserMailboxesType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\UserMailboxType[]
+     * @var \Intelisys\PhpEws\Type\UserMailboxType[]
      */
     public $UserMailbox = array();
 }

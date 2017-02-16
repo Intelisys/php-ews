@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response.
+ * Contains \Intelisys\PhpEws\Response.
  */
 
-namespace jamesiarmes\PhpEws;
+namespace Intelisys\PhpEws;
 
 /**
  * Base class for Exchange Web Service responses.

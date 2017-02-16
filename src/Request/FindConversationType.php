@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\FindConversationType.
+ * Contains \Intelisys\PhpEws\Request\FindConversationType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to find conversations in a mailbox.
@@ -18,7 +18,7 @@ class FindConversationType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ConversationShape
+     * @var \Intelisys\PhpEws\Type\ConversationShape
      */
     public $ConversationShape;
 
@@ -27,7 +27,7 @@ class FindConversationType extends BaseRequestType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\IndexedPageViewType
+     * @var \Intelisys\PhpEws\Type\IndexedPageViewType
      */
     public $IndexedPageItemView;
 
@@ -40,7 +40,7 @@ class FindConversationType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MailboxSearchLocationType
+     * @see \Intelisys\PhpEws\Enumeration\MailboxSearchLocationType
      */
     public $MailboxScope;
 
@@ -49,7 +49,7 @@ class FindConversationType extends BaseRequestType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\TargetFolderIdType
+     * @var \Intelisys\PhpEws\Type\TargetFolderIdType
      */
     public $ParentFolderId;
 
@@ -58,7 +58,7 @@ class FindConversationType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\QueryStringType
+     * @var \Intelisys\PhpEws\Type\QueryStringType
      */
     public $QueryString;
 
@@ -69,7 +69,7 @@ class FindConversationType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\SeekToConditionPageViewType
+     * @var \Intelisys\PhpEws\Type\SeekToConditionPageViewType
      */
     public $SeekToConditionPageItemView;
 
@@ -81,7 +81,7 @@ class FindConversationType extends BaseRequestType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfFieldOrdersType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfFieldOrdersType
      */
     public $SortOrder;
 
@@ -94,7 +94,7 @@ class FindConversationType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ConversationQueryTraversalType
+     * @see \Intelisys\PhpEws\Enumeration\ConversationQueryTraversalType
      */
     public $Traversal;
 
@@ -107,7 +107,7 @@ class FindConversationType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ViewFilterType
+     * @see \Intelisys\PhpEws\Enumeration\ViewFilterType
      */
     public $ViewFilter;
 }

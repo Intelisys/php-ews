@@ -6,15 +6,15 @@
  */
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\CreateAttachmentType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\CreateAttachmentType;
 
-use \jamesiarmes\PhpEws\ArrayType\ArrayOfAttachmentsType;
+use \Intelisys\PhpEws\ArrayType\ArrayOfAttachmentsType;
 
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
 
-use \jamesiarmes\PhpEws\Type\FileAttachmentType;
-use \jamesiarmes\PhpEws\Type\ItemIdType;
+use \Intelisys\PhpEws\Type\FileAttachmentType;
+use \Intelisys\PhpEws\Type\ItemIdType;
 
 // Replace with appropriate contact id and photo path.
 $contact_id = 'AAMkADk0N2E4OTQxLWRlOTYtNGUxZC05NzE1LTU4ZmI5NGVkZTZmYQBGAAAAAADeofKHfJ96S5ndHNLg9VfeBwAr1MfeoTJdQ7jgaw/bSgljAAAAAAEOAAAr1MfeoTJdQ7jgaw/bSgljAABjon+LAAA=';

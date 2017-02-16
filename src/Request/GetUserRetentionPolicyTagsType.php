@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetUserRetentionPolicyTagsType.
+ * Contains \Intelisys\PhpEws\Request\GetUserRetentionPolicyTagsType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines the request to get the retention tags associated with the user.

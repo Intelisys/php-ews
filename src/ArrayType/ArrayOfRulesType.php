@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfRulesType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfRulesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of rules in the user's mailbox.
@@ -19,7 +19,7 @@ class ArrayOfRulesType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\RuleType[]
+     * @var \Intelisys\PhpEws\Type\RuleType[]
      */
     public $Rule = array();
 }

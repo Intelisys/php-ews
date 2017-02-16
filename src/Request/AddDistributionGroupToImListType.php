@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\AddDistributionGroupToImListType.
+ * Contains \Intelisys\PhpEws\Request\AddDistributionGroupToImListType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to add a distribution list to an instant message list.

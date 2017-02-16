@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfConversationNodesType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfConversationNodesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines a collection of conversation nodes.
@@ -19,7 +19,7 @@ class ArrayOfConversationNodesType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ConversationNodeType
+     * @var \Intelisys\PhpEws\Type\ConversationNodeType
      */
     public $ConversationNode = array();
 }

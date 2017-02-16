@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfRecipientsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfRecipientsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of recipients of an item.
@@ -19,7 +19,7 @@ class ArrayOfRecipientsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType[]
+     * @var \Intelisys\PhpEws\Type\EmailAddressType[]
      */
     public $Mailbox = array();
 }

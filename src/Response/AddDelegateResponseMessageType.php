@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\AddDelegateResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\AddDelegateResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Contains the status and result of an AddDelegate Operation request.

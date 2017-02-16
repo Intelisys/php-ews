@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FileAttachmentType.
+ * Contains \Intelisys\PhpEws\Type\FileAttachmentType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a file that is attached to an item in the Exchange store.

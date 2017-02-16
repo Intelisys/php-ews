@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfExtendedAttributesType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfExtendedAttributesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Internal use only.
@@ -19,7 +19,7 @@ class ArrayOfExtendedAttributesType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ExtendedAttributeType[]
+     * @var \Intelisys\PhpEws\Type\ExtendedAttributeType[]
      */
     public $ExtendedAttribute = array();
 }

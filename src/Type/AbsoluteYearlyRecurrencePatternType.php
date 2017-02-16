@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AbsoluteYearlyRecurrencePatternType.
+ * Contains \Intelisys\PhpEws\Type\AbsoluteYearlyRecurrencePatternType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a yearly recurrence pattern.
@@ -32,7 +32,7 @@ class AbsoluteYearlyRecurrencePatternType extends RecurrencePatternBaseType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MonthNamesType
+     * @see \Intelisys\PhpEws\Enumeration\MonthNamesType
      */
     public $Month;
 }

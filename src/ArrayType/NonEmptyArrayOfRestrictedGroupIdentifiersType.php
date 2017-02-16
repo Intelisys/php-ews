@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfRestrictedGroupIdentifiersType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfRestrictedGroupIdentifiersType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a collection of restricted groups from a user's token.
@@ -20,7 +20,7 @@ class NonEmptyArrayOfRestrictedGroupIdentifiersType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SidAndAttributesType[]
+     * @var \Intelisys\PhpEws\Type\SidAndAttributesType[]
      */
     public $RestrictedGroupIdentifier = array();
 }

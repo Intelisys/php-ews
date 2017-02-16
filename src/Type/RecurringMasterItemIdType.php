@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RecurringMasterItemIdType.
+ * Contains \Intelisys\PhpEws\Type\RecurringMasterItemIdType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Defines a  recurrence master item by identifying the identifiers of one of

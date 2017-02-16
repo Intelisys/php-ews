@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\UserConfigurationDictionaryEntryType.
+ * Contains \Intelisys\PhpEws\Type\UserConfigurationDictionaryEntryType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the contents of a single dictionary entry property.
@@ -19,7 +19,7 @@ class UserConfigurationDictionaryEntryType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\UserConfigurationDictionaryObjectType
+     * @var \Intelisys\PhpEws\Type\UserConfigurationDictionaryObjectType
      */
     public $DictionaryKey;
 
@@ -28,7 +28,7 @@ class UserConfigurationDictionaryEntryType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\UserConfigurationDictionaryObjectType
+     * @var \Intelisys\PhpEws\Type\UserConfigurationDictionaryObjectType
      */
     public $DictionaryValue;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RuleValidationErrorType.
+ * Contains \Intelisys\PhpEws\Type\RuleValidationErrorType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a single validation error on a particular rule property value,
@@ -23,7 +23,7 @@ class RuleValidationErrorType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\RuleValidationErrorCodeType
+     * @see \Intelisys\PhpEws\Enumeration\RuleValidationErrorCodeType
      */
     public $ErrorCode;
 
@@ -43,7 +43,7 @@ class RuleValidationErrorType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\RuleFieldURIType
+     * @see \Intelisys\PhpEws\Enumeration\RuleFieldURIType
      */
     public $FieldUri;
 

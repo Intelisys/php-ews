@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfTrackingPropertiesType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfTrackingPropertiesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a list of one or more tracking properties.
@@ -20,7 +20,7 @@ class ArrayOfTrackingPropertiesType extends ArrayType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\TrackingPropertyType[]
+     * @var \Intelisys\PhpEws\Type\TrackingPropertyType[]
      */
     public $TrackingPropertyType = array();
 }

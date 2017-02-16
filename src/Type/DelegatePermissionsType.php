@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\DelegatePermissionsType.
+ * Contains \Intelisys\PhpEws\Type\DelegatePermissionsType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Contains the delegate permission-level settings for a user.
@@ -21,7 +21,7 @@ class DelegatePermissionsType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DelegateFolderPermissionLevelType
+     * @see \Intelisys\PhpEws\Enumeration\DelegateFolderPermissionLevelType
      */
     public $CalendarFolderPermissionLevel;
 
@@ -32,7 +32,7 @@ class DelegatePermissionsType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DelegateFolderPermissionLevelType
+     * @see \Intelisys\PhpEws\Enumeration\DelegateFolderPermissionLevelType
      */
     public $ContactsFolderPermissionLevel;
 
@@ -43,7 +43,7 @@ class DelegatePermissionsType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DelegateFolderPermissionLevelType
+     * @see \Intelisys\PhpEws\Enumeration\DelegateFolderPermissionLevelType
      */
     public $InboxFolderPermissionLevel;
 
@@ -54,7 +54,7 @@ class DelegatePermissionsType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DelegateFolderPermissionLevelType
+     * @see \Intelisys\PhpEws\Enumeration\DelegateFolderPermissionLevelType
      */
     public $JournalFolderPermissionLevel;
 
@@ -65,7 +65,7 @@ class DelegatePermissionsType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DelegateFolderPermissionLevelType
+     * @see \Intelisys\PhpEws\Enumeration\DelegateFolderPermissionLevelType
      */
     public $NotesFolderPermissionLevel;
 
@@ -76,7 +76,7 @@ class DelegatePermissionsType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DelegateFolderPermissionLevelType
+     * @see \Intelisys\PhpEws\Enumeration\DelegateFolderPermissionLevelType
      */
     public $TasksFolderPermissionLevel;
 }

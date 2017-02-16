@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PhoneNumberDictionaryType.
+ * Contains \Intelisys\PhpEws\Type\PhoneNumberDictionaryType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a collection of telephone numbers for a contact.
@@ -19,7 +19,7 @@ class PhoneNumberDictionaryType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PhoneNumberDictionaryEntryType
+     * @var \Intelisys\PhpEws\Type\PhoneNumberDictionaryEntryType
      */
     public $Entry;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ReminderType.
+ * Contains \Intelisys\PhpEws\Type\ReminderType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a reminder for a task or a calendar item.
@@ -30,7 +30,7 @@ class ReminderType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ItemId;
 
@@ -48,7 +48,7 @@ class ReminderType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $RecurringMasterItemId;
 
@@ -59,7 +59,7 @@ class ReminderType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ReminderGroup
+     * @see \Intelisys\PhpEws\Enumeration\ReminderGroup
      */
     public $ReminderGroup;
 

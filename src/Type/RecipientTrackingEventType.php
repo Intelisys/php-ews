@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RecipientTrackingEventType.
+ * Contains \Intelisys\PhpEws\Type\RecipientTrackingEventType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents information for a single event for a recipient.
@@ -41,7 +41,7 @@ class RecipientTrackingEventType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MessageTrackingDeliveryStatusType
+     * @see \Intelisys\PhpEws\Enumeration\MessageTrackingDeliveryStatusType
      */
     public $DeliveryStatus;
 
@@ -50,7 +50,7 @@ class RecipientTrackingEventType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $EventData;
 
@@ -61,7 +61,7 @@ class RecipientTrackingEventType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MessageTrackingEventDescriptionType
+     * @see \Intelisys\PhpEws\Enumeration\MessageTrackingEventDescriptionType
      */
     public $EventDescription;
 
@@ -88,7 +88,7 @@ class RecipientTrackingEventType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfTrackingPropertiesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfTrackingPropertiesType
      */
     public $Properties;
 
@@ -97,7 +97,7 @@ class RecipientTrackingEventType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $Recipient;
 

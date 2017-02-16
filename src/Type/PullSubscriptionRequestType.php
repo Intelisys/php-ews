@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PullSubscriptionRequestType.
+ * Contains \Intelisys\PhpEws\Type\PullSubscriptionRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a subscription to a pull-based event notification subscription.

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetHoldOnMailboxesType.
+ * Contains \Intelisys\PhpEws\Request\GetHoldOnMailboxesType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get the hold status for a mailbox.

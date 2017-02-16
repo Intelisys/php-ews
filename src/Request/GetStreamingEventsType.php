@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetStreamingEventsType.
+ * Contains \Intelisys\PhpEws\Request\GetStreamingEventsType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents the operation that is used by clients to request streaming
@@ -29,7 +29,7 @@ class GetStreamingEventsType extends BaseRequestType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfSubscriptionIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfSubscriptionIdsType
      */
     public $SubscriptionId;
 }

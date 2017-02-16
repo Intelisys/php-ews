@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FolderIdType.
+ * Contains \Intelisys\PhpEws\Type\FolderIdType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents the identifier of the parent folder that contains the item or

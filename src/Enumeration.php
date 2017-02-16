@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Enumeration.
+ * Contains \Intelisys\PhpEws\Enumeration.
  */
 
-namespace jamesiarmes\PhpEws;
+namespace Intelisys\PhpEws;
 
 /**
  * Base class for Exchange Web Service Enumerations.

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\ResolveNamesType.
+ * Contains \Intelisys\PhpEws\Request\ResolveNamesType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to resolve ambiguous names.
@@ -19,7 +19,7 @@ class ResolveNamesType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DefaultShapeNamesType
+     * @see \Intelisys\PhpEws\Enumeration\DefaultShapeNamesType
      */
     public $ContactDataShape;
 
@@ -42,7 +42,7 @@ class ResolveNamesType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
      */
     public $ParentFolderIds;
 
@@ -67,7 +67,7 @@ class ResolveNamesType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ResolveNamesSearchScopeType
+     * @see \Intelisys\PhpEws\Enumeration\ResolveNamesSearchScopeType
      */
     public $SearchScope;
 

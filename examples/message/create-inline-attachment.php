@@ -5,22 +5,22 @@
  */
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\CreateItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\CreateItemType;
 
-use \jamesiarmes\PhpEws\ArrayType\ArrayOfRecipientsType;
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType;
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAttachmentsType;
+use \Intelisys\PhpEws\ArrayType\ArrayOfRecipientsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAttachmentsType;
 
-use \jamesiarmes\PhpEws\Enumeration\BodyTypeType;
-use \jamesiarmes\PhpEws\Enumeration\MessageDispositionType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\BodyTypeType;
+use \Intelisys\PhpEws\Enumeration\MessageDispositionType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
 
-use \jamesiarmes\PhpEws\Type\BodyType;
-use \jamesiarmes\PhpEws\Type\EmailAddressType;
-use \jamesiarmes\PhpEws\Type\FileAttachmentType;
-use \jamesiarmes\PhpEws\Type\MessageType;
-use \jamesiarmes\PhpEws\Type\SingleRecipientType;
+use \Intelisys\PhpEws\Type\BodyType;
+use \Intelisys\PhpEws\Type\EmailAddressType;
+use \Intelisys\PhpEws\Type\FileAttachmentType;
+use \Intelisys\PhpEws\Type\MessageType;
+use \Intelisys\PhpEws\Type\SingleRecipientType;
 
 // Replace with the path to the image file to be attached and the recipient
 // information.

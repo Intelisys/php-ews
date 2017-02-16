@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\AddImGroupResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\AddImGroupResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to an AddImGroup request.
@@ -17,7 +17,7 @@ class AddImGroupResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ImGroupType
+     * @var \Intelisys\PhpEws\Type\ImGroupType
      */
     public $ImGroup;
 }

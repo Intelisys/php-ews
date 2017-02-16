@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\CancelCalendarItemType.
+ * Contains \Intelisys\PhpEws\Type\CancelCalendarItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents the response object that is used to cancel a meeting.

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetInboxRulesResponseType.
+ * Contains \Intelisys\PhpEws\Response\GetInboxRulesResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a GetInboxRules operation request.
@@ -17,7 +17,7 @@ class GetInboxRulesResponseType extends ResponseMessageType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfRulesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfRulesType
      */
     public $InboxRules;
 

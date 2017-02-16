@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ReplyAllToItemType.
+ * Contains \Intelisys\PhpEws\Type\ReplyAllToItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a reply to the sender and all identified recipients of an item in

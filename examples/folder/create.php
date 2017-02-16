@@ -10,17 +10,17 @@
  */
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\CreateFolderType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\CreateFolderType;
 
-use \jamesiarmes\PhpEws\ArrayType\ArrayOfFoldersType;
+use \Intelisys\PhpEws\ArrayType\ArrayOfFoldersType;
 
-use \jamesiarmes\PhpEws\Enumeration\DistinguishedFolderIdNameType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\DistinguishedFolderIdNameType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
 
-use \jamesiarmes\PhpEws\Type\CalendarFolderType;
-use \jamesiarmes\PhpEws\Type\DistinguishedFolderIdType;
-use \jamesiarmes\PhpEws\Type\TargetFolderIdType;
+use \Intelisys\PhpEws\Type\CalendarFolderType;
+use \Intelisys\PhpEws\Type\DistinguishedFolderIdType;
+use \Intelisys\PhpEws\Type\TargetFolderIdType;
 
 // Set connection information.
 $host = '';

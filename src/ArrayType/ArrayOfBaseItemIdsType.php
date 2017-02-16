@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfBaseItemIdsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfBaseItemIdsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines the unique identities of items, occurrence items, and recurring
@@ -22,7 +22,7 @@ class ArrayOfBaseItemIdsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType[]
+     * @var \Intelisys\PhpEws\Type\ItemIdType[]
      */
     public $ItemId = array();
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RecurringDateTransitionType.
+ * Contains \Intelisys\PhpEws\Type\RecurringDateTransitionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a time zone transition that occurs on a specific date each year.

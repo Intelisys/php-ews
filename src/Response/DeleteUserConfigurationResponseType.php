@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\DeleteUserConfigurationResponseType.
+ * Contains \Intelisys\PhpEws\Response\DeleteUserConfigurationResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a single DeleteUserConfiguration request.

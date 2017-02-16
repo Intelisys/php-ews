@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetClientAccessTokenType.
+ * Contains \Intelisys\PhpEws\Request\GetClientAccessTokenType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get a client access token.
@@ -17,7 +17,7 @@ class GetClientAccessTokenType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfClientAccessTokenRequestsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfClientAccessTokenRequestsType
      */
     public $TokenRequests;
 }

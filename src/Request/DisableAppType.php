@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\DisableAppType.
+ * Contains \Intelisys\PhpEws\Request\DisableAppType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to disable an app.
@@ -19,7 +19,7 @@ class DisableAppType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DisableReasonType
+     * @see \Intelisys\PhpEws\Enumeration\DisableReasonType
      */
     public $DisableReason;
 

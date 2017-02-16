@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetServiceConfigurationType.
+ * Contains \Intelisys\PhpEws\Request\GetServiceConfigurationType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a GetServiceConfiguration request.
@@ -27,7 +27,7 @@ class GetServiceConfigurationType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $ActingAs;
 
@@ -38,7 +38,7 @@ class GetServiceConfigurationType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfServiceConfigurationType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfServiceConfigurationType
      */
     public $RequestedConfiguration;
 }

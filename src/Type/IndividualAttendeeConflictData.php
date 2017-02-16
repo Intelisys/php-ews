@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\IndividualAttendeeConflictData.
+ * Contains \Intelisys\PhpEws\Type\IndividualAttendeeConflictData.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a user's or contact's free/busy status for a time window that
@@ -21,7 +21,7 @@ class IndividualAttendeeConflictData extends AttendeeConflictData
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\LegacyFreeBusyType
+     * @see \Intelisys\PhpEws\Enumeration\LegacyFreeBusyType
      */
     public $BusyType;
 }

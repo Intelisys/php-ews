@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetSharingMetadataResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetSharingMetadataResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a request.
@@ -18,7 +18,7 @@ class GetSharingMetadataResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfEncryptedSharedFolderDataType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfEncryptedSharedFolderDataType
      */
     public $EncryptedSharedFolderDataCollection;
 
@@ -27,7 +27,7 @@ class GetSharingMetadataResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfInvalidRecipientsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfInvalidRecipientsType
      */
     public $InvalidRecipients;
 }

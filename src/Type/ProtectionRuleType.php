@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ProtectionRuleType.
+ * Contains \Intelisys\PhpEws\Type\ProtectionRuleType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a single protection rule.
@@ -20,7 +20,7 @@ class ProtectionRuleType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\ProtectionRuleActionType
+     * @var \Intelisys\PhpEws\Type\ProtectionRuleActionType
      */
     public $Action;
 
@@ -30,7 +30,7 @@ class ProtectionRuleType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\ProtectionRuleConditionType
+     * @var \Intelisys\PhpEws\Type\ProtectionRuleConditionType
      */
     public $Condition;
 

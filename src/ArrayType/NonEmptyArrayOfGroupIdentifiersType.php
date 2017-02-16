@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfGroupIdentifiersType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfGroupIdentifiersType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents a collection of Active Directory directory service group object
@@ -21,7 +21,7 @@ class NonEmptyArrayOfGroupIdentifiersType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SidAndAttributesType[]
+     * @var \Intelisys\PhpEws\Type\SidAndAttributesType[]
      */
     public $GroupIdentifier = array();
 }

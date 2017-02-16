@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetHoldOnMailboxesResponse.
+ * Contains \Intelisys\PhpEws\Response\GetHoldOnMailboxesResponse.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to get the hold status for a mailbox.
@@ -17,7 +17,7 @@ class GetHoldOnMailboxesResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\MailboxHoldResultType
+     * @var \Intelisys\PhpEws\Type\MailboxHoldResultType
      */
     public $MailboxHoldResult;
 }

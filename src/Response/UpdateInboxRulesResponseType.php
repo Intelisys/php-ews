@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\UpdateInboxRulesResponseType.
+ * Contains \Intelisys\PhpEws\Response\UpdateInboxRulesResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to an UpdateInboxRules request.
@@ -18,7 +18,7 @@ class UpdateInboxRulesResponseType extends ResponseMessageType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfRuleOperationErrorsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfRuleOperationErrorsType
      */
     public $RuleOperationErrors;
 }

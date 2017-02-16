@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\CreateFolderPathResponseType.
+ * Contains \Intelisys\PhpEws\Response\CreateFolderPathResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Response to a request to create a folder path.

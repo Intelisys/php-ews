@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\RefreshSharingFolderResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\RefreshSharingFolderResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single RefreshSharingFolder operation

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MeetingResponseMessageType.
+ * Contains \Intelisys\PhpEws\Type\MeetingResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a meeting response in the Exchange store.

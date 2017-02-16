@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetServerTimeZonesType.
+ * Contains \Intelisys\PhpEws\Request\GetServerTimeZonesType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents a request to retrieve time zone definitions from the Exchange
@@ -25,7 +25,7 @@ class GetServerTimeZonesType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfTimeZoneIdType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfTimeZoneIdType
      */
     public $Ids;
 

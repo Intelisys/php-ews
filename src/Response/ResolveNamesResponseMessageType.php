@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\ResolveNamesResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\ResolveNamesResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the status and result of a ResolveNames operation request.
@@ -17,7 +17,7 @@ class ResolveNamesResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfResolutionType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfResolutionType
      */
     public $ResolutionSet;
 }

@@ -5,19 +5,19 @@
  */
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\GetItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\GetItemType;
 
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType;
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfPathsToElementType;
 
-use \jamesiarmes\PhpEws\Enumeration\DefaultShapeNamesType;
-use \jamesiarmes\PhpEws\Enumeration\MapiPropertyTypeType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\DefaultShapeNamesType;
+use \Intelisys\PhpEws\Enumeration\MapiPropertyTypeType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
 
-use \jamesiarmes\PhpEws\Type\ItemIdType;
-use \jamesiarmes\PhpEws\Type\ItemResponseShapeType;
-use \jamesiarmes\PhpEws\Type\PathToExtendedFieldType;
+use \Intelisys\PhpEws\Type\ItemIdType;
+use \Intelisys\PhpEws\Type\ItemResponseShapeType;
+use \Intelisys\PhpEws\Type\PathToExtendedFieldType;
 
 $email_ids = array(
     'AAMkADk0N2E4OTQxLWRlOTYtNGUxZC05NzE1LTU4ZmI5NGVkZTZmYQBGAAAAAADeofKHfJ96S5ndHNLg9VfeBwAr1MfeoTJdQ7jgaw/bSgljAAAAAAEMAAAr1MfeoTJdQ7jgaw/bSgljAABaFXCUAAA=',

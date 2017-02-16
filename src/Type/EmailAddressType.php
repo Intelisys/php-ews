@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\EmailAddressType.
+ * Contains \Intelisys\PhpEws\Type\EmailAddressType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Identifier for a fully resolved email address
@@ -26,7 +26,7 @@ class EmailAddressType extends BaseEmailAddressType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ItemId;
 
@@ -37,7 +37,7 @@ class EmailAddressType extends BaseEmailAddressType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MailboxTypeType
+     * @see \Intelisys\PhpEws\Enumeration\MailboxTypeType
      */
     public $MailboxType;
 
@@ -58,7 +58,7 @@ class EmailAddressType extends BaseEmailAddressType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\RoutingType
+     * @see \Intelisys\PhpEws\Enumeration\RoutingType
      */
     public $RoutingType;
 }

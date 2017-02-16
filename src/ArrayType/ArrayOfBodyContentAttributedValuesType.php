@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfBodyContentAttributedValuesType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfBodyContentAttributedValuesType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines an array of BodyContentAttributedValue elements.
@@ -19,7 +19,7 @@ class ArrayOfBodyContentAttributedValuesType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\BodyContentAttributedValueType[]
+     * @var \Intelisys\PhpEws\Type\BodyContentAttributedValueType[]
      */
     public $BodyContentAttributedValue = array();
 }

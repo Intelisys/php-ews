@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\FindMessageTrackingReportRequestType.
+ * Contains \Intelisys\PhpEws\Request\FindMessageTrackingReportRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents criteria for the types of messages to find.
@@ -47,7 +47,7 @@ class FindMessageTrackingReportRequestType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $FederatedDeliveryMailbox;
 
@@ -67,7 +67,7 @@ class FindMessageTrackingReportRequestType extends BaseRequestType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfTrackingPropertiesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfTrackingPropertiesType
      */
     public $Properties;
 
@@ -76,7 +76,7 @@ class FindMessageTrackingReportRequestType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $PurportedSender;
 
@@ -85,7 +85,7 @@ class FindMessageTrackingReportRequestType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $Recipient;
 
@@ -96,7 +96,7 @@ class FindMessageTrackingReportRequestType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\Scope
+     * @see \Intelisys\PhpEws\Enumeration\Scope
      */
     public $Scope;
 
@@ -105,7 +105,7 @@ class FindMessageTrackingReportRequestType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $Sender;
 

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\UpdateFolderType.
+ * Contains \Intelisys\PhpEws\Request\UpdateFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents the operation that is used to update properties for a specified
@@ -18,7 +18,7 @@ class UpdateFolderType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfFolderChangesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfFolderChangesType
      */
     public $FolderChanges;
 }

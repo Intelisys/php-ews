@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PersonaPostalAddressType.
+ * Contains \Intelisys\PhpEws\Type\PersonaPostalAddressType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines a postal address associated with a persona.
@@ -86,7 +86,7 @@ class PersonaPostalAddressType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\LocationSourceType
+     * @see \Intelisys\PhpEws\Enumeration\LocationSourceType
      */
     public $LocationSource;
 

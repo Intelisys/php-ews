@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AppType.
+ * Contains \Intelisys\PhpEws\Type\AppType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines information about an XML manifest file for a mail app that is
@@ -31,7 +31,7 @@ class AppType extends Type
      *
      * @since Exchange 2013 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\AppMetadata
+     * @var \Intelisys\PhpEws\Type\AppMetadata
      */
     public $Metadata;
 }

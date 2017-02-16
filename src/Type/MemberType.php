@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MemberType.
+ * Contains \Intelisys\PhpEws\Type\MemberType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Represents a member of a distribution list.
@@ -32,7 +32,7 @@ class MemberType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressType
+     * @var \Intelisys\PhpEws\Type\EmailAddressType
      */
     public $Mailbox;
 
@@ -45,7 +45,7 @@ class MemberType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MemberStatusType
+     * @see \Intelisys\PhpEws\Enumeration\MemberStatusType
      */
     public $Status;
 }

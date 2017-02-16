@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfNotificationsType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfNotificationsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of information about the subscription and the events that
@@ -21,7 +21,7 @@ class NonEmptyArrayOfNotificationsType extends ArrayType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\NotificationType[]
+     * @var \Intelisys\PhpEws\Type\NotificationType[]
      */
     public $Notification = array();
 }

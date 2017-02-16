@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\PlayOnPhoneResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\PlayOnPhoneResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a request to play a voice mail over the telephone.
@@ -17,7 +17,7 @@ class PlayOnPhoneResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\PhoneCallIdType
+     * @var \Intelisys\PhpEws\Type\PhoneCallIdType
      */
     public $PhoneCallId;
 }

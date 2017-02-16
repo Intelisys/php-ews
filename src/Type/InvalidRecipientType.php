@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\InvalidRecipientType.
+ * Contains \Intelisys\PhpEws\Type\InvalidRecipientType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the SMTP address of the invalid recipient and information about
@@ -36,7 +36,7 @@ class InvalidRecipientType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\InvalidRecipientResponseCodeType
+     * @see \Intelisys\PhpEws\Enumeration\InvalidRecipientResponseCodeType
      */
     public $ResponseCode;
 

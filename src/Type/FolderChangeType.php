@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FolderChangeType.
+ * Contains \Intelisys\PhpEws\Type\FolderChangeType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a collection of changes to be performed on a single folder.
@@ -20,7 +20,7 @@ class FolderChangeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\DistinguishedFolderIdType
+     * @var \Intelisys\PhpEws\Type\DistinguishedFolderIdType
      */
     public $DistinguishedFolderId;
 
@@ -29,7 +29,7 @@ class FolderChangeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderIdType
+     * @var \Intelisys\PhpEws\Type\FolderIdType
      */
     public $FolderId;
 
@@ -39,7 +39,7 @@ class FolderChangeType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfFolderChangeDescriptionsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfFolderChangeDescriptionsType
      */
     public $Updates;
 }

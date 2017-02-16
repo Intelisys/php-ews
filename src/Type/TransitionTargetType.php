@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\TransitionTargetType.
+ * Contains \Intelisys\PhpEws\Type\TransitionTargetType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Specifies the target of the time zone transition.
@@ -22,7 +22,7 @@ class TransitionTargetType extends StringType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\TransitionTargetKindType
+     * @see \Intelisys\PhpEws\Enumeration\TransitionTargetKindType
      */
     public $Kind;
 }

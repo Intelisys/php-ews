@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ClientAccessTokenType.
+ * Contains \Intelisys\PhpEws\Type\ClientAccessTokenType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines a client access token.
@@ -30,7 +30,7 @@ class ClientAccessTokenType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ClientAccessTokenTypeType
+     * @see \Intelisys\PhpEws\Enumeration\ClientAccessTokenTypeType
      */
     public $TokenType;
 

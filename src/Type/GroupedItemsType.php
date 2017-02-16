@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\GroupedItemsType.
+ * Contains \Intelisys\PhpEws\Type\GroupedItemsType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a collection of items that are the result of a grouped FindItem
@@ -30,7 +30,7 @@ class GroupedItemsType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfRealItemsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfRealItemsType
      */
     public $Items;
 }

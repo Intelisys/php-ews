@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\CreateUserConfigurationResponseType.
+ * Contains \Intelisys\PhpEws\Response\CreateUserConfigurationResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a single CreateUserConfiguration request.

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MeetingMessageType.
+ * Contains \Intelisys\PhpEws\Type\MeetingMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a meeting in the Exchange store.
@@ -17,7 +17,7 @@ class MeetingMessageType extends MessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $AssociatedCalendarItemId;
 
@@ -79,7 +79,7 @@ class MeetingMessageType extends MessageType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ResponseTypeType
+     * @see \Intelisys\PhpEws\Enumeration\ResponseTypeType
      */
     public $ResponseType;
 

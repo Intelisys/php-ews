@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PhoneNumberAttributedValueType.
+ * Contains \Intelisys\PhpEws\Type\PhoneNumberAttributedValueType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a phone number and its associated attributions.
@@ -19,7 +19,7 @@ class PhoneNumberAttributedValueType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfValueAttributionsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfValueAttributionsType
      */
     public $Attributions;
 
@@ -28,7 +28,7 @@ class PhoneNumberAttributedValueType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\PersonaPhoneNumberType
+     * @var \Intelisys\PhpEws\Type\PersonaPhoneNumberType
      */
     public $Value;
 }

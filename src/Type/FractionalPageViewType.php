@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FractionalPageViewType.
+ * Contains \Intelisys\PhpEws\Type\FractionalPageViewType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes where the paged view starts and the maximum number of folders

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfMailboxHoldStatusType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfMailboxHoldStatusType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines a list of one or more mailbox hold statuses.
@@ -19,7 +19,7 @@ class ArrayOfMailboxHoldStatusType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\MailboxHoldStatusType[]
+     * @var \Intelisys\PhpEws\Type\MailboxHoldStatusType[]
      */
     public $MailboxHoldStatus = array();
 }

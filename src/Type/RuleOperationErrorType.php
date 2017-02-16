@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RuleOperationErrorType.
+ * Contains \Intelisys\PhpEws\Type\RuleOperationErrorType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a rule operation error.
@@ -30,7 +30,7 @@ class RuleOperationErrorType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfRuleValidationErrorsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfRuleValidationErrorsType
      */
     public $ValidationErrors;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetConversationItemsType.
+ * Contains \Intelisys\PhpEws\Request\GetConversationItemsType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get a set of items that are related by being in the same
@@ -18,7 +18,7 @@ class GetConversationItemsType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfConversationsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfConversationsType
      */
     public $Conversations;
 
@@ -31,7 +31,7 @@ class GetConversationItemsType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
      */
     public $FoldersToIgnore;
 
@@ -40,7 +40,7 @@ class GetConversationItemsType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemResponseShapeType
+     * @var \Intelisys\PhpEws\Type\ItemResponseShapeType
      */
     public $ItemShape;
 
@@ -53,7 +53,7 @@ class GetConversationItemsType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MailboxSearchLocationType
+     * @see \Intelisys\PhpEws\Enumeration\MailboxSearchLocationType
      */
     public $MailboxScope;
 
@@ -73,7 +73,7 @@ class GetConversationItemsType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ConversationNodeSortOrder
+     * @see \Intelisys\PhpEws\Enumeration\ConversationNodeSortOrder
      */
     public $SortOrder;
 }

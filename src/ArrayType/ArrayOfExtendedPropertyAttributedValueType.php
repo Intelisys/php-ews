@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfExtendedPropertyAttributedValueType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfExtendedPropertyAttributedValueType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines the extended properties used for a persona.
@@ -19,7 +19,7 @@ class ArrayOfExtendedPropertyAttributedValueType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ExtendedPropertyAttributedValueType[]
+     * @var \Intelisys\PhpEws\Type\ExtendedPropertyAttributedValueType[]
      */
     public $ExtendedPropertyAttributedValue = array();
 }

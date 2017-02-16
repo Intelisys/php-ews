@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfImGroupType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfImGroupType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines an array of instant messaging (IM) groups.
@@ -19,7 +19,7 @@ class ArrayOfImGroupType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ImGroupType[]
+     * @var \Intelisys\PhpEws\Type\ImGroupType[]
      */
     public $ImGroup = array();
 }

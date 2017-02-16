@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\SyncFolderHierarchyResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\SyncFolderHierarchyResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single SyncFolderHierarchy operation
@@ -20,7 +20,7 @@ class SyncFolderHierarchyResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SyncFolderHierarchyChangesType
+     * @var \Intelisys\PhpEws\Type\SyncFolderHierarchyChangesType
      */
     public $Changes;
 

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\FolderInfoResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\FolderInfoResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single CopyFolder operation request.
@@ -17,7 +17,7 @@ class FolderInfoResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfFoldersType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfFoldersType
      */
     public $Folders;
 }

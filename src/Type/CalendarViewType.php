@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\CalendarViewType.
+ * Contains \Intelisys\PhpEws\Type\CalendarViewType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Defines a FindItem operation as returning calendar items in a set as they

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\DisconnectPhoneCallType.
+ * Contains \Intelisys\PhpEws\Request\DisconnectPhoneCallType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents a request to disconnect a call.
@@ -19,7 +19,7 @@ class DisconnectPhoneCallType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\PhoneCallIdType
+     * @var \Intelisys\PhpEws\Type\PhoneCallIdType
      */
     public $PhoneCallId;
 }

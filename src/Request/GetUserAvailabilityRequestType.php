@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetUserAvailabilityRequestType.
+ * Contains \Intelisys\PhpEws\Request\GetUserAvailabilityRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines the arguments used to obtain user availability information.
@@ -17,7 +17,7 @@ class GetUserAvailabilityRequestType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FreeBusyViewOptionsType
+     * @var \Intelisys\PhpEws\Type\FreeBusyViewOptionsType
      */
     public $FreeBusyViewOptions;
 
@@ -26,7 +26,7 @@ class GetUserAvailabilityRequestType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfMailboxData
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfMailboxData
      */
     public $MailboxDataArray;
 
@@ -35,7 +35,7 @@ class GetUserAvailabilityRequestType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SuggestionsViewOptionsType
+     * @var \Intelisys\PhpEws\Type\SuggestionsViewOptionsType
      */
     public $SuggestionsViewOptions;
 
@@ -47,7 +47,7 @@ class GetUserAvailabilityRequestType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SerializableTimeZone
+     * @var \Intelisys\PhpEws\Type\SerializableTimeZone
      */
     public $TimeZone;
 }

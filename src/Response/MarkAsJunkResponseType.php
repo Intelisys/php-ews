@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\MarkAsJunkResponseType.
+ * Contains \Intelisys\PhpEws\Response\MarkAsJunkResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response to a MarkAsJunk request.

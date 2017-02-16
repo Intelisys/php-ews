@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfSearchItemKindsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfSearchItemKindsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of messages to search.
@@ -21,7 +21,7 @@ class ArrayOfSearchItemKindsType extends ArrayType
      *
      * @var string[]
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SearchItemKindType[]
+     * @see \Intelisys\PhpEws\Enumeration\SearchItemKindType[]
      */
     public $SearchItemKind = array();
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\EmailAddressDictionaryType.
+ * Contains \Intelisys\PhpEws\Type\EmailAddressDictionaryType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a collection of e-mail addresses for a contact.
@@ -19,7 +19,7 @@ class EmailAddressDictionaryType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\EmailAddressDictionaryEntryType
+     * @var \Intelisys\PhpEws\Type\EmailAddressDictionaryEntryType
      */
     public $Entry;
 }

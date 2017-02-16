@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetItemType.
+ * Contains \Intelisys\PhpEws\Request\GetItemType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get an item from a mailbox in the Exchange store.
@@ -21,7 +21,7 @@ class GetItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType
      */
     public $ItemIds;
 
@@ -31,7 +31,7 @@ class GetItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemResponseShapeType
+     * @var \Intelisys\PhpEws\Type\ItemResponseShapeType
      */
     public $ItemShape;
 }

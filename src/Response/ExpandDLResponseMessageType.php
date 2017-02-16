@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\ExpandDLResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\ExpandDLResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single ExpandDL operation request.
@@ -29,7 +29,7 @@ class ExpandDLResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfDLExpansionType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfDLExpansionType
      */
     public $DLExpansion;
 

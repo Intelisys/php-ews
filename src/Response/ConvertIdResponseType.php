@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\ConvertIdResponseType.
+ * Contains \Intelisys\PhpEws\Response\ConvertIdResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents a response to a ConvertId request.

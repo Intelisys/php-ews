@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FieldOrderType.
+ * Contains \Intelisys\PhpEws\Type\FieldOrderType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a single field by which to sort results and indicates the
@@ -20,7 +20,7 @@ class FieldOrderType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PathToExtendedFieldType
+     * @var \Intelisys\PhpEws\Type\PathToExtendedFieldType
      */
     public $ExtendedFieldURI;
 
@@ -29,7 +29,7 @@ class FieldOrderType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PathToUnindexedFieldType
+     * @var \Intelisys\PhpEws\Type\PathToUnindexedFieldType
      */
     public $FieldURI;
 
@@ -38,7 +38,7 @@ class FieldOrderType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PathToIndexedFieldType
+     * @var \Intelisys\PhpEws\Type\PathToIndexedFieldType
      */
     public $IndexedFieldURI;
 
@@ -49,7 +49,7 @@ class FieldOrderType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SortDirectionType
+     * @see \Intelisys\PhpEws\Enumeration\SortDirectionType
      */
     public $Order;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\UploadItemsResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\UploadItemsResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * the status and results of a request to upload a single mailbox item.
@@ -17,7 +17,7 @@ class UploadItemsResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ItemId;
 }

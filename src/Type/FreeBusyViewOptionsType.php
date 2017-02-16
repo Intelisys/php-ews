@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FreeBusyViewOptionsType.
+ * Contains \Intelisys\PhpEws\Type\FreeBusyViewOptionsType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the type of free/busy information returned in a response.
@@ -31,7 +31,7 @@ class FreeBusyViewOptionsType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\FreeBusyViewType
+     * @see \Intelisys\PhpEws\Enumeration\FreeBusyViewType
      */
     public $RequestedView;
 
@@ -40,7 +40,7 @@ class FreeBusyViewOptionsType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\Duration
+     * @var \Intelisys\PhpEws\Type\Duration
      */
     public $TimeWindow;
 }

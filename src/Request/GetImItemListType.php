@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetImItemListType.
+ * Contains \Intelisys\PhpEws\Request\GetImItemListType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get a list of instant messaging groups and contacts.
@@ -17,7 +17,7 @@ class GetImItemListType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfExtendedFieldURIs
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfExtendedFieldURIs
      */
     public $ExtendedProperties;
 }

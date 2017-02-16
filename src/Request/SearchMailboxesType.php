@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\SearchMailboxesType.
+ * Contains \Intelisys\PhpEws\Request\SearchMailboxesType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a SearchMailboxes request.
@@ -39,7 +39,7 @@ class SearchMailboxesType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SearchPageDirectionType
+     * @see \Intelisys\PhpEws\Enumeration\SearchPageDirectionType
      */
     public $PageDirection;
 
@@ -67,7 +67,7 @@ class SearchMailboxesType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\PreviewItemResponseShapeType
+     * @var \Intelisys\PhpEws\Type\PreviewItemResponseShapeType
      */
     public $PreviewItemResponseShape;
 
@@ -80,7 +80,7 @@ class SearchMailboxesType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SearchResultType
+     * @see \Intelisys\PhpEws\Enumeration\SearchResultType
      */
     public $ResultType;
 
@@ -89,7 +89,7 @@ class SearchMailboxesType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfMailboxQueriesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfMailboxQueriesType
      */
     public $SearchQueries;
 
@@ -98,7 +98,7 @@ class SearchMailboxesType extends BaseRequestType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\FieldOrderType
+     * @var \Intelisys\PhpEws\Type\FieldOrderType
      */
     public $SortBy;
 }

@@ -5,24 +5,24 @@
  */
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\FindFolderType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\FindFolderType;
 
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType;
 
-use \jamesiarmes\PhpEws\Enumeration\ContainmentComparisonType;
-use \jamesiarmes\PhpEws\Enumeration\ContainmentModeType;
-use \jamesiarmes\PhpEws\Enumeration\DefaultShapeNamesType;
-use \jamesiarmes\PhpEws\Enumeration\DistinguishedFolderIdNameType;
-use \jamesiarmes\PhpEws\Enumeration\FolderQueryTraversalType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
-use \jamesiarmes\PhpEws\Enumeration\UnindexedFieldURIType;
+use \Intelisys\PhpEws\Enumeration\ContainmentComparisonType;
+use \Intelisys\PhpEws\Enumeration\ContainmentModeType;
+use \Intelisys\PhpEws\Enumeration\DefaultShapeNamesType;
+use \Intelisys\PhpEws\Enumeration\DistinguishedFolderIdNameType;
+use \Intelisys\PhpEws\Enumeration\FolderQueryTraversalType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\UnindexedFieldURIType;
 
-use \jamesiarmes\PhpEws\Type\ConstantValueType;
-use \jamesiarmes\PhpEws\Type\DistinguishedFolderIdType;
-use \jamesiarmes\PhpEws\Type\FolderResponseShapeType;
-use \jamesiarmes\PhpEws\Type\PathToUnindexedFieldType;
-use \jamesiarmes\PhpEws\Type\RestrictionType;
+use \Intelisys\PhpEws\Type\ConstantValueType;
+use \Intelisys\PhpEws\Type\DistinguishedFolderIdType;
+use \Intelisys\PhpEws\Type\FolderResponseShapeType;
+use \Intelisys\PhpEws\Type\PathToUnindexedFieldType;
+use \Intelisys\PhpEws\Type\RestrictionType;
 
 // Set connection information.
 $host = '';
@@ -49,7 +49,7 @@ $parent->Id = DistinguishedFolderIdNameType::ROOT;
 $request->ParentFolderIds->DistinguishedFolderId[] = $parent;
 
 // Build the restriction that will search for folders containing "Cal".
-$contains = new \jamesiarmes\PhpEws\Type\ContainsExpressionType();
+$contains = new \Intelisys\PhpEws\Type\ContainsExpressionType();
 $contains->FieldURI = new PathToUnindexedFieldType();
 $contains->FieldURI->FieldURI = UnindexedFieldURIType::FOLDER_DISPLAY_NAME;
 $contains->Constant = new ConstantValueType();

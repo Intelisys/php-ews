@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MailTipsServiceConfiguration.
+ * Contains \Intelisys\PhpEws\Type\MailTipsServiceConfiguration.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents service configuration information for the mail tips service.
@@ -21,7 +21,7 @@ class MailTipsServiceConfiguration extends ServiceConfiguration
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\SmtpDomainList
+     * @var \Intelisys\PhpEws\Type\SmtpDomainList
      */
     public $InternalDomains;
 

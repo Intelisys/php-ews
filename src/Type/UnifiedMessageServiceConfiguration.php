@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\UnifiedMessageServiceConfiguration.
+ * Contains \Intelisys\PhpEws\Type\UnifiedMessageServiceConfiguration.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents service configuration information for the Unified Messaging

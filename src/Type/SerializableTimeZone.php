@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\SerializableTimeZone.
+ * Contains \Intelisys\PhpEws\Type\SerializableTimeZone.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Defines a time zone.
@@ -34,7 +34,7 @@ class SerializableTimeZone extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SerializableTimeZoneTime
+     * @var \Intelisys\PhpEws\Type\SerializableTimeZoneTime
      */
     public $DaylightTime;
 
@@ -48,7 +48,7 @@ class SerializableTimeZone extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SerializableTimeZoneTime
+     * @var \Intelisys\PhpEws\Type\SerializableTimeZoneTime
      */
     public $StandardTime;
 }

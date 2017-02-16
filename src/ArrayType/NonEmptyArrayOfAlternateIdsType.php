@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAlternateIdsType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAlternateIdsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines the source identifiers to convert.
@@ -19,7 +19,7 @@ class NonEmptyArrayOfAlternateIdsType extends ArrayType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\AlternateIdType[]
+     * @var \Intelisys\PhpEws\Type\AlternateIdType[]
      */
     public $AlternateId = array();
 
@@ -28,7 +28,7 @@ class NonEmptyArrayOfAlternateIdsType extends ArrayType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\AlternatePublicFolderIdType[]
+     * @var \Intelisys\PhpEws\Type\AlternatePublicFolderIdType[]
      */
     public $AlternatePublicFolderId = array();
 
@@ -37,7 +37,7 @@ class NonEmptyArrayOfAlternateIdsType extends ArrayType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\AlternatePublicFolderItemIdType[]
+     * @var \Intelisys\PhpEws\Type\AlternatePublicFolderItemIdType[]
      */
     public $AlternatePublicFolderItemId = array();
 }

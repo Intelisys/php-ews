@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\SyncFolderItemsResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\SyncFolderItemsResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single SyncFolderItems operation
@@ -20,7 +20,7 @@ class SyncFolderItemsResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SyncFolderItemsChangesType
+     * @var \Intelisys\PhpEws\Type\SyncFolderItemsChangesType
      */
     public $Changes;
 

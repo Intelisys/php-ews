@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ItemIdType.
+ * Contains \Intelisys\PhpEws\Type\ItemIdType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Contains the unique identifier and change key of an item in the Exchange

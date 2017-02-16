@@ -8,19 +8,19 @@
  */
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\GetAttachmentType;
-use \jamesiarmes\PhpEws\Request\GetItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\GetAttachmentType;
+use \Intelisys\PhpEws\Request\GetItemType;
 
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType;
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfRequestAttachmentIdsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfRequestAttachmentIdsType;
 
-use \jamesiarmes\PhpEws\Enumeration\DefaultShapeNamesType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\DefaultShapeNamesType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
 
-use \jamesiarmes\PhpEws\Type\ItemIdType;
-use \jamesiarmes\PhpEws\Type\ItemResponseShapeType;
-use \jamesiarmes\PhpEws\Type\RequestAttachmentIdType;
+use \Intelisys\PhpEws\Type\ItemIdType;
+use \Intelisys\PhpEws\Type\ItemResponseShapeType;
+use \Intelisys\PhpEws\Type\RequestAttachmentIdType;
 
 // Replace with the id of the message to retrieve attachments for and the
 // destination for file attachments.

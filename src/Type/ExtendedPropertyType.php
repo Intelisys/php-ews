@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ExtendedPropertyType.
+ * Contains \Intelisys\PhpEws\Type\ExtendedPropertyType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Identifies extended MAPI properties on folders and items.
@@ -19,7 +19,7 @@ class ExtendedPropertyType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PathToExtendedFieldType
+     * @var \Intelisys\PhpEws\Type\PathToExtendedFieldType
      */
     public $ExtendedFieldURI;
 
@@ -37,7 +37,7 @@ class ExtendedPropertyType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfPropertyValuesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfPropertyValuesType
      */
     public $Values;
 }

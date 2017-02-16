@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PushSubscriptionRequestType.
+ * Contains \Intelisys\PhpEws\Type\PushSubscriptionRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a subscription to a push-based event notification subscription.

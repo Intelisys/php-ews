@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ItemChangeDescriptionType.
+ * Contains \Intelisys\PhpEws\Type\ItemChangeDescriptionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Base class for changes to individual item properties.

@@ -1,16 +1,16 @@
 <?php
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\GetItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\GetItemType;
 
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType;
 
-use \jamesiarmes\PhpEws\Enumeration\DefaultShapeNamesType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\DefaultShapeNamesType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
 
-use \jamesiarmes\PhpEws\Type\ItemIdType;
-use \jamesiarmes\PhpEws\Type\ItemResponseShapeType;
+use \Intelisys\PhpEws\Type\ItemIdType;
+use \Intelisys\PhpEws\Type\ItemResponseShapeType;
 
 // Replace this with the ids of actual contacts.
 $contacts_ids = array(

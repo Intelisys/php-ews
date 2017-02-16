@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Enumeration\AvailabilityProxyRequestType.
+ * Contains \Intelisys\PhpEws\Enumeration\AvailabilityProxyRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Enumeration;
+namespace Intelisys\PhpEws\Enumeration;
 
-use \jamesiarmes\PhpEws\Enumeration;
+use \Intelisys\PhpEws\Enumeration;
 
 /**
  * Defines whether a proxy request is a cross-site or a cross-forest request.

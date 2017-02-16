@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\FindConversationResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\FindConversationResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a FindConversation Operation request.
@@ -17,7 +17,7 @@ class FindConversationResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfConversationsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfConversationsType
      */
     public $Conversations;
 }

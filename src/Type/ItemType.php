@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ItemType.
+ * Contains \Intelisys\PhpEws\Type\ItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Represents a generic item in the Exchange store.
@@ -22,7 +22,7 @@ class ItemType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAttachmentsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -31,7 +31,7 @@ class ItemType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\BodyType
+     * @var \Intelisys\PhpEws\Type\BodyType
      */
     public $Body;
 
@@ -41,7 +41,7 @@ class ItemType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfStringsType
      */
     public $Categories;
 
@@ -50,7 +50,7 @@ class ItemType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ConversationId;
 
@@ -131,7 +131,7 @@ class ItemType extends Type
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\EffectiveRightsType
+     * @var \Intelisys\PhpEws\Type\EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -140,7 +140,7 @@ class ItemType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ExtendedPropertyType[]
+     * @var \Intelisys\PhpEws\Type\ExtendedPropertyType[]
      */
     public $ExtendedProperty = array();
 
@@ -163,7 +163,7 @@ class ItemType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ImportanceChoicesType
+     * @see \Intelisys\PhpEws\Enumeration\ImportanceChoicesType
      */
     public $Importance;
 
@@ -182,7 +182,7 @@ class ItemType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfInternetHeadersType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
@@ -248,7 +248,7 @@ class ItemType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ItemClassType
+     * @see \Intelisys\PhpEws\Enumeration\ItemClassType
      */
     public $ItemClass;
 
@@ -258,7 +258,7 @@ class ItemType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ItemId;
 
@@ -288,7 +288,7 @@ class ItemType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MimeContentType
+     * @var \Intelisys\PhpEws\Type\MimeContentType
      */
     public $MimeContent;
 
@@ -298,7 +298,7 @@ class ItemType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderIdType
+     * @var \Intelisys\PhpEws\Type\FolderIdType
      */
     public $ParentFolderId;
 
@@ -308,7 +308,7 @@ class ItemType extends Type
      * @since Exchange 2007 SP1
      * @deprecated Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\SingleRecipientType
+     * @var \Intelisys\PhpEws\Type\SingleRecipientType
      */
     public $ReceivedBy;
 
@@ -318,7 +318,7 @@ class ItemType extends Type
      * @since Exchange 2007 SP1
      * @deprecated Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\SingleRecipientType
+     * @var \Intelisys\PhpEws\Type\SingleRecipientType
      */
     public $ReceivedRepresenting;
 
@@ -365,7 +365,7 @@ class ItemType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfResponseObjectsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfResponseObjectsType
      */
     public $ResponseObjects;
 
@@ -376,7 +376,7 @@ class ItemType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SensitivityChoicesType
+     * @see \Intelisys\PhpEws\Enumeration\SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -417,7 +417,7 @@ class ItemType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\BodyType
+     * @var \Intelisys\PhpEws\Type\BodyType
      */
     public $UniqueBody;
 

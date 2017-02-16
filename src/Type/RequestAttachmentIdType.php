@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RequestAttachmentIdType.
+ * Contains \Intelisys\PhpEws\Type\RequestAttachmentIdType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Identifies a single attachment.

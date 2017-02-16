@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\CalendarPermissionSetType.
+ * Contains \Intelisys\PhpEws\Type\CalendarPermissionSetType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Contains all the permissions that are configured for a calendar folder.
@@ -19,7 +19,7 @@ class CalendarPermissionSetType extends Type
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfCalendarPermissionsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfCalendarPermissionsType
      */
     public $CalendarPermissions;
 
@@ -29,7 +29,7 @@ class CalendarPermissionSetType extends Type
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfUnknownEntriesType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfUnknownEntriesType
      */
     public $UnknownEntries;
 }

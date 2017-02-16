@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfTransitionsGroupsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfTransitionsGroupsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of time zone transition groups.
@@ -19,7 +19,7 @@ class ArrayOfTransitionsGroupsType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfTransitionsType[]
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfTransitionsType[]
      */
     public $TransitionsGroup = array();
 }

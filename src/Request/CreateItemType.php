@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\CreateItemType.
+ * Contains \Intelisys\PhpEws\Request\CreateItemType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to create an item in the Exchange store.
@@ -18,7 +18,7 @@ class CreateItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType
      */
     public $Items;
 
@@ -33,7 +33,7 @@ class CreateItemType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\MessageDispositionType
+     * @see \Intelisys\PhpEws\Enumeration\MessageDispositionType
      */
     public $MessageDisposition;
 
@@ -46,7 +46,7 @@ class CreateItemType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TargetFolderIdType
+     * @var \Intelisys\PhpEws\Type\TargetFolderIdType
      */
     public $SavedItemFolderId;
 
@@ -59,7 +59,7 @@ class CreateItemType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\CalendarItemCreateOrDeleteOperationType
+     * @see \Intelisys\PhpEws\Enumeration\CalendarItemCreateOrDeleteOperationType
      */
     public $SendMeetingInvitations;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetUserConfigurationType.
+ * Contains \Intelisys\PhpEws\Request\GetUserConfigurationType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Represents a request to get a user configuration object.
@@ -19,7 +19,7 @@ class GetUserConfigurationType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\UserConfigurationNameType
+     * @var \Intelisys\PhpEws\Type\UserConfigurationNameType
      */
     public $UserConfigurationName;
 
@@ -32,7 +32,7 @@ class GetUserConfigurationType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\UserConfigurationPropertyType
+     * @see \Intelisys\PhpEws\Enumeration\UserConfigurationPropertyType
      */
     public $UserConfigurationProperties;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\DeleteRuleOperationType.
+ * Contains \Intelisys\PhpEws\Type\DeleteRuleOperationType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an operation to delete an existing Inbox rule.

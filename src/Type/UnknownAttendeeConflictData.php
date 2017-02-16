@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\UnknownAttendeeConflictData.
+ * Contains \Intelisys\PhpEws\Type\UnknownAttendeeConflictData.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an unresolvable attendee or an attendee that is not a user,

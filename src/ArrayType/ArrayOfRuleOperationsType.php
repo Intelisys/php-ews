@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfRuleOperationsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfRuleOperationsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of rule operations that can be performed on an Inbox.
@@ -19,7 +19,7 @@ class ArrayOfRuleOperationsType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\CreateRuleOperationType[]
+     * @var \Intelisys\PhpEws\Type\CreateRuleOperationType[]
      */
     public $CreateRuleOperation = array();
 
@@ -28,7 +28,7 @@ class ArrayOfRuleOperationsType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\DeleteRuleOperationType[]
+     * @var \Intelisys\PhpEws\Type\DeleteRuleOperationType[]
      */
     public $DeleteRuleOperation = array();
 
@@ -37,7 +37,7 @@ class ArrayOfRuleOperationsType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\SetRuleOperationType[]
+     * @var \Intelisys\PhpEws\Type\SetRuleOperationType[]
      */
     public $SetRuleOperation = array();
 }

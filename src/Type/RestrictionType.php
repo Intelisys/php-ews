@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RestrictionType.
+ * Contains \Intelisys\PhpEws\Type\RestrictionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents the restriction or query that is used to filter items or folders

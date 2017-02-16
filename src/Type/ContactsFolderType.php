@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ContactsFolderType.
+ * Contains \Intelisys\PhpEws\Type\ContactsFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a contacts folder that is contained in a mailbox.
@@ -17,7 +17,7 @@ class ContactsFolderType extends BaseFolderType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\PermissionSetType
+     * @var \Intelisys\PhpEws\Type\PermissionSetType
      */
     public $PermissionSet;
 
@@ -29,7 +29,7 @@ class ContactsFolderType extends BaseFolderType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\PermissionReadAccessType
+     * @see \Intelisys\PhpEws\Enumeration\PermissionReadAccessType
      */
     public $SharingEffectiveRights;
 }

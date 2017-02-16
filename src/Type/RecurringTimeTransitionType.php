@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\RecurringTimeTransitionType;
+ * Contains \Intelisys\PhpEws\Type\RecurringTimeTransitionType;
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Base class for recurring time transitions.

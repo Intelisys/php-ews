@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\UnsubscribeType.
+ * Contains \Intelisys\PhpEws\Request\UnsubscribeType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines the properties used to unsubscribe from a subscription.

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfRetentionPolicyTagsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfRetentionPolicyTagsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Defines a list of retention tags.
@@ -19,7 +19,7 @@ class ArrayOfRetentionPolicyTagsType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\RetentionPolicyTagType[]
+     * @var \Intelisys\PhpEws\Type\RetentionPolicyTagType[]
      */
     public $RetentionPolicyTag = array();
 }

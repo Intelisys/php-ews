@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\UploadItemType.
+ * Contains \Intelisys\PhpEws\Type\UploadItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a single item to upload into a mailbox.
@@ -23,7 +23,7 @@ class UploadItemType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\CreateActionType
+     * @see \Intelisys\PhpEws\Enumeration\CreateActionType
      */
     public $CreateAction;
 
@@ -57,7 +57,7 @@ class UploadItemType extends Type
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ItemId;
 
@@ -67,7 +67,7 @@ class UploadItemType extends Type
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderIdType
+     * @var \Intelisys\PhpEws\Type\FolderIdType
      */
     public $ParentFolderId;
 }

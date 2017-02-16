@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\StreamingSubscriptionRequest.
+ * Contains \Intelisys\PhpEws\Type\StreamingSubscriptionRequest.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a subscription to a streaming event notification subscription.
@@ -20,7 +20,7 @@ class StreamingSubscriptionRequest extends Type
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfNotificationEventTypesType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfNotificationEventTypesType
      */
     public $EventTypes;
 
@@ -30,7 +30,7 @@ class StreamingSubscriptionRequest extends Type
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
      */
     public $FolderIds;
 

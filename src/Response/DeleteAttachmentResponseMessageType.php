@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\DeleteAttachmentResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\DeleteAttachmentResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single DeleteAttachment operation
@@ -18,7 +18,7 @@ class DeleteAttachmentResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\RootItemIdType
+     * @var \Intelisys\PhpEws\Type\RootItemIdType
      */
     public $RootItemId;
 }

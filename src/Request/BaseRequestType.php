@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\BaseRequestType.
+ * Contains \Intelisys\PhpEws\Request\BaseRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
-use \jamesiarmes\PhpEws\Request;
+use \Intelisys\PhpEws\Request;
 
 /**
  * Base class for requests.

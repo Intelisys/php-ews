@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AbsoluteMonthlyRecurrencePatternType.
+ * Contains \Intelisys\PhpEws\Type\AbsoluteMonthlyRecurrencePatternType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a monthly recurrence pattern.

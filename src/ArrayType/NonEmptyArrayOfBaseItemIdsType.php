@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseItemIdsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents the unique identities of items, occurrence items, and recurring
@@ -22,7 +22,7 @@ class NonEmptyArrayOfBaseItemIdsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType[]
+     * @var \Intelisys\PhpEws\Type\ItemIdType[]
      */
     public $ItemId = array();
 
@@ -31,7 +31,7 @@ class NonEmptyArrayOfBaseItemIdsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\OccurrenceItemIdType[]
+     * @var \Intelisys\PhpEws\Type\OccurrenceItemIdType[]
      */
     public $OccurrenceItemId = array();
 
@@ -41,7 +41,7 @@ class NonEmptyArrayOfBaseItemIdsType extends ArrayType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\RecurringMasterItemIdType[]
+     * @var \Intelisys\PhpEws\Type\RecurringMasterItemIdType[]
      */
     public $RecurringMasterItemId = array();
 
@@ -50,7 +50,7 @@ class NonEmptyArrayOfBaseItemIdsType extends ArrayType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\RecurringMasterItemIdRanges[]
+     * @var \Intelisys\PhpEws\Type\RecurringMasterItemIdRanges[]
      */
     public $RecurringMasterItemIdRanges = array();
 }

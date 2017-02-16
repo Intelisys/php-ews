@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\WeeklyRecurrencePatternType.
+ * Contains \Intelisys\PhpEws\Type\WeeklyRecurrencePatternType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes a weekly recurrence pattern.
@@ -19,7 +19,7 @@ class WeeklyRecurrencePatternType extends IntervalRecurrencePatternBaseType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DaysOfWeekType
+     * @see \Intelisys\PhpEws\Enumeration\DaysOfWeekType
      */
     public $DaysOfWeek;
 
@@ -30,7 +30,7 @@ class WeeklyRecurrencePatternType extends IntervalRecurrencePatternBaseType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\DayOfWeekType
+     * @see \Intelisys\PhpEws\Enumeration\DayOfWeekType
      */
     public $FirstDayOfWeek;
 }

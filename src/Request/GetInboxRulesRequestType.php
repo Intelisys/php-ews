@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetInboxRulesRequestType.
+ * Contains \Intelisys\PhpEws\Request\GetInboxRulesRequestType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get the Inbox rules on a mailbox in the server store.

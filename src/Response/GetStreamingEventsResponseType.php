@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetStreamingEventsResponseType.
+ * Contains \Intelisys\PhpEws\Response\GetStreamingEventsResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents a response to a GetStreamingEvents element request.

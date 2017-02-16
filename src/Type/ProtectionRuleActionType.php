@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ProtectionRuleActionType.
+ * Contains \Intelisys\PhpEws\Type\ProtectionRuleActionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Identifies what action must be executed if the condition part of a rule
@@ -25,7 +25,7 @@ class ProtectionRuleActionType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\ProtectionRuleArgumentType
+     * @var \Intelisys\PhpEws\Type\ProtectionRuleArgumentType
      */
     public $Argument;
 

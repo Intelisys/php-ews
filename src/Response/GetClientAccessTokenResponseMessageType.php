@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetClientAccessTokenResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetClientAccessTokenResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response message for a GetClientAccessToken request.
@@ -17,7 +17,7 @@ class GetClientAccessTokenResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ClientAccessTokenType
+     * @var \Intelisys\PhpEws\Type\ClientAccessTokenType
      */
     public $Token;
 }

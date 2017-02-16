@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetStreamingEventsResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetStreamingEventsResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single GetStreamingEvents operation
@@ -20,7 +20,7 @@ class GetStreamingEventsResponseMessageType extends ResponseMessageType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ConnectionStatusType
+     * @see \Intelisys\PhpEws\Enumeration\ConnectionStatusType
      */
     public $ConnectionStatus;
 
@@ -29,7 +29,7 @@ class GetStreamingEventsResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfSubscriptionIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfSubscriptionIdsType
      */
     public $ErrorSubscriptionIds;
 
@@ -39,7 +39,7 @@ class GetStreamingEventsResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2010 SP1
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfNotificationsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfNotificationsType
      */
     public $Notifications;
 }

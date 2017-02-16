@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AppendToFolderFieldType.
+ * Contains \Intelisys\PhpEws\Type\AppendToFolderFieldType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * This type element is not implemented. Any request that uses this type will
@@ -18,7 +18,7 @@ class AppendToFolderFieldType extends FolderChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\CalendarFolderType
+     * @var \Intelisys\PhpEws\Type\CalendarFolderType
      */
     public $CalendarFolder;
 
@@ -27,7 +27,7 @@ class AppendToFolderFieldType extends FolderChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ContactsFolderType
+     * @var \Intelisys\PhpEws\Type\ContactsFolderType
      */
     public $ContactsFolder;
 
@@ -36,7 +36,7 @@ class AppendToFolderFieldType extends FolderChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderType
+     * @var \Intelisys\PhpEws\Type\FolderType
      */
     public $Folder;
 
@@ -45,7 +45,7 @@ class AppendToFolderFieldType extends FolderChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SearchFolderType
+     * @var \Intelisys\PhpEws\Type\SearchFolderType
      */
     public $SearchFolder;
 
@@ -54,7 +54,7 @@ class AppendToFolderFieldType extends FolderChangeDescriptionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TasksFolderType
+     * @var \Intelisys\PhpEws\Type\TasksFolderType
      */
     public $TasksFolder;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\DelegateUserResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\DelegateUserResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * contains the response message for a single delegate user.
@@ -18,7 +18,7 @@ class DelegateUserResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\DelegateUserType
+     * @var \Intelisys\PhpEws\Type\DelegateUserType
      */
     public $DelegateUser;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MeetingCancellationMessageType.
+ * Contains \Intelisys\PhpEws\Type\MeetingCancellationMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a meeting cancellation in the Exchange store.

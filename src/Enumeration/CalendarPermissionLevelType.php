@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Enumeration\CalendarPermissionLevelType.
+ * Contains \Intelisys\PhpEws\Enumeration\CalendarPermissionLevelType.
  */
 
-namespace jamesiarmes\PhpEws\Enumeration;
+namespace Intelisys\PhpEws\Enumeration;
 
 /**
  * Represents the permission level that a user has on a Calendar folder.

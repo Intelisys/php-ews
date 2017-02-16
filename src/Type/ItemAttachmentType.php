@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ItemAttachmentType.
+ * Contains \Intelisys\PhpEws\Type\ItemAttachmentType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents an Exchange item that is attached to another Exchange item.
@@ -17,7 +17,7 @@ class ItemAttachmentType extends AttachmentType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\CalendarItemType
+     * @var \Intelisys\PhpEws\Type\CalendarItemType
      */
     public $CalendarItem;
 
@@ -26,7 +26,7 @@ class ItemAttachmentType extends AttachmentType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ContactItemType
+     * @var \Intelisys\PhpEws\Type\ContactItemType
      */
     public $Contact;
 
@@ -35,7 +35,7 @@ class ItemAttachmentType extends AttachmentType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemType
+     * @var \Intelisys\PhpEws\Type\ItemType
      */
     public $Item;
 
@@ -44,7 +44,7 @@ class ItemAttachmentType extends AttachmentType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingCancellationMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingCancellationMessageType
      */
     public $MeetingCancellation;
 
@@ -53,7 +53,7 @@ class ItemAttachmentType extends AttachmentType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingMessageType
      */
     public $MeetingMessage;
 
@@ -62,7 +62,7 @@ class ItemAttachmentType extends AttachmentType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingRequestMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingRequestMessageType
      */
     public $MeetingRequest;
 
@@ -71,7 +71,7 @@ class ItemAttachmentType extends AttachmentType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MeetingResponseMessageType
+     * @var \Intelisys\PhpEws\Type\MeetingResponseMessageType
      */
     public $MeetingResponse;
 
@@ -80,7 +80,7 @@ class ItemAttachmentType extends AttachmentType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\MessageType
+     * @var \Intelisys\PhpEws\Type\MessageType
      */
     public $Message;
 
@@ -89,7 +89,7 @@ class ItemAttachmentType extends AttachmentType
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\PostItemType
+     * @var \Intelisys\PhpEws\Type\PostItemType
      */
     public $PostItem;
 
@@ -98,7 +98,7 @@ class ItemAttachmentType extends AttachmentType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\TaskType
+     * @var \Intelisys\PhpEws\Type\TaskType
      */
     public $Task;
 }

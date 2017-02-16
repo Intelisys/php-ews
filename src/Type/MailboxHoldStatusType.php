@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\MailboxHoldStatusType.
+ * Contains \Intelisys\PhpEws\Type\MailboxHoldStatusType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines the hold status of a mailbox.
@@ -39,7 +39,7 @@ class MailboxHoldStatusType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\HoldStatusType
+     * @see \Intelisys\PhpEws\Enumeration\HoldStatusType
      */
     public $Status;
 }

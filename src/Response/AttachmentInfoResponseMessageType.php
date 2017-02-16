@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\AttachmentInfoResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\AttachmentInfoResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Represents the status and result of a single CreateAttachment operation
@@ -19,7 +19,7 @@ class AttachmentInfoResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfAttachmentsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfAttachmentsType
      */
     public $Attachments;
 }

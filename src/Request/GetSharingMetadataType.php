@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetSharingMetadataType.
+ * Contains \Intelisys\PhpEws\Request\GetSharingMetadataType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get an opaque authentication token that identifies the
@@ -21,7 +21,7 @@ class GetSharingMetadataType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderIdType
+     * @var \Intelisys\PhpEws\Type\FolderIdType
      */
     public $IdOfFolderToShare;
 
@@ -34,7 +34,7 @@ class GetSharingMetadataType extends BaseRequestType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfSmtpAddressType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfSmtpAddressType
      */
     public $Recipients;
 

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfPeriodsType.
+ * Contains \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfPeriodsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents an array of periods that define the time offset at different
@@ -21,7 +21,7 @@ class NonEmptyArrayOfPeriodsType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\PeriodType[]
+     * @var \Intelisys\PhpEws\Type\PeriodType[]
      */
     public $Period = array();
 }

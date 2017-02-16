@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\Suggestion.
+ * Contains \Intelisys\PhpEws\Type\Suggestion.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a single meeting suggestion.
@@ -20,7 +20,7 @@ class Suggestion extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfAttendeeConflictData
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfAttendeeConflictData
      */
     public $AttendeeConflictDataArray;
 
@@ -52,7 +52,7 @@ class Suggestion extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SuggestionQuality
+     * @see \Intelisys\PhpEws\Enumeration\SuggestionQuality
      */
     public $SuggestionQuality;
 }

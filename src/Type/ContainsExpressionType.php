@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ContainsExpressionType.
+ * Contains \Intelisys\PhpEws\Type\ContainsExpressionType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a search expression that determines whether a given property
@@ -18,7 +18,7 @@ class ContainsExpressionType extends SearchExpressionType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ConstantValueType
+     * @var \Intelisys\PhpEws\Type\ConstantValueType
      */
     public $Constant;
 
@@ -29,7 +29,7 @@ class ContainsExpressionType extends SearchExpressionType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ContainmentComparisonType
+     * @see \Intelisys\PhpEws\Enumeration\ContainmentComparisonType
      */
     public $ContainmentComparison;
 
@@ -40,7 +40,7 @@ class ContainsExpressionType extends SearchExpressionType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ContainmentModeType
+     * @see \Intelisys\PhpEws\Enumeration\ContainmentModeType
      */
     public $ContainmentMode;
 }

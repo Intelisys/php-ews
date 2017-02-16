@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PostItemType.
+ * Contains \Intelisys\PhpEws\Type\PostItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a post item in the Exchange store.
@@ -42,7 +42,7 @@ class PostItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SingleRecipientType
+     * @var \Intelisys\PhpEws\Type\SingleRecipientType
      */
     public $From;
 
@@ -93,7 +93,7 @@ class PostItemType extends ItemType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\SingleRecipientType
+     * @var \Intelisys\PhpEws\Type\SingleRecipientType
      */
     public $Sender;
 }

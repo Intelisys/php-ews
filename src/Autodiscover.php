@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Autodiscover.
+ * Contains \Intelisys\PhpEws\Autodiscover.
  */
 
-namespace jamesiarmes\PhpEws;
+namespace Intelisys\PhpEws;
 
 /**
  * Exchange Web Services Autodiscover implementation

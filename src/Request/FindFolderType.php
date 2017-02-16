@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\FindFolderType.
+ * Contains \Intelisys\PhpEws\Request\FindFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to find folders in a mailbox.
@@ -17,7 +17,7 @@ class FindFolderType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FolderResponseShapeType
+     * @var \Intelisys\PhpEws\Type\FolderResponseShapeType
      */
     public $FolderShape;
 
@@ -29,7 +29,7 @@ class FindFolderType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FractionalPageViewType
+     * @var \Intelisys\PhpEws\Type\FractionalPageViewType
      */
     public $FractionalPageFolderView;
 
@@ -41,7 +41,7 @@ class FindFolderType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\IndexedPageViewType
+     * @var \Intelisys\PhpEws\Type\IndexedPageViewType
      */
     public $IndexedPageFolderView;
 
@@ -50,7 +50,7 @@ class FindFolderType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
+     * @var \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfBaseFolderIdsType
      */
     public $ParentFolderIds;
 
@@ -62,7 +62,7 @@ class FindFolderType extends BaseRequestType
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\RestrictionType
+     * @var \Intelisys\PhpEws\Type\RestrictionType
      */
     public $Restriction;
 
@@ -75,7 +75,7 @@ class FindFolderType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\FolderQueryTraversalType
+     * @see \Intelisys\PhpEws\Enumeration\FolderQueryTraversalType
      */
     public $Traversal;
 }

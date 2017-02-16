@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\RemoveImGroupResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\RemoveImGroupResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a RemoveImGroup request.

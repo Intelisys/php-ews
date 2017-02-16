@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\DailyRecurrencePatternType.
+ * Contains \Intelisys\PhpEws\Type\DailyRecurrencePatternType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes the frequency, in days, in which a calendar item or a task recurs.

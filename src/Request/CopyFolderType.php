@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\CopyFolderType.
+ * Contains \Intelisys\PhpEws\Request\CopyFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to copy folders in a mailbox in the Exchange store.

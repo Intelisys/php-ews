@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AlternatePublicFolderIdType.
+ * Contains \Intelisys\PhpEws\Type\AlternatePublicFolderIdType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Describes a public folder identifier to convert to another identifier format.

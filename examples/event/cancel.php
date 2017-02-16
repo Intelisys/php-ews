@@ -7,16 +7,16 @@
  */
 require_once '../../vendor/autoload.php';
 
-use \jamesiarmes\PhpEws\Client;
-use \jamesiarmes\PhpEws\Request\CreateItemType;
+use \Intelisys\PhpEws\Client;
+use \Intelisys\PhpEws\Request\CreateItemType;
 
-use \jamesiarmes\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType;
+use \Intelisys\PhpEws\ArrayType\NonEmptyArrayOfAllItemsType;
 
-use \jamesiarmes\PhpEws\Enumeration\MessageDispositionType;
-use \jamesiarmes\PhpEws\Enumeration\ResponseClassType;
+use \Intelisys\PhpEws\Enumeration\MessageDispositionType;
+use \Intelisys\PhpEws\Enumeration\ResponseClassType;
 
-use \jamesiarmes\PhpEws\Type\CancelCalendarItemType;
-use \jamesiarmes\PhpEws\Type\ItemIdType;
+use \Intelisys\PhpEws\Type\CancelCalendarItemType;
+use \Intelisys\PhpEws\Type\ItemIdType;
 
 // Replace these values with those of the event you wish to cancel.
 $event_id = 'AAMkADk0N2E4OTQxLWRlOTYtNGUxZC05NzE1LTU4ZmI5NGVkZTZmYQBGAAAAAADeofKHfJ96S5ndHNLg9VfeBwAr1MfeoTJdQ7jgaw/bSgljAAAAAAENAAAr1MfeoTJdQ7jgaw/bSgljAABaFXhjAAA=';

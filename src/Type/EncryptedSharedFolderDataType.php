@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\EncryptedSharedFolderDataType.
+ * Contains \Intelisys\PhpEws\Type\EncryptedSharedFolderDataType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the encrypted data that a client can use to authorize the sharing

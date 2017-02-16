@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\TentativelyAcceptItemType.
+ * Contains \Intelisys\PhpEws\Type\TentativelyAcceptItemType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a Tentative reply to a meeting request.

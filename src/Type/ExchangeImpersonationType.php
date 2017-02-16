@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ExchangeImpersonationType.
+ * Contains \Intelisys\PhpEws\Type\ExchangeImpersonationType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the account to impersonate within a request.
@@ -20,7 +20,7 @@ class ExchangeImpersonationType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\ConnectingSIDType
+     * @var \Intelisys\PhpEws\Type\ConnectingSIDType
      */
     public $ConnectingSID;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\UnsubscribeResponseType.
+ * Contains \Intelisys\PhpEws\Response\UnsubscribeResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to an Unsubscribe request.

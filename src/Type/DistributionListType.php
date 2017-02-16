@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\DistributionListType.
+ * Contains \Intelisys\PhpEws\Type\DistributionListType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Represents a distribution list.
@@ -20,7 +20,7 @@ class DistributionListType extends ItemType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ContactSourceType
+     * @see \Intelisys\PhpEws\Enumeration\ContactSourceType
      */
     public $ContactSource;
 
@@ -47,7 +47,7 @@ class DistributionListType extends ItemType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\MembersListType
+     * @var \Intelisys\PhpEws\Type\MembersListType
      */
     public $Members;
 }

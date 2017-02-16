@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\AlternateIdBaseType.
+ * Contains \Intelisys\PhpEws\Type\AlternateIdBaseType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Base class for alternate id types.
@@ -21,7 +21,7 @@ abstract class AlternateIdBaseType extends Type
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\IdFormatType
+     * @see \Intelisys\PhpEws\Enumeration\IdFormatType
      */
     public $Format;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetUserOofSettingsResponse.
+ * Contains \Intelisys\PhpEws\Response\GetUserOofSettingsResponse.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
-use \jamesiarmes\PhpEws\Response;
+use \Intelisys\PhpEws\Response;
 
 /**
  * Represents the response message and the Out of Office (OOF) settings for a
@@ -22,7 +22,7 @@ class GetUserOofSettingsResponse extends Response
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\ExternalAudience
+     * @see \Intelisys\PhpEws\Enumeration\ExternalAudience
      */
     public $AllowExternalOof;
 
@@ -31,7 +31,7 @@ class GetUserOofSettingsResponse extends Response
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\UserOofSettings
+     * @var \Intelisys\PhpEws\Type\UserOofSettings
      */
     public $OofSettings;
 
@@ -40,7 +40,7 @@ class GetUserOofSettingsResponse extends Response
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Response\ResponseMessageType
+     * @var \Intelisys\PhpEws\Response\ResponseMessageType
      */
     public $ResponseMessage;
 }

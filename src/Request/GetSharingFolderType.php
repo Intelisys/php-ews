@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetSharingFolderType.
+ * Contains \Intelisys\PhpEws\Request\GetSharingFolderType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get the local folder identifier of a specified shared
@@ -22,7 +22,7 @@ class GetSharingFolderType extends BaseRequestType
      *
      * @var string
      *
-     * @see \jamesiarmes\PhpEws\Enumeration\SharingDataType
+     * @see \Intelisys\PhpEws\Enumeration\SharingDataType
      */
     public $DataType;
 

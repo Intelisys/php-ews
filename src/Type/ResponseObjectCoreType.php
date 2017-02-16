@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\ResponseObjectCoreType;
+ * Contains \Intelisys\PhpEws\Type\ResponseObjectCoreType;
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
 /**
  * Internal abstract base type for reply objects.

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\StringAttributedValueType.
+ * Contains \Intelisys\PhpEws\Type\StringAttributedValueType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents an attribute associated with a persona element.
@@ -19,7 +19,7 @@ class StringAttributedValueType extends Type
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfValueAttributionsType
+     * @var \Intelisys\PhpEws\ArrayType\ArrayOfValueAttributionsType
      */
     public $Attributions;
 

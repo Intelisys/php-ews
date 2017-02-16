@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\UserConfigurationType.
+ * Contains \Intelisys\PhpEws\Type\UserConfigurationType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Defines a single user configuration object.
@@ -31,7 +31,7 @@ class UserConfigurationType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\UserConfigurationDictionaryType
+     * @var \Intelisys\PhpEws\Type\UserConfigurationDictionaryType
      */
     public $Dictionary;
 
@@ -40,7 +40,7 @@ class UserConfigurationType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\ItemIdType
+     * @var \Intelisys\PhpEws\Type\ItemIdType
      */
     public $ItemId;
 
@@ -51,7 +51,7 @@ class UserConfigurationType extends Type
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\UserConfigurationNameType
+     * @var \Intelisys\PhpEws\Type\UserConfigurationNameType
      */
     public $UserConfigurationName;
 

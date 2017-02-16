@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Request\GetSearchableMailboxesType.
+ * Contains \Intelisys\PhpEws\Request\GetSearchableMailboxesType.
  */
 
-namespace jamesiarmes\PhpEws\Request;
+namespace Intelisys\PhpEws\Request;
 
 /**
  * Defines a request to get a list of mailboxes that the client has permission

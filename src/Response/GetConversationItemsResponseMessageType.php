@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\GetConversationItemsResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\GetConversationItemsResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines the response message for a GetConversationItems request.
@@ -17,7 +17,7 @@ class GetConversationItemsResponseMessageType extends ResponseMessageType
      *
      * @since Exchange 2013
      *
-     * @var \jamesiarmes\PhpEws\Type\ConversationResponseType
+     * @var \Intelisys\PhpEws\Type\ConversationResponseType
      */
     public $Conversation;
 }

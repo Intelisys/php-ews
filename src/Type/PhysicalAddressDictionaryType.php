@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PhysicalAddressDictionaryType.
+ * Contains \Intelisys\PhpEws\Type\PhysicalAddressDictionaryType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents a collection of physical addresses that are associated with a
@@ -20,7 +20,7 @@ class PhysicalAddressDictionaryType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\PhysicalAddressDictionaryEntryType
+     * @var \Intelisys\PhpEws\Type\PhysicalAddressDictionaryEntryType
      */
     public $Entry;
 }

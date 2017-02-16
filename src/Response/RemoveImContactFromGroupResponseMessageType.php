@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Response\RemoveImContactFromGroupResponseMessageType.
+ * Contains \Intelisys\PhpEws\Response\RemoveImContactFromGroupResponseMessageType.
  */
 
-namespace jamesiarmes\PhpEws\Response;
+namespace Intelisys\PhpEws\Response;
 
 /**
  * Defines a response to a RemoveImContactFromGroup request.

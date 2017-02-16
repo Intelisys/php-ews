@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\PreviewItemMailboxType.
+ * Contains \Intelisys\PhpEws\Type\PreviewItemMailboxType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use jamesiarmes\PhpEws\Type;
+use Intelisys\PhpEws\Type;
 
 /**
  * Defines the mailbox identifier and the user’s primary Simple Mail Transfer

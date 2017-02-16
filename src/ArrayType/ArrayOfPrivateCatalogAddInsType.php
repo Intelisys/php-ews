@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfPrivateCatalogAddInsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfPrivateCatalogAddInsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Undocumented.
@@ -21,7 +21,7 @@ class ArrayOfPrivateCatalogAddInsType extends ArrayType
      *
      * @since Exchange 2016
      *
-     * @var \jamesiarmes\PhpEws\Type\PrivateCatalogAddInsType[]
+     * @var \Intelisys\PhpEws\Type\PrivateCatalogAddInsType[]
      *
      * @todo Update once documentation exists.
      */

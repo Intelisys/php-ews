@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\Type\FreeBusyResponseType.
+ * Contains \Intelisys\PhpEws\Type\FreeBusyResponseType.
  */
 
-namespace jamesiarmes\PhpEws\Type;
+namespace Intelisys\PhpEws\Type;
 
-use \jamesiarmes\PhpEws\Type;
+use \Intelisys\PhpEws\Type;
 
 /**
  * Represents the free/busy information for a single mailbox user.
@@ -19,7 +19,7 @@ class FreeBusyResponseType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Type\FreeBusyView
+     * @var \Intelisys\PhpEws\Type\FreeBusyView
      */
     public $FreeBusyView;
 
@@ -28,7 +28,7 @@ class FreeBusyResponseType extends Type
      *
      * @since Exchange 2007
      *
-     * @var \jamesiarmes\PhpEws\Response\ResponseMessageType
+     * @var \Intelisys\PhpEws\Response\ResponseMessageType
      */
     public $ResponseMessage;
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * Contains \jamesiarmes\PhpEws\ArrayType\ArrayOfInvalidRecipientsType.
+ * Contains \Intelisys\PhpEws\ArrayType\ArrayOfInvalidRecipientsType.
  */
 
-namespace jamesiarmes\PhpEws\ArrayType;
+namespace Intelisys\PhpEws\ArrayType;
 
-use \jamesiarmes\PhpEws\ArrayType;
+use \Intelisys\PhpEws\ArrayType;
 
 /**
  * Represents the recipients of a folder sharing request that are invalid.
@@ -20,7 +20,7 @@ class ArrayOfInvalidRecipientsType extends ArrayType
      *
      * @since Exchange 2010
      *
-     * @var \jamesiarmes\PhpEws\Type\InvalidRecipientType[]
+     * @var \Intelisys\PhpEws\Type\InvalidRecipientType[]
      */
     public $InvalidRecipient = array();
 }
