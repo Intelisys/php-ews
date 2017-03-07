@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "intelisys\\PhpEws\\": "src/"
+      "Intelisys\\PhpEws\\": "src/"
     }
   },
   "extra": {
